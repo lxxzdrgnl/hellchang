@@ -28,9 +28,9 @@ export default function SharedRoutinePage() {
   if (!shared) {
     return (
       <main className="flex flex-1 flex-col items-center justify-center gap-3 px-6">
-        <h1 className="text-title font-semibold text-ink">링크를 읽을 수 없다</h1>
+        <h1 className="text-title font-semibold text-ink">링크를 읽을 수 없습니다</h1>
         <p className="text-center text-meta leading-relaxed text-sub">
-          주소가 잘렸거나 잘못된 링크다. 보낸 사람에게 다시 받아야 한다.
+          주소가 잘렸거나 잘못된 링크입니다. 보낸 사람에게 다시 받아야 합니다.
         </p>
       </main>
     );
@@ -58,7 +58,9 @@ export default function SharedRoutinePage() {
       ],
     }));
     setSaved(true);
-    router.push(`/routines/${id}`);
+    // push 면 뒤로가기가 공유 화면으로 돌아옵니다. 이미 담았는데 또 담으라는
+    // 화면이 나오는 셈이라 replace 로 갈아치웁니다.
+    router.replace(`/routines/${id}`);
   }
 
   return (
@@ -102,8 +104,8 @@ export default function SharedRoutinePage() {
         </ul>
 
         <p className="shrink-0 px-1 text-micro leading-relaxed text-sub">
-          담으면 내 루틴으로 복사된다. 무게와 세트는 내 것에 맞게 고쳐 쓰면 된다 —
-          보낸 사람의 루틴은 바뀌지 않는다.
+          담으면 내 루틴으로 복사됩니다. 무게와 세트는 내 것에 맞게 고쳐 쓰면 됩니다 —
+          보낸 사람의 루틴은 바뀌지 않습니다.
         </p>
 
         {/* 스크롤 영역 안에 sticky 로 붙인다. 바깥에 고정하면 모바일 브라우저의
@@ -116,7 +118,7 @@ export default function SharedRoutinePage() {
             onClick={save}
             className="h-14 w-full rounded-btn bg-accent text-action font-bold text-bg active:bg-accent-press disabled:bg-surface-2 disabled:text-sub"
           >
-            {saved ? "담았다" : "내 루틴에 담기"}
+            {saved ? "담았습니다" : "내 루틴에 담기"}
           </button>
         </div>
       </div>

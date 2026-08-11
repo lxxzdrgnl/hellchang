@@ -42,7 +42,7 @@ export default function SettingsPage() {
       </header>
 
       <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto px-4 pb-6">
-        <section className="flex items-center gap-3 rounded-card bg-surface p-4">
+        <section className="flex shrink-0 items-center gap-3 rounded-card bg-surface p-4">
           <span className="flex size-12 items-center justify-center rounded-full bg-accent-tint text-accent">
             <ArmMark size={26} />
           </span>
@@ -56,13 +56,13 @@ export default function SettingsPage() {
           </div>
         </section>
 
-        <section className="flex gap-2">
+        <section className="flex shrink-0 gap-2">
           <Stat label="누적 세트" value={totalSets.toLocaleString()} />
           <Stat label="누적 볼륨" value={`${Math.round(totalVolume / 1000).toLocaleString()}t`} />
           <Stat label="운동한 날" value={`${state.sessions.length}일`} />
         </section>
 
-        <section className="flex flex-col overflow-hidden rounded-card bg-surface">
+        <section className="flex shrink-0 flex-col overflow-hidden rounded-card bg-surface">
           <button
             type="button"
             onClick={() => setEditingRest(true)}
@@ -79,13 +79,13 @@ export default function SettingsPage() {
         </section>
 
         <p className="px-1 text-micro leading-relaxed text-sub">
-          여기서 정한 값은 앞으로 넣는 운동에 붙는다. 이미 넣어둔 운동의 휴식은
-          그 운동에 저장돼 있어 바뀌지 않는다.
+          여기서 정한 값은 앞으로 넣는 운동에 붙습니다. 이미 넣어둔 운동의 휴식은
+          그 운동에 저장돼 있어 바뀌지 않습니다.
         </p>
 
         <p className="px-1 pt-1 text-micro leading-relaxed text-sub">
-          지금은 목업이라 기록이 이 브라우저에만 저장된다. 서버가 붙으면 폰과 PC에서
-          같은 기록이 보인다.
+          지금은 목업이라 기록이 이 브라우저에만 저장됩니다. 서버가 붙으면 폰과 PC에서
+          같은 기록이 보입니다.
         </p>
 
         <div className="mt-auto flex flex-col gap-2 pt-4">
@@ -136,7 +136,7 @@ export default function SettingsPage() {
       <Sheet open={confirmReset} onClose={() => setConfirmReset(false)} title="처음으로 되돌리기">
         <div className="flex flex-col gap-3 px-4 pb-5">
           <p className="text-meta leading-relaxed text-ink-2">
-            지금까지 만든 루틴과 기록이 사라지고 처음 목업 상태로 돌아간다.
+            지금까지 만든 루틴과 기록이 사라지고 처음 목업 상태로 돌아갑니다.
           </p>
           <button
             type="button"
@@ -146,7 +146,7 @@ export default function SettingsPage() {
             }}
             className="h-13 rounded-btn border border-line text-body font-semibold text-ink active:bg-surface-2"
           >
-            되돌린다
+            되돌립니다
           </button>
         </div>
       </Sheet>

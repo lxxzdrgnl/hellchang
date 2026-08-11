@@ -49,7 +49,7 @@ export default function RoutinesPage() {
       </header>
 
       <div className="flex min-h-0 flex-1 flex-col gap-5 overflow-y-auto px-4 pb-6">
-        <section className="flex flex-col gap-1.5">
+        <section className="flex shrink-0 flex-col gap-1.5">
           {dates.map((date) => {
             const plans = state.planned.filter((d) => d.date === date);
             const sessions = state.sessions.filter((s) => s.date === date);
@@ -139,7 +139,7 @@ export default function RoutinesPage() {
           </button>
         </section>
 
-        <section className="flex flex-col gap-2">
+        <section className="flex shrink-0 flex-col gap-2">
           <div className="flex items-baseline justify-between">
             <h2 className="text-title font-semibold text-ink">내 루틴</h2>
             <button
@@ -152,7 +152,7 @@ export default function RoutinesPage() {
           </div>
 
           {state.presets.map((p) => (
-            <div key={p.id} className="flex items-center rounded-card bg-surface">
+            <div key={p.id} className="flex shrink-0 items-center rounded-card bg-surface">
               <Link href={`/routines/${p.id}`} className="flex min-w-0 flex-1 items-center gap-3 px-4 py-3.5">
                 <span className="flex min-w-0 flex-1 flex-col">
                   <span className="truncate text-title font-semibold text-ink">{p.name}</span>

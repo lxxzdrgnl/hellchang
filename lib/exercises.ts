@@ -3,6 +3,7 @@
  * DB 가 붙으면 이 함수들의 몸통만 API 호출로 바뀌고 호출부는 그대로다.
  */
 import indexJson from "./mock/exercise-index.json";
+import videoJson from "./mock/videos.json";
 import type { BodyPart } from "./types";
 
 const IMAGE_BASE = "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises";
@@ -29,7 +30,12 @@ export interface ExerciseBrief {
   equipment: string | null;
   defaultRestSec: number;
   imageUrl: string | null;
+  /** 동작 데모 영상. 손으로 맞춘 90종목만 있습니다. */
+  videoUrl: string | null;
+  posterUrl: string | null;
 }
+
+const videos = videoJson as Record<string, { v: string; p: string }>;
 
 const all: ExerciseBrief[] = (indexJson as RawIndex[]).map((r) => ({
   id: r.id,
@@ -41,6 +47,8 @@ const all: ExerciseBrief[] = (indexJson as RawIndex[]).map((r) => ({
   equipment: r.q,
   defaultRestSec: r.r,
   imageUrl: r.img ? `${IMAGE_BASE}/${r.img}` : null,
+  videoUrl: videos[r.id]?.v ?? null,
+  posterUrl: videos[r.id]?.p ?? null,
 }));
 
 const byId = new Map(all.map((e) => [e.id, e]));

@@ -16,7 +16,7 @@ const plex = IBM_Plex_Sans_KR({
 
 export const metadata: Metadata = {
   title: "헬창",
-  description: "루틴을 기록하고 중량이 늘는 것을 본다",
+  description: "루틴을 기록하고 중량이 늘는 것을 봅니다",
   manifest: "/manifest.webmanifest",
   appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "헬창" },
 };

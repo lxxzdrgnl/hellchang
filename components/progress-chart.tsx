@@ -24,7 +24,7 @@ export function ProgressChart({ points, prDates, metric }: Props) {
   if (points.length < 2) {
     return (
       <p className="flex h-[132px] items-center justify-center text-meta text-sub">
-        두 번은 해야 늘었는지 보인다
+        두 번은 해야 늘었는지 보입니다
       </p>
     );
   }

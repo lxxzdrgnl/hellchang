@@ -32,9 +32,9 @@ export default function LoginPage() {
         <ArmMark size={54} className="text-accent" />
         <h1 className="text-display font-bold leading-none tracking-tight text-ink">헬창</h1>
         <p className="max-w-[16rem] text-body leading-relaxed text-ink-2">
-          오늘 몇 kg을 몇 번 들었는지 적어두면,
+          오늘 몇 kg을 몇 번 들었는지 적어두면
           <br />
-          그게 늘고 있는지 보인다.
+          그게 늘고 있는지 보입니다.
         </p>
       </div>
 
@@ -54,7 +54,7 @@ export default function LoginPage() {
           구글로 시작하기
         </button>
         <p className="pt-1 text-center text-micro text-sub">
-          기록은 계정에 저장되어 폰과 PC에서 같이 보인다
+          기록은 계정에 저장되어 폰과 PC에서 같이 보입니다
         </p>
       </div>
     </main>

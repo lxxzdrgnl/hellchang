@@ -95,7 +95,7 @@ export default function TodayPage() {
             ))}
             {pending.length > 0 ? (
               <p className="text-micro leading-relaxed text-sub">
-                아래 루틴을 시작하면 이 운동들이 뒤에 같이 들어간다.
+                아래 루틴을 시작하면 이 운동들이 뒤에 같이 들어갑니다.
               </p>
             ) : (
               <button
@@ -134,10 +134,10 @@ export default function TodayPage() {
         {sessions.length === 0 && pending.length === 0 && (
           <div className="flex shrink-0 flex-col gap-3 rounded-card bg-surface p-5">
             <h2 className="text-title font-semibold text-ink">
-              {isToday ? "오늘은 계획이 없다" : "이 날은 계획이 없다"}
+              {isToday ? "오늘은 계획이 없습니다" : "이 날은 계획이 없습니다"}
             </h2>
             <p className="text-meta leading-relaxed text-ink-2">
-              쉬는 날이면 그대로 두면 된다. 갑자기 가기로 했다면 아래에서 골라 바로 시작한다.
+              쉬는 날이면 그대로 두면 됩니다. 갑자기 가기로 했다면 아래에서 골라 바로 시작합니다.
             </p>
             <div className="flex flex-col gap-2 pt-1">
               {state.presets.map((p) => (
@@ -227,7 +227,7 @@ export default function TodayPage() {
       >
         <div className="flex flex-col gap-3 px-4 pb-5">
           <p className="text-meta leading-relaxed text-ink-2">
-            {deferName(state, deferTarget)} 만 다른 날로 넘긴다. 이미 한 세트는 오늘 기록으로
+            {deferName(state, deferTarget)} 만 다른 날로 넘깁니다. 이미 한 세트는 오늘 기록으로
             남고, 남은 세트가 그날 루틴에 같이 들어간다.
           </p>
           <div className="flex gap-2">
@@ -253,7 +253,7 @@ export default function TodayPage() {
         <div className="flex flex-col gap-3 px-4 pb-5">
           <p className="text-meta leading-relaxed text-ink-2">
             루틴 전체를 옮기려면 <b className="text-ink">루틴</b> 탭의 주간 계획에서 날짜를
-            바꾼다. 운동 하나만 미루는 것은 운동을 시작한 뒤 그 운동 화면에서 한다.
+            바꿉니다. 운동 하나만 미루는 것은 운동을 시작한 뒤 그 운동 화면에서 합니다.
           </p>
           <button
             type="button"

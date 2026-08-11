@@ -86,10 +86,10 @@ export default function RecoveryPage() {
             {tired.length > 0 ? (
               <>
                 <b className="text-ink">{tired.map((p) => p.bodyPart).join(" · ")}</b> 는 아직
-                덜 풀렸다. 오늘은 {fresh.length > 0 ? fresh.map((p) => p.bodyPart).join(" · ") : "다른 부위"} 쪽이 낫다.
+                덜 풀렸습니다. 오늘은 {fresh.length > 0 ? fresh.map((p) => p.bodyPart).join(" · ") : "다른 부위"} 쪽이 낫습니다.
               </>
             ) : (
-              "전부 회복됐다. 오늘은 아무 부위나 해도 된다."
+              "전부 회복됐습니다. 오늘은 아무 부위나 해도 됩니다."
             )}
           </p>
         </section>
@@ -124,7 +124,7 @@ export default function RecoveryPage() {
 
           {parts.length === 0 && (
             <p className="rounded-card bg-surface px-4 py-8 text-center text-meta text-sub">
-              최근 2주 기록이 없다
+              최근 2주 기록이 없습니다
             </p>
           )}
         </section>
@@ -149,9 +149,9 @@ export default function RecoveryPage() {
         </section>
 
         <p className="px-1 text-micro leading-relaxed text-sub">
-          회복 시간은 부위마다 다르게 잡았다 — 큰 근육(하체·등)은 72시간, 어깨·팔은
-          48시간, 복근·종아리는 36시간 기준이다. 보조로 쓰인 근육은 주 타겟의 40%만
-          쌓인다. 정확한 생리학이 아니라 오늘 무엇을 할지 고르는 데 쓰는 눈금이다.
+          회복 시간은 부위마다 다르게 잡았습니다 — 큰 근육(하체·등)은 72시간, 어깨·팔은
+          48시간, 복근·종아리는 36시간 기준입니다. 보조로 쓰인 근육은 주 타겟의 40%만
+          쌓입니다. 정확한 생리학이 아니라 오늘 무엇을 할지 고르는 데 쓰는 눈금입니다.
         </p>
       </div>
     </>

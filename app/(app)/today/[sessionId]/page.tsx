@@ -4,7 +4,7 @@
  * 운동 플레이어 — 운동 중에는 이 화면만 본다.
  *
  * 오늘 화면이 "무엇을 할지"라면 여기는 "지금 이것"이다. 목록을 스크롤하며
- * 자기 위치를 찾는 대신, 한 종목을 크게 띄우고 세트를 하나씩 지운다.
+ * 자기 위치를 찾는 대신, 한 종목을 크게 띄우고 세트를 하나씩 지웁니다.
  * 헬스장에서 폰을 내려놨다 다시 집었을 때 어디였는지 찾을 필요가 없어야 한다.
  */
 import Image from "next/image";
@@ -13,6 +13,7 @@ import { useEffect, useMemo, useState } from "react";
 import { BodyMap } from "@/components/body-map";
 import { useStore } from "@/components/app-store";
 import { ExercisePicker } from "@/components/exercise-picker";
+import { ExerciseVideo } from "@/components/exercise-video";
 import { SetEditor } from "@/components/set-editor";
 import { Sheet } from "@/components/sheet";
 import { formatWeight } from "@/components/set-ladder";
@@ -78,7 +79,7 @@ export default function SessionPlayerPage() {
   if (!session || !current) {
     return (
       <div className="flex flex-1 items-center justify-center">
-        <p className="text-meta text-sub">없는 운동이다</p>
+        <p className="text-meta text-sub">없는 운동입니다</p>
       </div>
     );
   }
@@ -192,9 +193,12 @@ export default function SessionPlayerPage() {
 
         {tab === "가이드" ? (
           <div className="flex flex-col gap-3 pt-3">
+            {meta?.videoUrl && (
+              <ExerciseVideo src={meta.videoUrl} poster={meta.posterUrl} label={meta.nameKo} />
+            )}
             {guide === null && <p className="py-6 text-center text-meta text-sub">불러오는 중</p>}
             {guide?.length === 0 && (
-              <p className="py-6 text-center text-meta text-sub">이 종목은 설명이 없다</p>
+              <p className="py-6 text-center text-meta text-sub">이 종목은 설명이 없습니다</p>
             )}
             {guide?.map((step, i) => (
               <div key={i} className="flex gap-3">
@@ -405,8 +409,8 @@ export default function SessionPlayerPage() {
       <Sheet open={deferring} onClose={() => setDeferring(false)} title="이 운동 미루기">
         <div className="flex flex-col gap-3 px-4 pb-5">
           <p className="text-meta leading-relaxed text-ink-2">
-            <b className="text-ink">{meta?.nameKo}</b> 만 다른 날로 넘긴다. 이미 한 세트는
-            오늘 기록으로 남는다.
+            <b className="text-ink">{meta?.nameKo}</b> 만 다른 날로 넘깁니다. 이미 한 세트는
+            오늘 기록으로 남습니다.
           </p>
           <div className="flex gap-2">
             {[1, 2].map((d) => (
@@ -435,8 +439,8 @@ export default function SessionPlayerPage() {
           </div>
           <p className="text-meta leading-relaxed text-ink-2">
             {progress.total - progress.done > 0
-              ? `${progress.total - progress.done}세트가 남았다. 남긴 채로 끝내도 한 것만 기록된다.`
-              : "계획한 세트를 다 채웠다."}
+              ? `${progress.total - progress.done}세트가 남았습니다. 남긴 채로 끝내도 한 것만 기록됩니다.`
+              : "계획한 세트를 다 채웠습니다."}
           </p>
           <button
             type="button"

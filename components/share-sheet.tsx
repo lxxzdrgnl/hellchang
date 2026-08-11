@@ -49,8 +49,8 @@ export function ShareSheet({
     <Sheet open onClose={onClose} title="루틴 공유">
       <div className="flex flex-col gap-3 px-4 pb-5">
         <p className="text-meta leading-relaxed text-ink-2">
-          <b className="text-ink">{preset.name}</b> 을 링크로 보낸다. 받은 사람은 로그인 없이
-          열어보고, 담으면 자기 루틴으로 복사된다.
+          <b className="text-ink">{preset.name}</b> 을 링크로 보냅니다. 받은 사람은 로그인 없이
+          열어보고, 담으면 자기 루틴으로 복사됩니다.
         </p>
 
         <p className="selectable break-all rounded-btn bg-surface-2 p-3 font-mono text-micro text-ink-2">

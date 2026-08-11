@@ -12,6 +12,7 @@ import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { BodyMap } from "@/components/body-map";
 import { useStore } from "@/components/app-store";
+import { ExerciseVideo } from "@/components/exercise-video";
 import { ProgressChart } from "@/components/progress-chart";
 import { formatWeight } from "@/components/set-ladder";
 import { getExercise } from "@/lib/exercises";
@@ -136,12 +137,15 @@ export default function ExerciseDetailPage() {
 
         {tab === "가이드" ? (
           <section className="flex shrink-0 flex-col gap-3 rounded-card bg-surface p-4">
+            {meta?.videoUrl && (
+              <ExerciseVideo src={meta.videoUrl} poster={meta.posterUrl} label={meta.nameKo} />
+            )}
             {guide === null && <p className="py-6 text-center text-meta text-sub">불러오는 중</p>}
             {guide?.length === 0 && (
               <p className="py-6 text-center text-meta leading-relaxed text-sub">
-                이 종목은 설명이 없다.
+                이 종목은 설명이 없습니다.
                 <br />
-                직접 추가한 운동이거나 원본에 빠져 있다.
+                직접 추가한 운동이거나 원본에 빠져 있습니다.
               </p>
             )}
             {guide?.map((step, i) => (
@@ -220,7 +224,7 @@ export default function ExerciseDetailPage() {
           ))}
           {rows.length === 0 && (
             <p className="rounded-card bg-surface px-4 py-8 text-center text-meta text-sub">
-              아직 이 운동 기록이 없다
+              아직 이 운동 기록이 없습니다
             </p>
           )}
         </section>

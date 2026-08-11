@@ -117,7 +117,7 @@ export function ExercisePicker({ open, onClose, onPick, title = "운동 추가",
           {results.length === 0 && (
             <div className="flex flex-col items-center gap-3 px-4 py-10">
               <p className="text-center text-meta text-sub">
-                {query ? `'${query}' 로 찾은 운동이 없다` : "이 조건에 맞는 운동이 없다"}
+                {query ? `'${query}' 로 찾은 운동이 없습니다` : "이 조건에 맞는 운동이 없습니다"}
               </p>
               <button
                 type="button"
@@ -227,6 +227,8 @@ function CustomExerciseSheet({
               equipment,
               defaultRestSec: 90,
               imageUrl: null,
+              videoUrl: null,
+              posterUrl: null,
             })
           }
           className="h-14 rounded-btn bg-accent text-action font-bold text-bg active:bg-accent-press disabled:bg-surface-2 disabled:text-sub"

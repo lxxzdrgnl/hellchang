@@ -122,7 +122,7 @@ export function SetEditor({ open, onClose, title, sets, onSave }: Props) {
         </ul>
 
         {rows.length === 0 && (
-          <p className="py-6 text-center text-meta text-sub">세트가 없다. 아래에서 추가한다.</p>
+          <p className="py-6 text-center text-meta text-sub">세트가 없습니다. 아래에서 추가합니다.</p>
         )}
 
         <button

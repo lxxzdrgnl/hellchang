@@ -44,7 +44,7 @@ export default function PresetEditPage() {
   if (!preset) {
     return (
       <div className="flex flex-1 items-center justify-center">
-        <p className="text-meta text-sub">없는 루틴이다</p>
+        <p className="text-meta text-sub">없는 루틴입니다</p>
       </div>
     );
   }
@@ -118,23 +118,23 @@ export default function PresetEditPage() {
         ))}
 
         {preset.exercises.length === 0 && (
-          <p className="rounded-card bg-surface px-4 py-8 text-center text-meta leading-relaxed text-sub">
-            아직 비어 있다.
+          <p className="shrink-0 rounded-card bg-surface px-4 py-8 text-center text-meta leading-relaxed text-sub">
+            아직 비어 있습니다.
             <br />
-            운동을 넣으면 오늘 화면에서 그대로 불러온다.
+            운동을 넣으면 오늘 화면에서 그대로 불러옵니다.
           </p>
         )}
 
         <button
           type="button"
           onClick={() => setPicking(true)}
-          className="h-13 rounded-btn border border-dashed border-line text-body font-medium text-ink-2 active:bg-surface"
+          className="h-13 shrink-0 rounded-btn border border-dashed border-line text-body font-medium text-ink-2 active:bg-surface"
         >
           ＋ 운동 추가
         </button>
 
-        <p className="px-1 pt-2 text-micro leading-relaxed text-sub">
-          첫 운동은 주운동, 나머지는 보조로 들어간다. 순서를 바꾸면 번호도 따라 바뀐다.
+        <p className="shrink-0 px-1 pt-2 text-micro leading-relaxed text-sub">
+          첫 운동은 주운동, 나머지는 보조로 들어갑니다. 순서를 바꾸면 번호도 따라 바뀝니다.
         </p>
       </div>
 
@@ -202,8 +202,8 @@ export default function PresetEditPage() {
       <Sheet open={confirmDelete} onClose={() => setConfirmDelete(false)} title="루틴 삭제">
         <div className="flex flex-col gap-3 px-4 pb-5">
           <p className="text-meta leading-relaxed text-ink-2">
-            <b className="text-ink">{preset.name}</b> 을 지운다. 이 루틴이 잡힌 계획도 같이
-            사라진다. 이미 한 운동 기록은 그대로 남는다.
+            <b className="text-ink">{preset.name}</b> 을 지웁니다. 이 루틴이 잡힌 계획도 같이
+            사라집니다. 이미 한 운동 기록은 그대로 남습니다.
           </p>
           <button
             type="button"
@@ -213,7 +213,7 @@ export default function PresetEditPage() {
             }}
             className="h-13 rounded-btn border border-line text-body font-semibold text-ink active:bg-surface-2"
           >
-            지운다
+            지웁니다
           </button>
         </div>
       </Sheet>

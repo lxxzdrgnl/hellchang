@@ -21,7 +21,7 @@ interface Props {
 
 export function SetLadder({ sets, onToggle, onEdit, readOnly }: Props) {
   if (sets.length === 0) {
-    return <p className="px-4 py-3 text-meta text-sub">세트가 없다. 아래에서 추가한다.</p>;
+    return <p className="px-4 py-3 text-meta text-sub">세트가 없습니다. 아래에서 추가합니다.</p>;
   }
 
   // 막대 길이는 이 운동 안에서만 비교한다. 종목마다 무게 단위가 다르기 때문이다.

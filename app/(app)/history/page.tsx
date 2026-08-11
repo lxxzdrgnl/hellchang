@@ -125,8 +125,8 @@ export default function HistoryPage() {
             <span className="text-body font-semibold text-ink">근육 회복도</span>
             <span className="truncate text-micro text-sub">
               {tiredParts.length > 0
-                ? `${tiredParts.join(" · ")} 아직 덜 풀렸다`
-                : "전부 회복됐다"}
+                ? `${tiredParts.join(" · ")} 아직 덜 풀렸습니다`
+                : "전부 회복됐습니다"}
             </span>
           </span>
           <span className="shrink-0 text-sub">›</span>
@@ -134,7 +134,7 @@ export default function HistoryPage() {
 
         {tab === "종목" ? (
           <>
-            <ul className="flex flex-col gap-1.5 px-4">
+            <ul className="flex shrink-0 flex-col gap-1.5 px-4">
               {rows.map((r) => {
                 const meta = getExercise(r.id);
                 return (
@@ -169,12 +169,12 @@ export default function HistoryPage() {
                 );
               })}
               {rows.length === 0 && (
-                <li className="px-4 py-10 text-center text-meta text-sub">아직 기록이 없다</li>
+                <li className="px-4 py-10 text-center text-meta text-sub">아직 기록이 없습니다</li>
               )}
             </ul>
           </>
         ) : (
-          <ul className="flex flex-col gap-1.5 px-4 pt-2">
+          <ul className="flex shrink-0 flex-col gap-1.5 px-4 pt-2">
             {doneSessions.map((s) => {
               const done = s.exercises.reduce((a, e) => a + completedSets(e.sets).length, 0);
               return (
@@ -191,7 +191,7 @@ export default function HistoryPage() {
               );
             })}
             {doneSessions.length === 0 && (
-              <li className="px-4 py-10 text-center text-meta text-sub">완료한 운동이 없다</li>
+              <li className="px-4 py-10 text-center text-meta text-sub">완료한 운동이 없습니다</li>
             )}
           </ul>
         )}

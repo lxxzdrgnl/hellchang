@@ -39,7 +39,7 @@ export function AppStoreProvider({ children }: { children: React.ReactNode }) {
       registerCustomExercises(next.customExercises);
       setState(next);
     } catch {
-      // 저장된 것이 깨졌으면 시드로 되돌린다. 목업에서 복구를 고민할 이유가 없다.
+      // 저장된 것이 깨졌으면 시드로 되돌립니다. 목업에서 복구를 고민할 이유가 없다.
       setState(buildSeedState());
     }
     setReady(true);
@@ -69,6 +69,6 @@ export function AppStoreProvider({ children }: { children: React.ReactNode }) {
 
 export function useStore(): Store {
   const ctx = useContext(Ctx);
-  if (!ctx) throw new Error("AppStoreProvider 안에서만 쓸 수 있다");
+  if (!ctx) throw new Error("AppStoreProvider 안에서만 쓸 수 있습니다");
   return ctx;
 }
