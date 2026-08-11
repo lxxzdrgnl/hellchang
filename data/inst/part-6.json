@@ -1,0 +1,666 @@
+[
+ {
+  "id": "Reverse_Hyperextension",
+  "ko": "리버스 하이퍼익스텐션",
+  "inst": [
+   "Place your feet between the pads after loading an appropriate weight. Lay on the top pad, allowing your hips to hang off the back, while grasping the handles to hold your position.",
+   "To begin the movement, flex the hips, pulling the legs forward.",
+   "Reverse the motion by extending the hips, kicking the leg back. It is very important not to over-extend the hip on this movement, stopping short of your full range of motion.",
+   "Return by again flexing the hip, pulling the carriage forward as far as you can.",
+   "Repeat for the desired number of repetitions."
+  ]
+ },
+ {
+  "id": "Romanian_Deadlift",
+  "ko": "루마니안 데드리프트",
+  "inst": [
+   "Put a barbell in front of you on the ground and grab it using a pronated (palms facing down) grip that a little wider than shoulder width. Tip: Depending on the weight used, you may need wrist wraps to perform the exercise and also a raised platform in order to allow for better range of motion.",
+   "Bend the knees slightly and keep the shins vertical, hips back and back straight. This will be your starting position.",
+   "Keeping your back and arms completely straight at all times, use your hips to lift the bar as you exhale. Tip: The movement should not be fast but steady and under control.",
+   "Once you are standing completely straight up, lower the bar by pushing the hips back, only slightly bending the knees, unlike when squatting. Tip: Take a deep breath at the start of the movement and keep your chest up. Hold your breath as you lower and exhale as you complete the movement.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Romanian_Deadlift_from_Deficit",
+  "ko": "루마니안 데드리프트 (데피싯)",
+  "inst": [
+   "Begin standing while holding a bar at arm's length in front of you. You can stand on a raised platform to increase the range of motion.",
+   "Begin by flexing the knees slightly, and then flex at the hip, moving your butt back as far as possible, lowering the torso as far as flexibility allows. The back should remain in absolute extension at all times, and the bar should remain in contact with the legs. If done properly, there should be heavy tension felt in the hamstrings.",
+   "Reverse the motion to return to the starting position."
+  ]
+ },
+ {
+  "id": "Seated_Band_Hamstring_Curl",
+  "ko": "시티드 밴드 레그컬",
+  "inst": [
+   "Secure a band close to the ground and place a bench a couple feet away from it.",
+   "Seat yourself on the bench and secure the band behind your ankles, beginning with your legs straight. This will be your starting position.",
+   "Flex the knees, bringing your feet towards the bench. You may need to lean back slightly to keep your feet from striking the floor.",
+   "Pause at the completion of the movement, and then slowly return to the starting position."
+  ]
+ },
+ {
+  "id": "Seated_Leg_Curl",
+  "ko": "시티드 레그컬",
+  "inst": [
+   "Adjust the machine lever to fit your height and sit on the machine with your back against the back support pad.",
+   "Place the back of lower leg on top of padded lever (just a few inches under the calves) and secure the lap pad against your thighs, just above the knees. Then grasp the side handles on the machine as you point your toes straight (or you can also use any of the other two stances) and ensure that the legs are fully straight right in front of you. This will be your starting position.",
+   "As you exhale, pull the machine lever as far as possible to the back of your thighs by flexing at the knees. Keep your torso stationary at all times. Hold the contracted position for a second.",
+   "Slowly return to the starting position as you breathe in.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Smith_Machine_Hang_Power_Clean",
+  "ko": "스미스머신 행 파워 클린",
+  "inst": [
+   "Position the bar at knee height and load it to an appropriate weight.",
+   "Take a pronated grip on the bar outside of shoulder width and unhook the bar from the machine. Your arms should be fully extended with your head and chest up. Your elbows should be pointed out with your shoulders back and down. Your hips should be back, loading the tension into the hamstrings. This will be your starting position.",
+   "Initate the movement by forcefully extending the hips and knees, accelerating into the bar. Ensure that you keep your arms straight during this part of the motion.",
+   "Upon full extension, rebend the hips and knees to lower your receiving position.",
+   "Allow the arms to flex at this point, rotating the elbows around the bar to receive it on your shoulders.",
+   "Extend through the hips and knees to come to a standing position with the bar racked on your shoulders to complete the movement."
+  ]
+ },
+ {
+  "id": "Smith_Machine_Stiff-Legged_Deadlift",
+  "ko": "스미스머신 스티프 레그 데드리프트",
+  "inst": [
+   "To begin, set the bar on the smith machine to a height that is around the middle of your thighs. Once the correct height is chosen and the bar is loaded, grasp the bar using a pronated (palms forward) grip that is shoulder width apart. You may need some wrist wraps if using a significant amount of weight.",
+   "Lift the bar up by fully extending your arms while keeping your back straight. Stand with your torso straight and your legs spaced using a shoulder width or narrower stance. The knees should be slightly bent. This is your starting position.",
+   "Keeping the knees stationary, lower the barbell to over the top of your feet by bending at the waist while keeping your back straight. Keep moving forward as if you were going to pick something from the floor until you feel a stretch on the hamstrings. Exhale as you perform this movement",
+   "Start bringing your torso up straight again as soon as you feel the hamstrings stretch by extending your hips and waist until you are back at the starting position. Inhale as you perform this movement.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Snatch_Deadlift",
+  "ko": "스내치 데드리프트",
+  "inst": [
+   "The snatch deadlift strengthens the first pull of the snatch. Begin with a wide snatch grip with the barbell placed on the platform. The feet should be directly under the hips, with the feet turned out. Squat down to the bar, keeping the back in absolute extension with the head facing forward.",
+   "Initiate the movement by driving through the heels, raising the hips. The back angle should remain the same until the bar passes the knees.",
+   "At that point, drive your hips through the bar as you lay back. Return the bar to the platform by reversing the motion."
+  ]
+ },
+ {
+  "id": "Snatch_Pull",
+  "ko": "스내치 풀",
+  "inst": [
+   "With a barbell on the floor close to the shins, take a wide snatch grip. Lower your hips with the weight focused on the heels, back straight, head facing forward, chest up, with your shoulders just in front of the bar. This will be your starting position.",
+   "Begin the first pull by driving through the heels, extending your knees. Your back angle should stay the same, and your arms should remain straight. Move the weight with control as you continue to above the knees.",
+   "Next comes the second pull, the main source of acceleration for the pull. As the bar approaches the mid-thigh position, begin extending through the hips. In a jumping motion, accelerate by extending the hips, knees, and ankles, using speed to move the bar upward.",
+   "There should be no need to actively pull through the arms to accelerate the weight; at the end of the second pull, the body should be fully extended, leaning slightly back. Full extension should be violent and abrupt, and ensure that you do not prolong the extension for longer than necessary."
+  ]
+ },
+ {
+  "id": "Split_Snatch",
+  "ko": "스플릿 스내치",
+  "inst": [
+   "Begin with a loaded barbell on the floor. The bar should be close to or touching the shins, and a wide grip should be taken on the bar. The feet should be directly below the hips, with the feet turned out as needed. Lower the hips, with the chest up and the head looking forward. The shoulders should be just in front of the bar. This will be the starting position.",
+   "Begin the first pull by driving through the front of the heels, raising the bar from the ground. The back angle should stay the same until the bar passes the knees.",
+   "Transition into the second pull by extending through the hips knees and ankles, driving the bar up as quickly as possible. The bar should be close to the body. At peak extension, shrug the shoulders and allow the elbows to flex to the side.",
+   "As you move your feet into the receiving position, forcefully pull yourself below the bar as you elevate the bar overhead. The feet should move forcefully to a split position, one foot forward one foot back. Receive the bar with your body as low as possible and the arms fully extended overhead.",
+   "Keeping the bar aligned over the front of the heels, your head and chest up, drive through heels of the feet to move to a standing position, bringing your feet together.",
+   "Carefully return the weight to floor."
+  ]
+ },
+ {
+  "id": "Standing_Leg_Curl",
+  "ko": "스탠딩 레그컬",
+  "inst": [
+   "Adjust the machine lever to fit your height and lie with your torso bent at the waist facing forward around 30-45 degrees (since an angled position is more favorable for hamstrings recruitment) with the pad of the lever on the back of your right leg (just a few inches under the calves) and the front of the right leg on top of the machine pad.",
+   "Keeping the torso bent forward, ensure your leg is fully stretched and grab the side handles of the machine. Position your toes straight. This will be your starting position.",
+   "As you exhale, curl your right leg up as far as possible without lifting the upper leg from the pad. Once you hit the fully contracted position, hold it for a second.",
+   "As you inhale, bring the legs back to the initial position. Repeat for the recommended amount of repetitions.",
+   "Perform the same exercise now for the left leg."
+  ]
+ },
+ {
+  "id": "Stiff-Legged_Barbell_Deadlift",
+  "ko": "바벨 스티프 레그 데드리프트",
+  "inst": [
+   "Grasp a bar using an overhand grip (palms facing down). You may need some wrist wraps if using a significant amount of weight.",
+   "Stand with your torso straight and your legs spaced using a shoulder width or narrower stance. The knees should be slightly bent. This is your starting position.",
+   "Keeping the knees stationary, lower the barbell to over the top of your feet by bending at the hips while keeping your back straight. Keep moving forward as if you were going to pick something from the floor until you feel a stretch on the hamstrings. Inhale as you perform this movement.",
+   "Start bringing your torso up straight again by extending your hips until you are back at the starting position. Exhale as you perform this movement.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Stiff-Legged_Dumbbell_Deadlift",
+  "ko": "덤벨 스티프 레그 데드리프트",
+  "inst": [
+   "Grasp a couple of dumbbells holding them by your side at arm's length.",
+   "Stand with your torso straight and your legs spaced using a shoulder width or narrower stance. The knees should be slightly bent. This is your starting position.",
+   "Keeping the knees stationary, lower the dumbbells to over the top of your feet by bending at the waist while keeping your back straight. Keep moving forward as if you were going to pick something from the floor until you feel a stretch on the hamstrings. Exhale as you perform this movement",
+   "Start bringing your torso up straight again by extending your hips and waist until you are back at the starting position. Inhale as you perform this movement.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Sumo_Deadlift",
+  "ko": "스모 데드리프트",
+  "inst": [
+   "Begin with a bar loaded on the ground. Approach the bar so that the bar intersects the middle of the feet. The feet should be set very wide, near the collars. Bend at the hips to grip the bar. The arms should be directly below the shoulders, inside the legs, and you can use a pronated grip, a mixed grip, or hook grip. Relax the shoulders, which in effect lengthens your arms.",
+   "Take a breath, and then lower your hips, looking forward with your head with your chest up. Drive through the floor, spreading your feet apart, with your weight on the back half of your feet. Extend through the hips and knees.",
+   "As the bar passes through the knees, lean back and drive the hips into the bar, pulling your shoulder blades together.",
+   "Return the weight to the ground by bending at the hips and controlling the weight on the way down."
+  ]
+ },
+ {
+  "id": "Sumo_Deadlift_with_Bands",
+  "ko": "스모 데드리프트 (밴드)",
+  "inst": [
+   "To deadlift with short bands, simply loop them over the bar before you start, and step into them to set up. Ensure that they under the back half of your foot, directly where you are driving into the floor.",
+   "Begin with a bar loaded on the ground. Approach the bar so that the bar intersects the middle of the feet. The feet should be set very wide, near the collars. Bend at the hips to grip the bar. The arms should be directly below the shoulders, inside the legs, and you can use a pronated grip, a mixed grip, or hook grip.",
+   "Take a breath, and then lower your hips, looking forward with your head with your chest up. Drive through the floor, spreading your feet apart, with your weight on the back half of your feet. Extend through the hips and knees.",
+   "As the bar passes through the knees, lean back and drive the hips into the bar, pulling your shoulder blades together.",
+   "Return the weight to the ground by bending at the hips and controlling the weight on the way down."
+  ]
+ },
+ {
+  "id": "Sumo_Deadlift_with_Chains",
+  "ko": "스모 데드리프트 (체인)",
+  "inst": [
+   "You can attach the chains to the sleeves of the bar, or just drape the middle over the bar so there is a greater weight increase as you lift. Attempt to keep the ends of the chains away from the plates so you don't hit them when you lower the weight.",
+   "Begin with a bar loaded on the ground. Approach the bar so that the bar intersects the middle of the feet. The feet should be set very wide, near the collars. Bend at the hips to grip the bar. The arms should be directly below the shoulders, inside the legs, and you can use a pronated grip, a mixed grip, or hook grip. Relax the shoulders, which in effect lengthens your arms.",
+   "Take a breath, and then lower your hips, looking forward with your head with your chest up. Drive through the floor, spreading your feet apart, with your weight on the back half of your feet. Extend through the hips and knees.",
+   "As the bar passes through the knees, lean back and drive the hips into the bar, pulling your shoulder blades together.",
+   "Return the weight to the ground by bending at the hips and controlling the weight on the way down."
+  ]
+ },
+ {
+  "id": "Vertical_Swing",
+  "ko": "덤벨 버티컬 스윙",
+  "inst": [
+   "Allow the dumbbell to hang at arms length between your legs, holding it with both hands. Keep your back straight and your head up.",
+   "Swing the dumbbell between your legs, flexing at the hips and bending the knees slightly.",
+   "Powerfully reverse the motion by extending at the hips, knees, and ankles to propel yourself upward, swinging the dumbell over your head.",
+   "As you land, absorb the impact through your legs and draw the dumbbell to your torso before the next repetition."
+  ]
+ },
+ {
+  "id": "Wide_Stance_Stiff_Legs",
+  "ko": "스티프 레그 데드리프트 (와이드 스탠스)",
+  "inst": [
+   "Begin with a barbell loaded on the floor. Adopt a wide stance, and then bend at the hips to grab the bar. Your hips should be as far back as possible, and your legs nearly straight. Keep your back straight, and your head and chest up. This will be your starting position.",
+   "Begin the movement be engaging the hips, driving them forward as you allow the arms to hang straight. Continue until you are standing straight up, and then slowly return the weight to the starting position. For successive reps, the weight need not touch the floor."
+  ]
+ },
+ {
+  "id": "Band_Assisted_Pull-Up",
+  "ko": "밴드 어시스트 풀업",
+  "inst": [
+   "Choke the band around the center of the pullup bar. You can use different bands to provide varying levels of assistance.",
+   "Pull the end of the band down, and place one bent knee into the loop, ensuring it won't slip out. Take a medium to wide grip on the bar. This will be your starting position.",
+   "Pull yourself upward by contracting the lats as you flex the elbow. The elbow should be driven to your side. Pull to the front, attempting to get your chin over the bar. Avoid swinging or jerking movements.",
+   "After a brief pause, return to the starting position."
+  ]
+ },
+ {
+  "id": "Bent-Arm_Barbell_Pullover",
+  "ko": "바벨 풀오버 (벤트암)",
+  "inst": [
+   "Lie on a flat bench with a barbell using a shoulder grip width.",
+   "Hold the bar straight over your chest with a bend in your arms. This will be your starting position.",
+   "While keeping your arms in the bent arm position, lower the weight slowly in an arc behind your head while breathing in until you feel a stretch on the chest.",
+   "At that point, bring the barbell back to the starting position using the arc through which the weight was lowered and exhale as you perform this movement.",
+   "Hold the weight on the initial position for a second and repeat the motion for the prescribed number of repetitions."
+  ]
+ },
+ {
+  "id": "Cable_Incline_Pushdown",
+  "ko": "케이블 인클라인 푸시다운",
+  "inst": [
+   "Lie on incline an bench facing away from a high pulley machine that has a straight bar attachment on it.",
+   "Grasp the straight bar attachment overhead with a pronated (overhand; palms down) shoulder width grip and extend your arms in front of you. The bar should be around 2 inches away from your upper thighs. This will be your starting position.",
+   "Keeping the upper arms stationary, lift your arms back in a semi circle until the bar is straight over your head. Breathe in during this portion of the movement.",
+   "Slowly go back to the starting position using your lats and hold the contraction once you reach the starting position. Breathe out during the execution of this movement.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Catch_and_Overhead_Throw",
+  "ko": "메디신볼 오버헤드 스로우",
+  "inst": [
+   "Begin standing while facing a wall or a partner.",
+   "Using both hands, position the ball behind your head, stretching as much as possible, and forcefully throw the ball forward.",
+   "Ensure that you follow your throw through, being prepared to receive your rebound from your throw. If you are throwing against the wall, make sure that you stand close enough to the wall to receive the rebound, and aim a little higher than you would with a partner."
+  ]
+ },
+ {
+  "id": "Chin-Up",
+  "ko": "친업",
+  "inst": [
+   "Grab the pull-up bar with the palms facing your torso and a grip closer than the shoulder width.",
+   "As you have both arms extended in front of you holding the bar at the chosen grip width, keep your torso as straight as possible while creating a curvature on your lower back and sticking your chest out. This is your starting position. Tip: Keeping the torso as straight as possible maximizes biceps stimulation while minimizing back involvement.",
+   "As you breathe out, pull your torso up until your head is around the level of the pull-up bar. Concentrate on using the biceps muscles in order to perform the movement. Keep the elbows close to your body. Tip: The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
+   "After a second of squeezing the biceps in the contracted position, slowly lower your torso back to the starting position; when your arms are fully extended. Breathe in as you perform this portion of the movement.",
+   "Repeat this motion for the prescribed amount of repetitions."
+  ]
+ },
+ {
+  "id": "Close-Grip_Front_Lat_Pulldown",
+  "ko": "렛풀다운 (클로즈그립)",
+  "inst": [
+   "Sit down on a pull-down machine with a wide bar attached to the top pulley. Make sure that you adjust the knee pad of the machine to fit your height. These pads will prevent your body from being raised by the resistance attached to the bar.",
+   "Grab the bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than your shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width.",
+   "As you have both arms extended in front of you - while holding the bar at the chosen grip width - bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+   "As you breathe out, bring the bar down until it touches your upper chest by drawing the shoulders and the upper arms down and back. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary (only the arms should move). The forearms should do no other work except for holding the bar; therefore do not try to pull the bar down using the forearms.",
+   "After a second in the contracted position, while squeezing your shoulder blades together, slowly raise the bar back to the starting position when your arms are fully extended and the lats are fully stretched. Inhale during this portion of the movement.",
+   "6. Repeat this motion for the prescribed amount of repetitions."
+  ]
+ },
+ {
+  "id": "Elevated_Cable_Rows",
+  "ko": "케이블 로우 (하이 포지션)",
+  "inst": [
+   "Get a platform of some sort (it can be an aerobics or calf raise platform) that is around 4-6 inches in height.",
+   "Place it on the seat of the cable row machine.",
+   "Sit down on the machine and place your feet on the front platform or crossbar provided making sure that your knees are slightly bent and not locked.",
+   "Lean over as you keep the natural alignment of your back and grab the V-bar handles.",
+   "With your arms extended pull back until your torso is at a 90-degree angle from your legs. Your back should be slightly arched and your chest should be sticking out. You should be feeling a nice stretch on your lats as you hold the bar in front of you. This is the starting position of the exercise.",
+   "Keeping the torso stationary, pull the handles back towards your torso while keeping the arms close to it until you touch the abdominals. Breathe out as you perform that movement. At that point you should be squeezing your back muscles hard. Hold that contraction for a second and slowly go back to the original position while breathing in.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Full_Range-Of-Motion_Lat_Pulldown",
+  "ko": "렛풀다운 (풀 가동범위)",
+  "inst": [
+   "Either standing or seated on a high bench, grasp two stirrup cables that are attached to the high pulleys. Grab with the opposing hand so your arms are crisscrossed about you and your palms are facing forward.",
+   "Keeping your chest up and maintaining a slight arch in your lower back, pull the handles down as if you were doing a regular pulldown. The range of motion will be more of an arc. During the movement, rotate your hands so that in the bottom position your palms face each other rather than forward. Return slowly to the starting position and repeat."
+  ]
+ },
+ {
+  "id": "Gironda_Sternum_Chins",
+  "ko": "지론다 스터넘 친업",
+  "inst": [
+   "Grasp the pull-up bar with a shoulder width underhand grip.",
+   "Now hang with your arms fully extended and stick your chest out and lean back. Tip: You will be leaning back throughout the entire movement. This will be your starting position.",
+   "Start pulling yourself towards the bar with your spine arched throughout the movement and your head leaning back as far away from the bar as possible. Exhale as you perform this portion of the movement. Tip: At the upper end of the movement, your hips and legs will be at about a 45-degree angle to the floor.",
+   "Keep pulling until your collarbone passes the bar and your lower chest or sternum area touches it. Hold that contraction for a second. Tip: By the time you've completed this portion of the movement; your head will be parallel to the floor.",
+   "Slowly start going back to the starting position as you inhale.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Kipping_Muscle_Up",
+  "ko": "키핑 머슬업",
+  "inst": [
+   "Grip the rings using a false grip, with the base of your palms on top of the rings.",
+   "Begin with a movement swinging your legs backward slightly.",
+   "Counter that movement by swinging your legs forward and up, jerking your chin and chest back, pulling yourself up with both arms as you do so. As you reach the top position of the pull-up, pull the rings to your armpits as you roll your shoulders forward, allowing your elbows to move straight back behind you. This puts you into the proper position to continue into the dip portion of the movement.",
+   "Maintaining control and stability, extend through the elbow to complete the motion.",
+   "Use care when lowering yourself to the ground."
+  ]
+ },
+ {
+  "id": "Kneeling_High_Pulley_Row",
+  "ko": "닐링 하이 풀리 로우",
+  "inst": [
+   "Select the appropriate weight using a pulley that is above your head. Attach a rope to the cable and kneel a couple of feet away, holding the rope out in front of you with both arms extended. This will be your starting position.",
+   "Initiate the movement by flexing the elbows and fully retracting your shoulders, pulling the rope toward your upper chest with your elbows out.",
+   "After pausing briefly, slowly return to the starting position."
+  ]
+ },
+ {
+  "id": "Kneeling_Single-Arm_High_Pulley_Row",
+  "ko": "닐링 원암 하이 풀리 로우",
+  "inst": [
+   "Attach a single handle to a high pulley and make your weight selection.",
+   "Kneel in front of the cable tower, taking the cable with one hand with your arm extended. This will be your starting position.",
+   "Starting with your palm facing forward, pull the weight down to your torso by flexing the elbow and retract the shoulder blade. As you do so, rotate the wrist so that at the completion of the movement, your palm is now facing you.",
+   "After a brief pause, return to the starting position."
+  ]
+ },
+ {
+  "id": "Leverage_Iso_Row",
+  "ko": "아이소 레터럴 로우 (머신)",
+  "inst": [
+   "Load an appropriate weight onto the pins and adjust the seat height so that the handles are at chest level. Grasp the handles with either a neutral or pronated grip. This will be your starting position.",
+   "Pull the handles towards your torso, retracting your shoulder blades as you flex the elbow.",
+   "Pause at the bottom of the motion, and then slowly return the handles to the starting position. For multiple repetitions, avoid completely returning the weight to the stops to keep tension on the muscles being worked."
+  ]
+ },
+ {
+  "id": "London_Bridges",
+  "ko": "런던 브릿지 풀업",
+  "inst": [
+   "Attach a climbing rope to a high beam or cross member. Below it, ensure that the smith machine bar is locked in place with the safeties and cannot move. Alternatively, a secure box could also be utilized.",
+   "Stand on the bar, using the rope to balance yourself. This will be your starting position.",
+   "Keeping your body straight, lean back and lower your body by slowly going hand over hand with the rope. Continue until you are perpendicular to the ground.",
+   "Keeping your body straight, reverse the motion, going hand over hand back to the starting position."
+  ]
+ },
+ {
+  "id": "Muscle_Up",
+  "ko": "머슬업",
+  "inst": [
+   "Grip the rings using a false grip, with the base of your palms on top of the rings. Initiate a pull up by pulling the elbows down to your side, flexing the elbows.",
+   "As you reach the top position of the pull-up, pull the rings to your armpits as you roll your shoulders forward, allowing your elbows to move straight back behind you. This puts you into the proper position to continue into the dip portion of the movement.",
+   "Maintaining control and stability, extend through the elbow to complete the motion.",
+   "Use care when lowering yourself to the ground."
+  ]
+ },
+ {
+  "id": "One_Arm_Lat_Pulldown",
+  "ko": "원암 렛풀다운",
+  "inst": [
+   "Select an appropriate weight and adjust the knee pad to help keep you down. Grasp the handle with a pronated grip. This will be your starting position.",
+   "Pull the handle down, squeezing your elbow to your side as you flex the elbow.",
+   "Pause at the bottom of the motion, and then slowly return the handle to the starting position.",
+   "For multiple repetitions, avoid completely returning the weight to keep tension on the muscles being worked."
+  ]
+ },
+ {
+  "id": "Overhead_Slam",
+  "ko": "메디신볼 슬램",
+  "inst": [
+   "Hold a medine ball with both hands and stand with your feet at shoulder width. This will be your starting position.",
+   "Initiate the countermovement by raising the ball above your head and fully extending your body.",
+   "Reverse the motion, slamming the ball into the ground directly in front of you as hard as you can.",
+   "Receive the ball with both hands on the bounce and repeat the movement."
+  ]
+ },
+ {
+  "id": "Pullups",
+  "ko": "풀업",
+  "inst": [
+   "Grab the pull-up bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than your shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width.",
+   "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+   "Pull your torso up until the bar touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
+   "After a second on the contracted position, start to inhale and slowly lower your torso back to the starting position when your arms are fully extended and the lats are fully stretched.",
+   "Repeat this motion for the prescribed amount of repetitions."
+  ]
+ },
+ {
+  "id": "Rocky_Pull-Ups_Pulldowns",
+  "ko": "로키 풀업",
+  "inst": [
+   "Grab the pull-up bar with the palms facing forward using a wide grip.",
+   "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+   "Pull your torso up until the bar touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
+   "After a second on the contracted position, start to inhale and slowly lower your torso back to the starting position when your arms are fully extended and the lats are fully stretched.",
+   "Now repeat the same movements as described above except this time your torso will remain straight as you go up and the bar will touch the back of the neck instead of the upper chest. Tip: Use the head to lean forward slightly as it will help you properly execute this portion of the exercise.",
+   "Once you have lowered yourself back down to the starting position, repeat the exercise for the prescribed amount of repetitions in your program."
+  ]
+ },
+ {
+  "id": "Rope_Climb",
+  "ko": "로프 클라이밍",
+  "inst": [
+   "Grab the rope with both hands above your head. Pull down on the rope as you take a small jump.",
+   "Wrap the rope around one leg, using your feet to pinch the rope. Reach up as high as possible with your arms, gripping the rope tightly.",
+   "Release the rope from your feet as you pull yourself up with your arms, bringing your knees towards your chest.",
+   "Resecure your feet on the rope, and then stand up to take another high hold on the rope. Continue until you reach the top of the rope.",
+   "To lower yourself, loosen the grip of your feet on the rope as you slide down using a hand over hand motion."
+  ]
+ },
+ {
+  "id": "Rope_Straight-Arm_Pulldown",
+  "ko": "스트레이트암 풀다운 (로프)",
+  "inst": [
+   "Attach a rope to a high pulley and make your weight selection. Stand a couple feet back from the pulley with your feet staggered and take the rope with both hands. Lean forward from the hip, keeping your back straight, with your arms extended up in front of you. This will be your starting position.",
+   "Keeping your arms straight, extend the shoulder to pull the rope down to your thighs.",
+   "Pause at the bottom of the motion, squeezing your lats.",
+   "Return to the starting position without allowing the weight to fully rest on the stack."
+  ]
+ },
+ {
+  "id": "Shotgun_Row",
+  "ko": "샷건 로우",
+  "inst": [
+   "Attach a single handle to a low cable.",
+   "After selecting the correct weight, stand a couple feet back with a wide-split stance. Your arm should be extended and your shoulder forward. This will be your starting position.",
+   "Perform the movement by retracting the shoulder and flexing the elbow. As you pull, supinate the wrist, turning the palm upward as you go.",
+   "After a brief pause, return to the starting position."
+  ]
+ },
+ {
+  "id": "Side_To_Side_Chins",
+  "ko": "사이드 투 사이드 친업",
+  "inst": [
+   "Grab the pull-up bar with the palms facing forward using a wide grip.",
+   "As you have both arms extended in front of you holding the bar at a wide grip, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+   "Pull your torso up while leaning to the left hand side until the bar almost touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space (no swinging) and only the arms should move. The forearms should do no other work other than hold the bar.",
+   "After a second of contraction, inhale as you go back to the starting position.",
+   "Now, pull your torso up while leaning to the right hand side until the bar almost touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
+   "After a second of contraction, inhale as you go back to the starting position.",
+   "Repeat steps 3-6 until you have performed the prescribed amount of repetitions for each side."
+  ]
+ },
+ {
+  "id": "Straight-Arm_Pulldown",
+  "ko": "스트레이트암 풀다운",
+  "inst": [
+   "You will start by grabbing the wide bar from the top pulley of a pulldown machine and using a wider than shoulder-width pronated (palms down) grip. Step backwards two feet or so.",
+   "Bend your torso forward at the waist by around 30-degrees with your arms fully extended in front of you and a slight bend at the elbows. If your arms are not fully extended then you need to step a bit more backwards until they are. Once your arms are fully extended and your torso is slightly bent at the waist, tighten the lats and then you are ready to begin.",
+   "While keeping the arms straight, pull the bar down by contracting the lats until your hands are next to the side of the thighs. Breathe out as you perform this step.",
+   "While keeping the arms straight, go back to the starting position while breathing in.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Underhand_Cable_Pulldowns",
+  "ko": "렛풀다운 (언더그립)",
+  "inst": [
+   "Sit down on a pull-down machine with a wide bar attached to the top pulley. Adjust the knee pad of the machine to fit your height. These pads will prevent your body from being raised by the resistance attached to the bar.",
+   "Grab the pull-down bar with the palms facing your torso (a supinated grip). Make sure that the hands are placed closer than the shoulder width.",
+   "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+   "As you breathe out, pull the bar down until it touches your upper chest by drawing the shoulders and the upper arms down and back. Tip: Concentrate on squeezing the back muscles once you reach the fully contracted position and keep the elbows close to your body. The upper torso should remain stationary as your bring the bar to you and only the arms should move. The forearms should do no other work other than hold the bar.",
+   "After a second on the contracted position, while breathing in, slowly bring the bar back to the starting position when your arms are fully extended and the lats are fully stretched.",
+   "Repeat this motion for the prescribed amount of repetitions."
+  ]
+ },
+ {
+  "id": "V-Bar_Pulldown",
+  "ko": "렛풀다운 (V바)",
+  "inst": [
+   "Sit down on a pull-down machine with a V-Bar attached to the top pulley.",
+   "Adjust the knee pad of the machine to fit your height. These pads will prevent your body from being raised by the resistance attached to the bar.",
+   "Grab the V-bar with the palms facing each other (a neutral grip). Stick your chest out and lean yourself back slightly (around 30-degrees) in order to better engage the lats. This will be your starting position.",
+   "Using your lats, pull the bar down as you squeeze your shoulder blades. Continue until your chest nearly touches the V-bar. Exhale as you execute this motion. Tip: Keep the torso stationary throughout the movement.",
+   "After a second hold on the contracted position, slowly bring the bar back to the starting position as you breathe in.",
+   "Repeat for the prescribed number of repetitions."
+  ]
+ },
+ {
+  "id": "V-Bar_Pullup",
+  "ko": "풀업 (V바)",
+  "inst": [
+   "Start by placing the middle of the V-bar in the middle of the pull-up bar (assuming that the pull-up station you are using does not have neutral grip handles). The V-Bar handles will be facing down so that you can hang from the pull-up bar through the use of the handles.",
+   "Once you securely place the V-bar, take a hold of the bar from each side and hang from it. Stick your chest out and lean yourself back slightly in order to better engage the lats. This will be your starting position.",
+   "Using your lats, pull your torso up while leaning your head back slightly so that you do not hit yourself with the chin-up bar. Continue until your chest nearly touches the V-bar. Exhale as you execute this motion.",
+   "After a second hold on the contracted position, slowly lower your body back to the starting position as you breathe in.",
+   "Repeat for the prescribed number of repetitions."
+  ]
+ },
+ {
+  "id": "Weighted_Pull_Ups",
+  "ko": "웨이티드 풀업",
+  "inst": [
+   "Attach a weight to a dip belt and secure it around your waist. Grab the pull-up bar with the palms of your hands facing forward. For a medium grip, your hands should be spaced at shoulder width. Both arms should be extended in front of you holding the bar at the chosen grip.",
+   "You'll want to bring your torso back about 30 degrees while creating a curvature in your lower back and sticking your chest out. This will be your starting position.",
+   "Now, exhale and pull your torso up until your head is above your hands. Concentrate on squeezing yourshoulder blades back and down as you reach the top contracted position.",
+   "After a brief moment at the top contracted position, inhale and slowly lower your torso back to the starting position with your arms extended and your lats fully stretched."
+  ]
+ },
+ {
+  "id": "Wide-Grip_Lat_Pulldown",
+  "ko": "렛풀다운 (와이드그립)",
+  "inst": [
+   "Sit down on a pull-down machine with a wide bar attached to the top pulley. Make sure that you adjust the knee pad of the machine to fit your height. These pads will prevent your body from being raised by the resistance attached to the bar.",
+   "Grab the bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width.",
+   "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+   "As you breathe out, bring the bar down until it touches your upper chest by drawing the shoulders and the upper arms down and back. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary and only the arms should move. The forearms should do no other work except for holding the bar; therefore do not try to pull down the bar using the forearms.",
+   "After a second at the contracted position squeezing your shoulder blades together, slowly raise the bar back to the starting position when your arms are fully extended and the lats are fully stretched. Inhale during this portion of the movement.",
+   "Repeat this motion for the prescribed amount of repetitions."
+  ]
+ },
+ {
+  "id": "Wide-Grip_Pulldown_Behind_The_Neck",
+  "ko": "비하인드넥 풀다운 (와이드그립)",
+  "inst": [
+   "Sit down on a pull-down machine with a wide bar attached to the top pulley. Make sure that you adjust the knee pad of the machine to fit your height. These pads will prevent your body from being raised by the resistance attached to the bar.",
+   "Grab the bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than your shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width.",
+   "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso and head forward. Think of an imaginary line from the center of the bar down to the back of your neck. This is your starting position.",
+   "As you breathe out, bring the bar down until it touches the back of your neck by drawing the shoulders and the upper arms down and back. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary and only the arms should move. The forearms should do no other work except for holding the bar; therefore do not try to pull down the bar using the forearms.",
+   "After a second on the contracted position squeezing your shoulder blades together, slowly raise the bar back to the starting position when your arms are fully extended and the lats are fully stretched. Inhale during this portion of the movement.",
+   "Repeat this motion for the prescribed amount of repetitions."
+  ]
+ },
+ {
+  "id": "Wide-Grip_Rear_Pull-Up",
+  "ko": "비하인드넥 풀업 (와이드그립)",
+  "inst": [
+   "Grab the pull-up bar with the palms facing forward using a wide grip.",
+   "As you have both arms extended in front of you holding the bar, bring your torso forward and head so that there is an imaginary line from the pull-up bar to the back of your neck. This is your starting position.",
+   "Pull your torso up until the bar is near the back of your neck. To do this, draw the shoulders and upper arms down and back while slightly leaning your head forward. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
+   "After a second on the contracted position, start to inhale and slowly lower your torso back to the starting position when your arms are fully extended and the lats are fully stretched.",
+   "Repeat this motion for the prescribed amount of repetitions."
+  ]
+ },
+ {
+  "id": "Atlas_Stone_Trainer",
+  "ko": "아틀라스 스톤 트레이너",
+  "inst": [
+   "This trainer is effective for developing Atlas Stone strength for those who don't have access to stones, and are typically made from bar ends or heavy pipe.",
+   "Begin by loading the desired weight onto the bar. Straddle the weight, wrapping your arms around the implement, bending at the hips.",
+   "Begin by pulling the weight up past the knees, extending through the hips. As the weight clears the knees, it can be lapped by resting it on your thighs and sitting back, hugging it tightly to your chest.",
+   "Finish the movement by extending through your hips and knees to raise the weight as high as possible. The weight can be returned to the lap or to the ground for successive repetitions."
+  ]
+ },
+ {
+  "id": "Atlas_Stones",
+  "ko": "아틀라스 스톤",
+  "inst": [
+   "Begin with the atlas stone between your feet. Bend at the hips to wrap your arms vertically around the Atlas Stone, attempting to get your fingers underneath the stone. Many stones will have a small flat portion on the bottom, which will make the stone easier to hold.",
+   "Pulling the stone into your torso, drive through the back half of your feet to pull the stone from the ground.",
+   "As the stone passes the knees, lap it by sitting backward, pulling the stone on top of your thighs.",
+   "Sit low, getting the stone high onto your chest as you change your grip to reach over the stone. Stand, driving through with your hips. Close distance to the loading platform, and lean back, extending the hips to get the stone as high as possible."
+  ]
+ },
+ {
+  "id": "Axle_Deadlift",
+  "ko": "액슬바 데드리프트",
+  "inst": [
+   "Approach the bar so that it is centered over your feet. You feet should be about hip width apart. Bend at the hip to grip the bar at shoulder width, allowing your shoulder blades to protract. Typically, you would use an over/under grip.",
+   "With your feet and your grip set, take a big breath and then lower your hips and flex the knees until your shins contact the bar. Look forward with your head, keep your chest up and your back arched, and begin driving through the heels to move the weight upward.",
+   "After the bar passes the knees, aggressively pull the bar back, pulling your shoulder blades together as you drive your hips forward into the bar.",
+   "Lower the bar by bending at the hips and guiding it to the floor."
+  ]
+ },
+ {
+  "id": "Barbell_Deadlift",
+  "ko": "데드리프트",
+  "inst": [
+   "Stand in front of a loaded barbell.",
+   "While keeping the back as straight as possible, bend your knees, bend forward and grasp the bar using a medium (shoulder width) overhand grip. This will be the starting position of the exercise. Tip: If it is difficult to hold on to the bar with this grip, alternate your grip or use wrist straps.",
+   "While holding the bar, start the lift by pushing with your legs while simultaneously getting your torso to the upright position as you breathe out. In the upright position, stick your chest out and contract the back by bringing the shoulder blades back. Think of how the soldiers in the military look when they are in standing in attention.",
+   "Go back to the starting position by bending at the knees while simultaneously leaning the torso forward at the waist while keeping the back straight. When the weights on the bar touch the floor you are back at the starting position and ready to perform another repetition.",
+   "Perform the amount of repetitions prescribed in the program."
+  ]
+ },
+ {
+  "id": "Deadlift_with_Bands",
+  "ko": "데드리프트 (밴드)",
+  "inst": [
+   "To deadlift with short bands, simply loop them over the bar before you start, and step into them to set up. For long bands, they will need to be anchored to a secure base, such as heavy dumbbells or a rack.",
+   "With your feet, and your grip set, take a big breath and then lower your hips and bend the knees until your shins contact the bar. Look forward with your head, keep your chest up and your back arched, and begin driving through the heels to move the weight upward. After the bar passes the knees, aggressively pull the bar back, pulling your shoulder blades together as you drive your hips forward into the bar.",
+   "Lower the bar by bending at the hips and guiding it to the floor."
+  ]
+ },
+ {
+  "id": "Deadlift_with_Chains",
+  "ko": "데드리프트 (체인)",
+  "inst": [
+   "You can attach the chains to the sleeves of the bar, or just drape the middle over the bar so there is a greater weight increase as you lift.",
+   "Approach the bar so that it is centered over your feet. You feet should be about hip width apart. Bend at the hip to grip the bar at shoulder width, allowing your shoulder blades to protract. Typically, you would use an overhand grip or an over/under grip on heavier sets. With your feet, and your grip set, take a big breath and then lower your hips and bend the knees until your shins contact the bar.",
+   "Look forward with your head, keep your chest up and your back arched, and begin driving through the heels to move the weight upward. After the bar passes the knees, aggressively pull the bar back, pulling your shoulder blades together as you drive your hips forward into the bar.",
+   "Lower the bar by bending at the hips and guiding it to the floor."
+  ]
+ },
+ {
+  "id": "Deficit_Deadlift",
+  "ko": "데피싯 데드리프트",
+  "inst": [
+   "Begin by having a platform or weight plates that you can stand on, usually 1-3 inches in height. Approach the bar so that it is centered over your feet. You feet should be about hip width apart. Bend at the hip to grip the bar at shoulder width, allowing your shoulder blades to protract. Typically, you would use an overhand grip or an over/under grip on heavier sets.",
+   "With your feet, and your grip set, take a big breath and then lower your hips and bend the knees until your shins contact the bar. Look forward with your head, keep your chest up and your back arched, and begin driving through the heels to move the weight upward. After the bar passes the knees, aggressively pull the bar back, pulling your shoulder blades together as you drive your hips forward into the bar.",
+   "Lower the bar by bending at the hips and guiding it to the floor."
+  ]
+ },
+ {
+  "id": "Hyperextensions_Back_Extensions",
+  "ko": "백 익스텐션",
+  "inst": [
+   "Lie face down on a hyperextension bench, tucking your ankles securely under the footpads.",
+   "Adjust the upper pad if possible so your upper thighs lie flat across the wide pad, leaving enough room for you to bend at the waist without any restriction.",
+   "With your body straight, cross your arms in front of you (my preference) or behind your head. This will be your starting position. Tip: You can also hold a weight plate for extra resistance in front of you under your crossed arms.",
+   "Start bending forward slowly at the waist as far as you can while keeping your back flat. Inhale as you perform this movement. Keep moving forward until you feel a nice stretch on the hamstrings and you can no longer keep going without a rounding of the back. Tip: Never round the back as you perform this exercise. Also, some people can go farther than others. The key thing is that you go as far as your body allows you to without rounding the back.",
+   "Slowly raise your torso back to the initial position as you inhale. Tip: Avoid the temptation to arch your back past a straight line. Also, do not swing the torso at any time in order to protect the back from injury.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Hyperextensions_With_No_Hyperextension_Bench",
+  "ko": "백 익스텐션 (벤치 없이)",
+  "inst": [
+   "With someone holding down your legs, slide yourself down to the edge a flat bench until your hips hang off the end of the bench. Tip: Your entire upper body should be hanging down towards the floor. Also, you will be in the same position as if you were on a hyperextension bench but the range of motion will be shorter due to the height of the flat bench vs. that of the hyperextension bench.",
+   "With your body straight, cross your arms in front of you (my preference) or behind your head. This will be your starting position. Tip: You can also hold a weight plate for extra resistance in front of you under your crossed arms.",
+   "Start bending forward slowly at the waist as far as you can while keeping your back flat. Inhale as you perform this movement. Keep moving forward until you almost touch the floor or you feel a nice stretch on the hamstrings (whichever comes first). Tip: Never round the back as you perform this exercise.",
+   "Slowly raise your torso back to the initial position as you exhale. Tip: Avoid the temptation to arch your back past a straight line. Also, do not swing the torso at any time in order to protect the back from injury.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Keg_Load",
+  "ko": "케그 로드",
+  "inst": [
+   "To load kegs, place the desired number a distance from the loading platform, typically 30-50 feet.",
+   "Begin by grabbing the close handle of the first keg, tilting it onto its side to grab the opposite edge of the bottom of the keg. Lift the keg up to your chest.",
+   "The higher you can place the keg, the faster you should be able to move to the platform. Shouldering is usually not allowed. Be sure to keep a firm hold on the keg. Move as quickly as possible to the platform, and load it, extending through your hips, knees, and ankles to get it as high as possible.",
+   "Return to the starting position to retrieve the next keg, and repeat until the event is completed."
+  ]
+ },
+ {
+  "id": "Rack_Pull_with_Bands",
+  "ko": "랙풀 (밴드)",
+  "inst": [
+   "Set up in a power rack with the bar on the pins. The pins should be set to the desired point; just below the knees, just above, or in the mid thigh position. Attach bands to the base of the rack, or secure them with dumbbells. Attach the other end to the bar. You may need to choke the bands to provide tension.",
+   "Position yourself against the bar in proper deadlifting position. Your feet should be under your hips, your grip shoulder width, back arched, and hips back to engage the hamstrings. Since the weight is typically heavy, you may use a mixed grip, a hook grip, or use straps to aid in holding the weight.",
+   "With your head looking forward, extend through the hips and knees, pulling the weight up and back until lockout. Be sure to pull your shoulders back as you complete the movement. Return the weight to the pins and repeat."
+  ]
+ },
+ {
+  "id": "Rack_Pulls",
+  "ko": "랙풀",
+  "inst": [
+   "Set up in a power rack with the bar on the pins. The pins should be set to the desired point; just below the knees, just above, or in the mid thigh position. Position yourself against the bar in proper deadlifting position. Your feet should be under your hips, your grip shoulder width, back arched, and hips back to engage the hamstrings. Since the weight is typically heavy, you may use a mixed grip, a hook grip, or use straps to aid in holding the weight.",
+   "With your head looking forward, extend through the hips and knees, pulling the weight up and back until lockout. Be sure to pull your shoulders back as you complete the movement.",
+   "Return the weight to the pins and repeat."
+  ]
+ },
+ {
+  "id": "Reverse_Band_Deadlift",
+  "ko": "리버스 밴드 데드리프트",
+  "inst": [
+   "Set the bar up in a power rack. Attach bands to the top of the rack, using either bands pegs or the frame itself. Attach the other end of the bands to the bar.",
+   "Approach the bar so that it is centered over your feet. You feet should be about hip width apart. Bend at the hip to grip the bar at shoulder width, allowing your shoulder blades to protract. Typically, you would use an overhand grip or an over/under grip on heavier sets.",
+   "With your feet, and your grip set, take a big breath and then lower your hips and bend the knees until your shins contact the bar. Look forward with your head, keep your chest up and your back arched, and begin driving through the heels to move the weight upward.",
+   "After the bar passes the knees, aggressively pull the bar back, pulling your shoulder blades together as you drive your hips forward into the bar.",
+   "Lower the bar by bending at the hips and guiding it to the floor."
+  ]
+ },
+ {
+  "id": "Seated_Good_Mornings",
+  "ko": "시티드 굿모닝",
+  "inst": [
+   "Set up a box in a power rack. The pins should be set at an appropriate height. Begin by stepping under the bar and placing it across the back of the shoulders, not on top of your traps. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders.",
+   "Remove the bar from the rack, creating a tight arch in your lower back. Keep your head facing forward. With your back, shoulders, and core tight, push your knees and butt out and you begin your descent. Sit back with your hips until you are seated on the box. This will be your starting position.",
+   "Keeping the bar tight, bend forward at the hips as much as possible. If you set the pins to what would be parallel, you not only have a safety if you fail, but know when to stop.",
+   "Pause just above the pins and reverse the motion until your torso it upright."
+  ]
+ }
+]

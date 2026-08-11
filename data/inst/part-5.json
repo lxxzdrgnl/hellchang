@@ -1,0 +1,643 @@
+[
+ {
+  "id": "Seated_Palms-Down_Barbell_Wrist_Curl",
+  "ko": "시티드 바벨 리버스 리스트 컬",
+  "inst": [
+   "Hold a barbell with both hands and your palms facing down; hands spaced about shoulder width.",
+   "Place your feet flat on the floor, at a distance that is slightly wider than shoulder width apart.",
+   "Lean forward and place your forearms on top of your upper thighs with your palms down. Tip: Make sure that the back of the wrists lay on top of your knees. This will be your starting position.",
+   "Lower the bar as far as possible while inhaling and keeping a tight grip.",
+   "Now curl bar up as high as possible while flexing the forearms and exhaling. Hold the contraction at the top for a second and Tip: Only the wrist should move."
+  ]
+ },
+ {
+  "id": "Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl",
+  "ko": "시티드 케이블 리스트 컬 (로우풀리)",
+  "inst": [
+   "Put a bench in front of a low pulley machine that has a barbell or EZ Curl attachment on it.",
+   "Move the bench far enough away so that when you bring the handle to the top of your thighs tension is created on the cable due to the weight stack being moved up.",
+   "Now hold the handle with both hands, palms up, using a shoulder-width grip.",
+   "Step back and sit on the bench with your feet about shoulder width apart, firmly on the floor.",
+   "Lean forward and place the forearms on your thighs with the back of your wrists over your knees. This will be your starting position.",
+   "Lower the bar as far as possible, while inhaling and keeping a tight grip.",
+   "Now curl the bar up as high as possible while contracting the forearms. Tip: Only the wrist should move; not the forearms.",
+   "After a second contraction at the top go back to the starting position as you inhale.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Standing_Olympic_Plate_Hand_Squeeze",
+  "ko": "스탠딩 원판 핸드 스퀴즈",
+  "inst": [
+   "To begin, stand straight while holding a weight plate by the ridge at arm's length in each hand using a neutral grip (palms facing in). You feet should be shoulder width apart from each other. This will be your starting position.",
+   "Lower the plates until the fingers are nearly extended but can still hold weights. Inhale as you lower the plates.",
+   "Now raise the plates back to the starting position as you exhale by closing your hands.",
+   "Repeat for the recommended amount of repetitions prescribed in your program."
+  ]
+ },
+ {
+  "id": "Standing_Palms-Up_Barbell_Behind_The_Back_Wrist_Curl",
+  "ko": "비하인드 백 바벨 리스트 컬",
+  "inst": [
+   "Start by standing straight and holding a barbell behind your glutes at arm's length while using a pronated grip (palms will be facing back away from the glutes) and having your hands shoulder width apart from each other.",
+   "You should be looking straight forward while your feet are shoulder width apart from each other. This is the starting position.",
+   "While exhaling, slowly elevate the barbell up by curling your wrist in a semi-circular motion towards the ceiling. Note: Your wrist should be the only body part moving for this exercise.",
+   "Hold the contraction for a second and lower the barbell back down to the starting position while inhaling.",
+   "Repeat for the recommended amount of repetitions.",
+   "When finished, lower the barbell down to the squat rack or the floor by bending the knees. Tip: It is easiest to either pick it up from a squat rack or have a partner hand it to you."
+  ]
+ },
+ {
+  "id": "Wrist_Roller",
+  "ko": "리스트 롤러",
+  "inst": [
+   "To begin, stand straight up grabbing a wrist roller using a pronated grip (palms facing down). Your feet should be shoulder width apart.",
+   "Slowly lift both arms until they are fully extended and parallel to the floor in front of you. Note: Make sure the rope is not wrapped around the roller. Your entire body should be stationary except for the forearms. This is the starting position.",
+   "Rotate one wrist at a time in an upward motion to bring the weight up to the bar by rolling the rope around the roller.",
+   "Once the weight has reached the bar, slowly begin to lower the weight back down by rotating the wrist in a downward motion until the weight reaches the starting position.",
+   "Repeat for the prescribed amount of repetitions in your program."
+  ]
+ },
+ {
+  "id": "Wrist_Rotations_with_Straight_Bar",
+  "ko": "바벨 리스트 로테이션",
+  "inst": [
+   "Hold a barbell with both hands and your palms facing down; hands spaced about shoulder width. This will be your starting position.",
+   "Alternating between each of your hands, perform the movement by extending the wrist as though you were rolling up a newspaper. Continue alternating back and forth until failure.",
+   "Reverse the motion by flexing the wrist, rolling the opposite direction. Continue the alternating motion until failure."
+  ]
+ },
+ {
+  "id": "Barbell_Glute_Bridge",
+  "ko": "바벨 글루트 브릿지",
+  "inst": [
+   "Begin seated on the ground with a loaded barbell over your legs. Using a fat bar or having a pad on the bar can greatly reduce the discomfort caused by this exercise. Roll the bar so that it is directly above your hips, and lay down flat on the floor.",
+   "Begin the movement by driving through with your heels, extending your hips vertically through the bar. Your weight should be supported by your upper back and the heels of your feet.",
+   "Extend as far as possible, then reverse the motion to return to the starting position."
+  ]
+ },
+ {
+  "id": "Barbell_Hip_Thrust",
+  "ko": "바벨 힙쓰러스트",
+  "inst": [
+   "Begin seated on the ground with a bench directly behind you. Have a loaded barbell over your legs. Using a fat bar or having a pad on the bar can greatly reduce the discomfort caused by this exercise.",
+   "Roll the bar so that it is directly above your hips, and lean back against the bench so that your shoulder blades are near the top of it.",
+   "Begin the movement by driving through your feet, extending your hips vertically through the bar. Your weight should be supported by your shoulder blades and your feet. Extend as far as possible, then reverse the motion to return to the starting position."
+  ]
+ },
+ {
+  "id": "Butt_Lift_Bridge",
+  "ko": "글루트 브릿지",
+  "inst": [
+   "Lie flat on the floor on your back with the hands by your side and your knees bent. Your feet should be placed around shoulder width. This will be your starting position.",
+   "Pushing mainly with your heels, lift your hips off the floor while keeping your back straight. Breathe out as you perform this part of the motion and hold at the top for a second.",
+   "Slowly go back to the starting position as you breathe in."
+  ]
+ },
+ {
+  "id": "Downward_Facing_Balance",
+  "ko": "짐볼 다운워드 밸런스",
+  "inst": [
+   "Lie facedown on top of an exercise ball.",
+   "While resting on your stomach on the ball, walk your hands forward along the floor and lift your legs, extending your elbows and knees."
+  ]
+ },
+ {
+  "id": "Flutter_Kicks",
+  "ko": "플러터 킥",
+  "inst": [
+   "On a flat bench lie facedown with the hips on the edge of the bench, the legs straight with toes high off the floor and with the arms on top of the bench holding on to the front edge.",
+   "Squeeze your glutes and hamstrings and straighten the legs until they are level with the hips. This will be your starting position.",
+   "Start the movement by lifting the left leg higher than the right leg.",
+   "Then lower the left leg as you lift the right leg.",
+   "Continue alternating in this manner (as though you are doing a flutter kick in water) until you have done the recommended amount of repetitions for each leg. Make sure that you keep a controlled movement at all times. Tip: You will breathe normally as you perform this movement."
+  ]
+ },
+ {
+  "id": "Glute_Kickback",
+  "ko": "글루트 킥백",
+  "inst": [
+   "Kneel on the floor or an exercise mat and bend at the waist with your arms extended in front of you (perpendicular to the torso) in order to get into a kneeling push-up position but with the arms spaced at shoulder width. Your head should be looking forward and the bend of the knees should create a 90-degree angle between the hamstrings and the calves. This will be your starting position.",
+   "As you exhale, lift up your right leg until the hamstrings are in line with the back while maintaining the 90-degree angle bend. Contract the glutes throughout this movement and hold the contraction at the top for a second. Tip: At the end of the movement the upper leg should be parallel to the floor while the calf should be perpendicular to it.",
+   "Go back to the initial position as you inhale and now repeat with the left leg.",
+   "Continue to alternate legs until all of the recommended repetitions have been performed."
+  ]
+ },
+ {
+  "id": "Hip_Extension_with_Bands",
+  "ko": "밴드 힙 익스텐션",
+  "inst": [
+   "Secure one end of the band to the lower portion of a post and attach the other to one ankle.",
+   "Facing the attachment point of the band, hold on to the column to stabilize yourself.",
+   "Keeping your head and your chest up, move the resisted leg back as far as you can while keeping the knee straight.",
+   "Return the leg to the starting position."
+  ]
+ },
+ {
+  "id": "Hip_Lift_with_Band",
+  "ko": "밴드 힙 리프트",
+  "inst": [
+   "After choosing a suitable band, lay down in the middle of the rack, after securing the band on either side of you. If your rack doesn't have pegs, the band can be secured using heavy dumbbells or similar objects, just ensure they won't move.",
+   "Adjust your position so that the band is directly over your hips. Bend your knees and place your feet flat on the floor. Your hands can be on the floor or holding the band in position.",
+   "Keeping your shoulders on the ground, drive through your heels to raise your hips, pushing into the band as high as you can.",
+   "Pause at the top of the motion, and return to the starting position."
+  ]
+ },
+ {
+  "id": "Kneeling_Jump_Squat",
+  "ko": "닐링 점프 스쿼트",
+  "inst": [
+   "Begin kneeling on the floor with a barbell racked across the back of your shoulders, or you can use your body weight for this exercise. This can be done inside of a power rack to make unracking easier.",
+   "Sit back with your hips until your glutes touch your feet, keeping your head and chest up.",
+   "Explode up with your hips, generating enough power to land with your feet flat on the floor.",
+   "Continue with the squat by driving through your heels and extending the knees to come to a standing position."
+  ]
+ },
+ {
+  "id": "Kneeling_Squat",
+  "ko": "닐링 스쿼트",
+  "inst": [
+   "Set the bar to the proper height in a power rack. Kneel behind the bar; it may be beneficial to put a mat down to pad your knees. Slide under the bar, racking it across the back of your shoulders. Your shoulder blades should be retracted and the bar tight across your back. Unrack the weight.",
+   "With your head looking forward, sit back with your butt until you touch your calves.",
+   "Reverse the motion, returning the torso to an upright position."
+  ]
+ },
+ {
+  "id": "Leg_Lift",
+  "ko": "레그 리프트",
+  "inst": [
+   "While standing up straight with both feet next to each other at around shoulder width, grab a sturdy surface such as the sides of a squat rack or the top of a chair to brace yourself and keep balance.",
+   "With or without an ankle weight, lift one leg behind you as if performing a leg curl but standing up while keeping the other leg straight. Breathe out as you perform this movement.",
+   "Slowly bring the raised leg back to the floor as you breathe in.",
+   "Repeat for the recommended amount of repetitions.",
+   "Repeat the movement with the opposite leg."
+  ]
+ },
+ {
+  "id": "One-Legged_Cable_Kickback",
+  "ko": "케이블 킥백",
+  "inst": [
+   "Hook a leather ankle cuff to a low cable pulley and then attach the cuff to your ankle.",
+   "Face the weight stack from a distance of about two feet, grasping the steel frame for support.",
+   "While keeping your knees and hips bent slightly and your abs tight, contract your glutes to slowly \"kick\" the working leg back in a semicircular arc as high as it will comfortably go as you breathe out. Tip: At full extension, squeeze your glutes for a second in order to achieve a peak contraction.",
+   "Now slowly bring your working leg forward, resisting the pull of the cable until you reach the starting position.",
+   "Repeat for the recommended amount of repetitions.",
+   "Switch legs and repeat the movement for the other side."
+  ]
+ },
+ {
+  "id": "Physioball_Hip_Bridge",
+  "ko": "짐볼 힙 브릿지",
+  "inst": [
+   "Lay on a ball so that your upper back is on the ball with your hips unsupported. Both feet should be flat on the floor, hip width apart or wider. This will be your starting position.",
+   "Begin by extending the hips using your glutes and hamstrings, raising your hips upward as you bridge.",
+   "Pause at the top of the motion and return to the starting position."
+  ]
+ },
+ {
+  "id": "Pull_Through",
+  "ko": "케이블 풀 스루",
+  "inst": [
+   "Begin standing a few feet in front of a low pulley with a rope or handle attached. Face away from the machine, straddling the cable, with your feet set wide apart.",
+   "Begin the movement by reaching through your legs as far as possible, bending at the hips. Keep your knees slightly bent. Keeping your arms straight, extend through the hip to stand straight up. Avoid pulling upward through the shoulders; all of the motion should originate through the hips."
+  ]
+ },
+ {
+  "id": "Single_Leg_Glute_Bridge",
+  "ko": "원레그 글루트 브릿지",
+  "inst": [
+   "Lay on the floor with your feet flat and knees bent.",
+   "Raise one leg off of the ground, pulling the knee to your chest. This will be your starting position.",
+   "Execute the movement by driving through the heel, extending your hip upward and raising your glutes off of the ground.",
+   "Extend as far as possible, pause and then return to the starting position."
+  ]
+ },
+ {
+  "id": "Step-up_with_Knee_Raise",
+  "ko": "스텝업 니 레이즈",
+  "inst": [
+   "Stand facing a box or bench of an appropriate height with your feet together. This will be your starting position.",
+   "Begin the movement by stepping up, putting your left foot on the top of the bench. Extend through the hip and knee of your front leg to stand up on the box. As you stand on the box with your left leg, flex your right knee and hip, bringing your knee as high as you can.",
+   "Reverse this motion to step down off the box, and then repeat the sequence on the opposite leg."
+  ]
+ },
+ {
+  "id": "Alternating_Hang_Clean",
+  "ko": "얼터네이팅 행 클린",
+  "inst": [
+   "Place two kettlebells between your feet. To get in the starting position, push your butt back and look straight ahead.",
+   "Clean one kettlebell to your shoulder and hold on to the other kettlebell in a hanging position. Clean the kettlebell to your shoulder by extending through the legs and hips as you pull the kettlebell towards your shoulders. Rotate your wrist as you do so.",
+   "Lower the cleaned kettlebell to a hanging position and clean the alternate kettlebell. Repeat."
+  ]
+ },
+ {
+  "id": "Ball_Leg_Curl",
+  "ko": "짐볼 레그 컬",
+  "inst": [
+   "Begin on the floor laying on your back with your feet on top of the ball.",
+   "Position the ball so that when your legs are extended your ankles are on top of the ball. This will be your starting position.",
+   "Raise your hips off of the ground, keeping your weight on the shoulder blades and your feet.",
+   "Flex the knees, pulling the ball as close to you as you can, contracting the hamstrings.",
+   "After a brief pause, return to the starting position."
+  ]
+ },
+ {
+  "id": "Band_Good_Morning",
+  "ko": "밴드 굿모닝",
+  "inst": [
+   "Using a 41 inch band, stand on one end, spreading your feet a small amount. Bend at the hips to loop the end of the band behind your neck. This will be your starting position.",
+   "Keeping your legs straight, extend through the hips to come to a near vertical position.",
+   "Ensure that you do not round your back as you go down back to the starting position."
+  ]
+ },
+ {
+  "id": "Band_Good_Morning_Pull_Through",
+  "ko": "밴드 굿모닝 (풀 스루)",
+  "inst": [
+   "Loop the band around a post. Standing a little ways away, loop the opposite end around the neck. Your hands can help hold the band in position.",
+   "Begin by bending at the hips, getting your butt back as far as possible. Keep your back flat and bend forward to about 90 degrees. Your knees should be only slightly bent.",
+   "Return to the starting position be driving through with the hips to come back to a standing position."
+  ]
+ },
+ {
+  "id": "Box_Jump_Multiple_Response",
+  "ko": "박스 점프 (연속)",
+  "inst": [
+   "Assume a relaxed stance facing the box or platform approximately an arm's length away. Arms should be down at the sides and legs slightly bent.",
+   "Using the arms to aid in the initial burst, jump upward and forward, landing with feet simultaneously on top of the box or platform.",
+   "Immediately drop or jump back down to the original starting place; then repeat the sequence."
+  ]
+ },
+ {
+  "id": "Box_Skip",
+  "ko": "박스 스킵",
+  "inst": [
+   "You will need several boxes lined up about 8 feet apart.",
+   "Begin facing the first box with one leg slightly behind the other.",
+   "Drive off the back leg, attempting to gain as much height with the hips as possible.",
+   "Immediately upon landing on the box, drive the other leg forward and upward to gain height and distance, leaping from the box. Land between the first two boxes with the same leg that landed on the first box.",
+   "Then, step to the next box and repeat."
+  ]
+ },
+ {
+  "id": "Clean",
+  "ko": "클린",
+  "inst": [
+   "With a barbell on the floor close to the shins, take an overhand (or hook) grip just outside the legs. Lower your hips with the weight focused on the heels, back straight, head facing forward, chest up, with your shoulders just in front of the bar. This will be your starting position.",
+   "",
+   "Begin the first pull by driving through the heels, extending your knees. Your back angle should stay the same, and your arms should remain straight. Move the weight with control as you continue to above the knees.",
+   "Next comes the second pull, the main source of acceleration for the clean. As the bar approaches the mid-thigh position, begin extending through the hips. In a jumping motion, accelerate by extending the hips, knees, and ankles, using speed to move the bar upward. There should be no need to actively pull through the arms to accelerate the weight; at the end of the second pull, the body should be fully extended, leaning slightly back, with the arms still extended.",
+   "As full extension is achieved, transition into the third pull by aggressively shrugging and flexing the arms with the elbows up and out. At peak extension, aggressively pull yourself down, rotating your elbows under the bar as you do so. Receive the bar in a front squat position, the depth of which is dependent upon the height of the bar at the end of the third pull. The bar should be racked onto the protracted shoulders, lightly touching the throat with the hands relaxed. Continue to descend to the bottom squat position, which will help in the recovery.",
+   "Immediately recover by driving through the heels, keeping the torso upright and elbows up. Continue until you have risen to a standing position."
+  ]
+ },
+ {
+  "id": "Clean_Deadlift",
+  "ko": "클린 데드리프트",
+  "inst": [
+   "Begin standing with a barbell close to your shins. Your feet should be directly under your hips with your feet turned out slightly. Grip the bar with a double overhand grip or hook grip, about shoulder width apart. Squat down to the bar. Your spine should be in full extension, with a back angle that places your shoulders in front of the bar and your back as vertical as possible.",
+   "Begin by driving through the floor through the front of your heels. As the bar travels upward, maintain a constant back angle. Flare your knees out to the side to help keep them out of the bar's path.",
+   "After the bar crosses the knees, complete the lift by driving the hips into the bar until your hips and knees are extended."
+  ]
+ },
+ {
+  "id": "Double_Kettlebell_Alternating_Hang_Clean",
+  "ko": "더블 케틀벨 얼터네이트 행 클린",
+  "inst": [
+   "Place two kettlebells between your feet. To get in the starting position, push your butt back and look straight ahead.",
+   "Clean one kettlebell to your shoulder and hold on to the other kettlebell.",
+   "With a fluid motion, lower the top kettlebell while driving the bottom kettlebell up."
+  ]
+ },
+ {
+  "id": "Dumbbell_Clean",
+  "ko": "덤벨 클린",
+  "inst": [
+   "Begin standing with a dumbbell in each hand with your feet shoulder width apart.",
+   "Lower the weights to the floor by flexing at the hips and knees, pushing your hips back until the dumbbells reach the floor. This will be your starting position.",
+   "To initiate the movement, violently jump upward by extending the hips, knees, and ankles to acclerate the weights upward. Maintaining a neutral grip on the dumbbells, keep the arms straight until full extension is reached.",
+   "After full extension, rebend the hips and knees to receive the weight in a squat position. Allow the arms to bend, guiding the dumbbells to your shoulders.",
+   "Upon receiving the weight in the squat position, extend the hips and knees to finish in a standing position with the weights on your shoulders."
+  ]
+ },
+ {
+  "id": "Floor_Glute-Ham_Raise",
+  "ko": "플로어 글루트햄 레이즈",
+  "inst": [
+   "You can use a partner for this exercise or brace your feet under something stable.",
+   "Begin on your knees with your upper legs and torso upright. If using a partner, they will firmly hold your feet to keep you in position. This will be your starting position.",
+   "Lower yourself by extending at the knee, taking care to NOT flex the hips as you go forward.",
+   "Place your hands in front of you as you reach the floor. This movement is very difficult and you may be unable to do it unaided. Use your arms to lightly push off the floor to aid your return to the starting position."
+  ]
+ },
+ {
+  "id": "Front_Box_Jump",
+  "ko": "박스 점프",
+  "inst": [
+   "Begin with a box of an appropriate height 1-2 feet in front of you. Stand with your feet should width apart. This will be your starting position.",
+   "Perform a short squat in preparation for jumping, swinging your arms behind you.",
+   "Rebound out of this position, extending through the hips, knees, and ankles to jump as high as possible. Swing your arms forward and up.",
+   "Land on the box with the knees bent, absorbing the impact through the legs. You can jump from the box back to the ground, or preferably step down one leg at a time."
+  ]
+ },
+ {
+  "id": "Glute_Ham_Raise",
+  "ko": "글루트햄 레이즈",
+  "inst": [
+   "Begin by adjusting the equipment to fit your body. Place your feet against the footplate in between the rollers as you lie facedown. Your knees should be just behind the pad.",
+   "Start from the bottom of the movement. Keep your back arched as you begin the movement by flexing the knees. Drive your toes into the foot plate as you do so. Keep your upper body straight, and continue until your body is upright.",
+   "Return to the starting position, keeping your descent under control."
+  ]
+ },
+ {
+  "id": "Good_Morning",
+  "ko": "굿모닝",
+  "inst": [
+   "Begin with a bar on a rack at shoulder height. Rack the bar across the rear of your shoulders as you would a power squat, not on top of your shoulders. Keep your back tight, shoulder blades pinched together, and your knees slightly bent. Step back from the rack.",
+   "Begin by bending at the hips, moving them back as you bend over to near parallel. Keep your back arched and your cervical spine in proper alignment.",
+   "Reverse the motion by extending through the hips with your glutes and hamstrings. Continue until you have returned to the starting position."
+  ]
+ },
+ {
+  "id": "Good_Morning_off_Pins",
+  "ko": "굿모닝 (핀 스타트)",
+  "inst": [
+   "Begin with a bar on a rack at about the same height as your stomach. Bend over underneath the bar and rack the bar across the rear of your shoulders as you would a power squat, not on top of your shoulders. At the proper height, you should be near parallel to the floor when bent over. Keep your back tight, shoulder blades pinched together, and your knees slightly bent. Keep your back arched and your cervical spine in proper alignment.",
+   "Begin the motion by extending through the hips with your glutes and hamstrings, and you are standing with the weight. Slowly lower the weight back to the pins returning to the starting position."
+  ]
+ },
+ {
+  "id": "Hang_Snatch",
+  "ko": "행 스내치",
+  "inst": [
+   "Begin with a wide grip on the bar, with an overhand or hook grip. The feet should be directly below the hips with the feet turned out. Your knees should be slightly bent, and the torso inclined forward. The spine should be fully extended and the head facing forward. The bar should be at the hips. This will be your starting position.",
+   "Aggressively extend through the legs and hips. At peak extension, shrug the shoulders and allow the elbows to flex to the side.",
+   "As you move your feet into the receiving position, forcefully pull yourself below the bar as you elevate the bar overhead. Receive the bar with your body as low as possible and the arms fully extended overhead.",
+   "Return to a standing position with the weight overhead. Follow by returning the weight to the ground under control."
+  ]
+ },
+ {
+  "id": "Hang_Snatch_-_Below_Knees",
+  "ko": "행 스내치 (무릎 아래)",
+  "inst": [
+   "Begin with a wide grip on the bar, with an overhand or hook grip. The feet should be directly below the hips with the feet turned out. Your knees should be slightly bent, and the torso inclined forward. The spine should be fully extended and the head facing forward. The bar should be just below the knees. This will be your starting position.",
+   "Aggressively extend through the legs and hips. At peak extension, shrug the shoulders and allow the elbows to flex to the side.",
+   "As you move your feet into the receiving position, forcefully pull yourself below the bar as you elevate the bar overhead. Receive the bar with your body as low as possible and the arms fully extended overhead.",
+   "Return to a standing position with the weight overhead, and then return the weight to the floor under control."
+  ]
+ },
+ {
+  "id": "Hanging_Bar_Good_Morning",
+  "ko": "행잉 바 굿모닝",
+  "inst": [
+   "Begin with a bar on a rack at about the same height as your stomach. Suspend the bar using chains or suspension straps.",
+   "Bend over underneath the bar and rack the bar across the rear of your shoulders as you would a power squat, not on top of your traps. At the proper height, you should be near parallel to the floor when bent over. Keep your back tight, shoulder blades pinched together, and your knees slightly bent. Keep your back arched and your cervical spine in proper alignment.",
+   "Begin the motion by extending through the hips with your glutes and hamstrings, and you are standing with the weight.",
+   "Slowly lower the weight back to the starting position, where it is supported by the chains."
+  ]
+ },
+ {
+  "id": "Hurdle_Hops",
+  "ko": "허들 홉",
+  "inst": [
+   "Set up a row of hurdles or other small barriers, placing them a few feet apart.",
+   "Stand in front of the first hurdle with your feet shoulder width apart. This will be your starting position.",
+   "Begin by jumping with both feet over the first hurdle, swinging both arms as you jump.",
+   "Absorb the impact of landing by bending the knees, rebounding out of the first leap by jumping over the next hurdle. Continue until you have jumped over all of the hurdles."
+  ]
+ },
+ {
+  "id": "Kettlebell_Dead_Clean",
+  "ko": "케틀벨 데드 클린",
+  "inst": [
+   "Place kettlebell between your feet. To get in the starting position, push your butt back and look straight ahead.",
+   "Clean the kettlebell to your shoulder. Clean the kettlebell to your shoulders by extending through the legs and hips as you raise the kettlebell towards your shoulder. The wrist should rotate as you do so.",
+   "Lower the kettlebell, keeping the hamstrings loaded by keeping your back straight and your butt out."
+  ]
+ },
+ {
+  "id": "Kettlebell_Hang_Clean",
+  "ko": "케틀벨 행 클린",
+  "inst": [
+   "Place kettlebell between your feet. To get in the starting position, push your butt back and look straight ahead.",
+   "Clean kettlebell to your shoulder. Clean the kettlebell to your shoulders by extending through the legs and hips as you raise the kettlebell towards your shoulder. The wrist should rotate as you do so.",
+   "Lower kettlebell to a hanging position between your legs while keeping the hamstrings loaded. Keep your head up at all times."
+  ]
+ },
+ {
+  "id": "Kettlebell_One-Legged_Deadlift",
+  "ko": "케틀벨 원레그 데드리프트",
+  "inst": [
+   "Hold a kettlebell by the handle in one hand. Stand on one leg, on the same side that you hold the kettlebell.",
+   "Keeping that knee slightly bent, perform a stiff legged deadlift by bending at the hip, extending your free leg behind you for balance.",
+   "Continue lowering the kettlebell until you are parallel to the ground, and then return to the upright position."
+  ]
+ },
+ {
+  "id": "Knee_Tuck_Jump",
+  "ko": "니 턱 점프",
+  "inst": [
+   "Begin in a comfortable standing position with your knees slightly bent. Hold your hands in front of you, palms down with your fingertips together at chest height. This will be your starting position.",
+   "Rapidly dip down into a quarter squat and immediately explode upward. Drive the knees towards the chest, attempting to touch them to the palms of the hands.",
+   "Jump as high as you can, raising your knees up, and then ensure a good land be re-extending your legs, absorbing impact through be allowing the knees to rebend."
+  ]
+ },
+ {
+  "id": "Linear_3-Part_Start_Technique",
+  "ko": "리니어 3파트 스타트 드릴",
+  "inst": [
+   "This drill helps you accelerate as quickly as possible into a sprint from a dead stop. It helps to use a line to start from. Begin with two feet on the line. Place your left foot with the toe next to your right ankle. Place your right foot 4-6 inches behind the left.",
+   "Place your right hand onto the line, and thing bring your nose close to your left knee.",
+   "Squat down as you lean foward, your head being lower than your hips and your weight loaded onto the left leg. This will be your starting position.",
+   "Take your left hand up so that it is parallel to the ground, pointing behind you, and explode out when ready."
+  ]
+ },
+ {
+  "id": "Linear_Acceleration_Wall_Drill",
+  "ko": "리니어 가속 월 드릴",
+  "inst": [
+   "Lean at around 45 degrees against a wall. Your feet should be together, glutes contracted.",
+   "Begin by lifting your right knee quickly, pausing, and then driving it straight down into the ground.",
+   "Switch legs, raising the opposite knee, and then attacking the ground straight down.",
+   "Repeat once more with your right leg, and as soon as the right foot strikes the ground hammer them out rapidly, alternating left and right as fast as you can."
+  ]
+ },
+ {
+  "id": "Lunge_Pass_Through",
+  "ko": "케틀벨 런지 패스 스루",
+  "inst": [
+   "Stand with your torso upright holding a kettlebell in your right hand. This will be your starting position.",
+   "Step forward with your left foot and lower your upper body down by flexing the hip and the knee, keeping the torso upright. Lower your back knee until it nearly touches the ground.",
+   "As you lunge, pass the kettlebell under your front leg to your opposite hand.",
+   "Pressing through the heel of your foot, return to the starting position.",
+   "Repeat the movement for the recommended amount of repetitions, alternating legs."
+  ]
+ },
+ {
+  "id": "Lying_Leg_Curls",
+  "ko": "라잉 레그컬",
+  "inst": [
+   "Adjust the machine lever to fit your height and lie face down on the leg curl machine with the pad of the lever on the back of your legs (just a few inches under the calves). Tip: Preferably use a leg curl machine that is angled as opposed to flat since an angled position is more favorable for hamstrings recruitment.",
+   "Keeping the torso flat on the bench, ensure your legs are fully stretched and grab the side handles of the machine. Position your toes straight (or you can also use any of the other two stances described on the foot positioning section). This will be your starting position.",
+   "As you exhale, curl your legs up as far as possible without lifting the upper legs from the pad. Once you hit the fully contracted position, hold it for a second.",
+   "As you inhale, bring the legs back to the initial position. Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Moving_Claw_Series",
+  "ko": "무빙 클로 드릴",
+  "inst": [
+   "This move helps prepare your running form to help you excel at sprinting. As you run, be sure to flex the knee, aiming to kick your glutes as the hip extends.",
+   "Reload the quad as the leg moves back forward, attacking the ground on the next step.",
+   "Ensure that as you run, you block with the arms, punching through in a rapid 1-2 motion."
+  ]
+ },
+ {
+  "id": "Muscle_Snatch",
+  "ko": "머슬 스내치",
+  "inst": [
+   "Begin with a loaded barbell held at the mid thigh position with a wide grip. The feet should be directly below the hips, with the feet turned out as needed. Lower the hips, with the chest up and the head looking forward. The shoulders should be just in front of the bar. This will be the starting position.",
+   "Begin the pull by driving through the front of the heels, raising the bar. Transition into the second pull by extending through the hips knees and ankles, driving the bar up as quickly as possible. The bar should be close to the body.",
+   "Continue raising the bar to the overhead position, without rebending the knees."
+  ]
+ },
+ {
+  "id": "Natural_Glute_Ham_Raise",
+  "ko": "내추럴 글루트햄 레이즈",
+  "inst": [
+   "Using the leg pad of a lat pulldown machine or a preacher bench, position yourself so that your ankles are under the pads, knees on the seat, and you are facing away from the machine. You should be upright and maintaining good posture.",
+   "This will be your starting position. Lower yourself under control until your knees are almost completely straight.",
+   "Remaining in control, raise yourself back up to the starting position.",
+   "If you are unable to complete a rep, use a band, a partner, or push off of a box to aid in completing a repetition."
+  ]
+ },
+ {
+  "id": "One-Arm_Kettlebell_Clean",
+  "ko": "원암 케틀벨 클린",
+  "inst": [
+   "Place a kettlebell between your feet. As you bend down to grab the kettlebell, push your butt back and keep your eyes looking forward.",
+   "Clean the kettlebell to your shoulders by extending through the legs and hips as you raise the kettlebell towards your shoulder. The wrist should rotate as you do so.",
+   "Return the weight to the starting position."
+  ]
+ },
+ {
+  "id": "One-Arm_Open_Palm_Kettlebell_Clean",
+  "ko": "원암 케틀벨 클린 (오픈 팜)",
+  "inst": [
+   "Place one kettlebell between your feet.",
+   "Grab the handle with one hand and raise the kettlebell rapidly, let it flip so that the ball of the kettlebell lands in the palm of your hand.",
+   "Throw the kettlebell out in front of you and catch the handle with one hand.",
+   "Take the kettlebell to the floor and repeat. Make sure to work both arms."
+  ]
+ },
+ {
+  "id": "Open_Palm_Kettlebell_Clean",
+  "ko": "케틀벨 클린 (오픈 팜)",
+  "inst": [
+   "Place one kettlebell between your feet. Clean the kettlebell by extending through the legs and hips as you raise the kettlebell towards your shoulders.",
+   "Release the kettlebell as it comes up, and let it flip so that the ball of the kettlebell lands in the palms of your hands.",
+   "Release the kettlebell out in front of you and catch the handle with both hands. Lower the kettlebell to the starting position and repeat."
+  ]
+ },
+ {
+  "id": "Platform_Hamstring_Slides",
+  "ko": "햄스트링 슬라이드",
+  "inst": [
+   "For this movement a wooden floor or similar is needed. Lay on your back with your legs extended. Place a gym towel or a light weight underneath your heel. This will be your starting position.",
+   "Begin the movement by flexing the knee, keeping your other leg straight.",
+   "Continue bringing the heel closer to you, sliding it on the floor.",
+   "At full knee flexion, reverse the movement to return to the starting position."
+  ]
+ },
+ {
+  "id": "Power_Clean",
+  "ko": "파워 클린",
+  "inst": [
+   "Stand with your feet slightly wider than shoulder width apart and toes pointing out slightly.",
+   "Squat down and grasp bar with a closed, pronated grip. Your hands should be slightly wider than shoulder width apart outside knees with elbows fully extended.",
+   "Place the bar about 1 inch in front of your shins and over the balls of your feet.",
+   "Your back should be flat or slightly arched, your chest held up and out and your shoulder blades should be retracted.",
+   "Keep your head in a neutral position (in line with vertebral column and not tilted or rotated) with your eyes focused straight ahead. Inhale during this phase.",
+   "Lift the bar from the floor by forcefully extending the hips and the knees as you exhale. Tip: The upper torso should maintain the same angle. Do not bend at the waist yet and do not let the hips rise before the shoulders (this would have the effect of pushing the glutes in the air and stretching the hamstrings.",
+   "Keep elbows fully extended with the head in a neutral position and the shoulders over the bar.",
+   "As the bar raises keep it as close to the shins as possible.",
+   "As the bar passes the knees, thrust your hips forward and slightly bend the knees to avoid locking them. Tip: At this point your thighs should be against the bar.",
+   "Keep the back flat or slightly arched, elbows fully extended and your head neutral. Tip: You will hold your breath until the next phase.",
+   "Inhale and then forcefully and quickly extend your hips and knees and stand on your toes.",
+   "Keep the bar as close to your body as possible. Tip: Your back should be flat with the elbows pointed out to the sides and your head in a neutral position. Also, keep your shoulders over the bar and arms straight as long as possible.",
+   "When your lower body joints are fully extended, shrug the shoulders upward rapidly without letting the elbows flex yet. Exhale during this portion of the movement.",
+   "As the shoulders reach their highest elevation flex your elbows to begin pulling your body under the bar.",
+   "Continue to pull the arms as high and as long as possible. Tip: Due to the explosive nature of this phase, your torso will be erect or with an arched back, your head will be tilted back slightly and your feet may lose contact with the floor.",
+   "After the lower body has fully extended and the bar reaches near maximal height, pull your body under the bar and rotate the arms around and under the bar.",
+   "Simultaneously, flex the hips and knees into a quarter squat position.",
+   "Once the arms are under the bar, inhale and then lift your elbows to position the upper arms parallel to the floor. Rack the bar across the front of your collar bones and front shoulder muscles.",
+   "Catch the bar with an erect and tight torso, a neutral head position and flat feet. Exhale during this movement.",
+   "Stand up by extending the hips and knees to a fully erect position.",
+   "Lower the bar by gradually reducing the muscular tension of the arms to allow a controlled descent of the bar to the thighs. Inhale during this movement.",
+   "Simultaneously flex the hips and knees to cushion the impact of the bar on the thighs.",
+   "Squat down with the elbows fully extended until the bar touches the floor.",
+   "Start over at Phase 1 and repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Power_Clean_from_Blocks",
+  "ko": "파워 클린 (블록)",
+  "inst": [
+   "With a barbell on boxes of the desired height, take a grip just outside the legs. Lower your hips with the weight focused on the heels, back straight, head facing forward, chest up, with your shoulders just in front of the bar. This will be your starting position.",
+   "Begin the first pull by driving through the heels, extending your knees. Your back angle should stay the same, and your arms should remain straight. As the bar approaches the mid-thigh position, begin extending through the hips.",
+   "In a jumping motion, accelerate by extending the hips, knees, and ankles, using speed to move the bar upward. There should be no need to actively pull through the arms to accelerate the weight. At the end of the second pull, the body should be fully extended, leaning slightly back, with the arms still extended.",
+   "As full extension is achieved, transition into the third pull by aggressively shrugging and flexing the arms with the elbows up and out. At peak extension, pull yourself under the bar far enough that it can be racked onto the shoulders, rotating your elbows under the bar as you do so. The bar should be racked onto the protracted shoulders, lightly touching the throat with the hands relaxed.",
+   "Immediately recover by driving through the heels, keeping the torso upright and elbows up. Continue until you have risen to a standing position, and complete the repetition by returning the weight to the boxes."
+  ]
+ },
+ {
+  "id": "Power_Snatch",
+  "ko": "파워 스내치",
+  "inst": [
+   "Begin with a loaded barbell on the floor. The bar should be close to or touching the shins, and a wide grip should be taken on the bar. The feet should be directly below the hips, with the feet turned out as needed. Lower the hips, with the chest up and the head looking forward. The shoulders should be just in front of the bar. This will be the starting position.",
+   "Begin the first pull by driving through the front of the heels, raising the bar from the ground. The back angle should stay the same until the bar passes the knees.",
+   "Transition into the second pull by extending through the hips knees and ankles, driving the bar up as quickly as possible. The bar should be close to the body. At peak extension, shrug the shoulders and allow the elbows to flex to the side.",
+   "As you move your feet into the receiving position, a slightly wider position, pull yourself below the bar as you elevate the bar overhead. The bar should be received in a partial squat. Continue raising the bar to the overhead position, receiving the bar locked out overhead.",
+   "Return to a standing position with the weight over head."
+  ]
+ },
+ {
+  "id": "Power_Stairs",
+  "ko": "파워 스테어즈",
+  "inst": [
+   "In the power stairs, implements are moved up a staircase. For training purposes, these can be performed with a tire or box.",
+   "Begin by taking the implement with both hands. Set your feet wide, with your head and chest up. Drive through the ground with your heels, extending your knees and hips to raise the weight from the ground.",
+   "As you lean back, attempt to swing the weight onto the stairs, which are usually around 16-18\" high. You can use your legs to help push the weight onto the stair.",
+   "Repeat for 3-5 repetitions, and continue with a heavier weight, moving as fast as possible."
+  ]
+ },
+ {
+  "id": "Prone_Manual_Hamstring",
+  "ko": "프론 매뉴얼 햄스트링 컬",
+  "inst": [
+   "You will need a partner for this exercise. Lay face down with your legs straight. Your assistant will place their hand on your heel.",
+   "To begin, flex the knee to curl your leg up. Your partner should provide resistance, starting light and increasing the pressure as the movement is completed. Communicate with your partner to monitor appropriate resistance levels.",
+   "Pause at the top, returning the leg to the starting position as your partner provides resistance going the other direction."
+  ]
+ },
+ {
+  "id": "Prowler_Sprint",
+  "ko": "프라울러 스프린트",
+  "inst": [
+   "Place your sled on an appropriate surface, loaded to a suitable weight. The sled should provide enough resistance to require effort, but not so heavy that you are significantly slowed down.",
+   "You may use the upright or the low handles for this exercise. Place your hands on the handles with your arms extended, leaning into the implement.",
+   "With good posture, drive through the ground with alternating, short steps. Move as fast as you can for a short distance."
+  ]
+ },
+ {
+  "id": "Reverse_Band_Sumo_Deadlift",
+  "ko": "스모 데드리프트 (리버스 밴드)",
+  "inst": [
+   "Begin with a bar loaded on the floor inside of a power rack. Attach bands to the top of the rack, using either pegs or the frame itself. Attach the other end to the barbell.",
+   "Approach the bar so that the bar intersects the middle of the feet. The feet should be set very wide, near the collars. Bend at the hips to grip the bar. The arms should be directly below the shoulders, inside the legs, and you can use a pronated grip, a mixed grip, or hook grip. Relax the shoulders, which in effect lengthens your arms.",
+   "Take a breath, and then lower your hips, looking forward with your head with your chest up. Drive through the floor, spreading your feet apart, with your weight on the back half of your feet. Extend through the hips and knees.",
+   "As the bar passes through the knees, lean back and drive the hips into the bar, pulling your shoulder blades together.",
+   "Return the weight to the ground by bending at the hips and controlling the weight on the way down."
+  ]
+ }
+]

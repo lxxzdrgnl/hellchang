@@ -1,0 +1,682 @@
+[
+ {
+  "id": "Seated_Barbell_Twist",
+  "ko": "시티드 바벨 트위스트",
+  "inst": [
+   "Start out by sitting at the end of a flat bench with a barbell placed on top of your thighs. Your feet should be shoulder width apart from each other.",
+   "Grip the bar with your palms facing down and make sure your hands are wider than shoulder width apart from each other. Begin to lift the barbell up over your head until your arms are fully extended.",
+   "Now lower the barbell behind your head until it is resting along the base of your neck. This is the starting position.",
+   "While keeping your feet and head stationary, move your waist from side to side so that your oblique muscles feel the contraction. Only move from side to side as far as your waist will allow you to go. Stretching or moving too far can cause an injury to occur. Tip: Use a slow and controlled motion.",
+   "Remember to breathe out while twisting your body to the side and in when moving back to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Seated_Flat_Bench_Leg_Pull-In",
+  "ko": "시티드 벤치 레그 풀인",
+  "inst": [
+   "Sit on a bench with the legs stretched out in front of you slightly below parallel and your arms holding on to the sides of the bench. Your torso should be leaning backwards around a 45-degree angle from the bench. This will be your starting position.",
+   "Bring the knees in toward you as you move your torso closer to them at the same time. Breathe out as you perform this movement.",
+   "After a second pause, go back to the starting position as you inhale.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Seated_Leg_Tucks",
+  "ko": "시티드 레그 턱",
+  "inst": [
+   "Sit on a bench with the legs stretched out in front of you slightly below parallel and your arms holding on to the sides of the bench. Your torso should be leaning backwards around a 45-degree angle from the bench. This will be your starting position.",
+   "Bring the knees in toward you as you move your torso closer to them at the same time. Breathe out as you perform this movement.",
+   "After a second pause, go back to the starting position as you inhale.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Sit-Up",
+  "ko": "싯업",
+  "inst": [
+   "Lie down on the floor placing your feet either under something that will not move or by having a partner hold them. Your legs should be bent at the knees.",
+   "Place your hands behind your head and lock them together by clasping your fingers. This is the starting position.",
+   "Elevate your upper body so that it creates an imaginary V-shape with your thighs. Breathe out when performing this part of the exercise.",
+   "Once you feel the contraction for a second, lower your upper body back down to the starting position while inhaling.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Sledgehammer_Swings",
+  "ko": "슬레지해머 스윙",
+  "inst": [
+   "You will need a tire and a sledgehammer for this exercise. Stand in front of the tire about two feet away from it with a staggered stance. Grip the sledgehammer.",
+   "If you are right handed, your left hand should be at the bottom of the handle, and your right hand should be choking up closer to the head.",
+   "As you bring the sledge up, your right hand slides toward the head; as you swing down, your right hand will slide down to join your left hand. Slam it down as hard as you can against the tire. Control the bounce of the hammer off of the tire.",
+   "Repeat on the other side."
+  ]
+ },
+ {
+  "id": "Smith_Machine_Hip_Raise",
+  "ko": "스미스머신 힙 레이즈",
+  "inst": [
+   "Position a bench in the rack and load the bar to an appropriate weight. Lie down on the bench, placing the bottom of your feet against the bar. Unlock the bar and extend your legs. You may need to use your hands to assist you. For added stability grasp the sides of the Smith Machine. This will be your starting position.",
+   "Initiate the movement by rotating your pelvis, flexing your spine to raise your hips off of the bench. Maintain a slight bend in the knees throughout the motion.",
+   "After a brief pause, return the hips to the bench.",
+   "Repeat for the desired number of repetitions."
+  ]
+ },
+ {
+  "id": "Spell_Caster",
+  "ko": "스펠 캐스터",
+  "inst": [
+   "Hold a dumbbell in each hand with a pronated grip. Your feet should be wide with your hips and knees extended. This will be your starting position.",
+   "Begin the movement by pulling both of the dumbbells to one side next to your hip, rotating your torso.",
+   "Keeping your arms straight and the dumbbells parallel to the ground, rotate your torso to swing the weights to your opposite side.",
+   "Continue alternating, rotating from one side to the other until the set is complete."
+  ]
+ },
+ {
+  "id": "Spider_Crawl",
+  "ko": "스파이더 크롤",
+  "inst": [
+   "Begin in a prone position on the floor. Support your weight on your hands and toes, with your feet together and your body straight. Your arms should be bent to 90 degrees. This will be your starting position.",
+   "Initiate the movement by raising one foot off of the ground. Externally rotate the leg and bring the knee toward your elbow, as far forward as possible.",
+   "Return this leg to the starting position and repeat on the opposite side."
+  ]
+ },
+ {
+  "id": "Standing_Cable_Lift",
+  "ko": "스탠딩 케이블 리프트",
+  "inst": [
+   "Connect a standard handle on a tower, and move the cable to the lowest pulley position.",
+   "With your side to the cable, grab the handle with one hand and step away from the tower. You should be approximately arm's length away from the pulley, with the tension of the weight on the cable. Your outstretched arm should be aligned with the cable.",
+   "With your feet positioned shoulder width apart, squat down and grab the handle with both hands. Your arms should still be fully extended.",
+   "In one motion, pull the handle up and across your body until your arms are in a fully-extended position above your head.",
+   "Keep your back straight and your arms close to your body as you pivot your back foot and straighten your legs to get a full range of motion.",
+   "Retract your arms and then your body. Return to the neutral position in a slow and controlled manner.",
+   "Repeat to failure.",
+   "Then, reposition and repeat the same series of movements on the opposite side."
+  ]
+ },
+ {
+  "id": "Standing_Cable_Wood_Chop",
+  "ko": "케이블 우드찹",
+  "inst": [
+   "Connect a standard handle to a tower, and move the cable to the highest pulley position.",
+   "With your side to the cable, grab the handle with one hand and step away from the tower. You should be approximately arm's length away from the pulley, with the tension of the weight on the cable. Your outstretched arm should be aligned with the cable.",
+   "With your feet positioned shoulder width apart, reach upward with your other hand and grab the handle with both hands. Your arms should still be fully extended.",
+   "In one motion, pull the handle down and across your body to your front knee while rotating your torso.",
+   "Keep your back and arms straight and core tight while you pivot your back foot and bend your knees to get a full range of motion.",
+   "Maintain your stance and straight arms. Return to the neutral position in a slow and controlled manner.",
+   "Repeat to failure.",
+   "Then, reposition and repeat the same series of movements on the opposite side."
+  ]
+ },
+ {
+  "id": "Standing_Rope_Crunch",
+  "ko": "스탠딩 로프 크런치",
+  "inst": [
+   "Attach a rope to a high pulley and select an appropriate weight.",
+   "Stand with your back to the cable tower. Take the rope with both hands over your shoulders, holding it to your upper chest. This will be your starting position.",
+   "Perform the movement by flexing the spine, crunching the weight down as far as you can.",
+   "Hold the peak contraction for a moment before returning to the starting position."
+  ]
+ },
+ {
+  "id": "Supine_One-Arm_Overhead_Throw",
+  "ko": "수파인 원암 오버헤드 스로우",
+  "inst": [
+   "Lay on the ground on your back with your knees bent. Hold the ball with one hand, extending the arm fully behind your head. This will be your starting position.",
+   "Initiate the movement at the shoulder, throwing the ball directly forward of you as you sit up, attempting to go for maximum distance.",
+   "The ball can be thrown to a partner or bounced off of a wall."
+  ]
+ },
+ {
+  "id": "Supine_Two-Arm_Overhead_Throw",
+  "ko": "수파인 양손 오버헤드 스로우",
+  "inst": [
+   "Lay on the ground on your back with your knees bent.",
+   "Hold the ball with both hands, extending the arms fully behind your head. This will be your starting position.",
+   "Initiate the movement at the shoulder, throwing the ball directly forward of you as you sit up, attempting to go for maximum distance.",
+   "The ball can be thrown to a partner or bounced off of a wall."
+  ]
+ },
+ {
+  "id": "Suspended_Fallout",
+  "ko": "TRX 폴아웃",
+  "inst": [
+   "Adjust the straps so the handles are at an appropriate height, below waist level.",
+   "Begin standing and grasping the handles. Lean into the straps, moving to an incline push-up position. This will be your starting position.",
+   "Keeping your arms straight, lean further into the suspension straps, bringing your body closer to the ground, allowing your shoulders to extend, raising your arms up and over your head.",
+   "Maintain a neutral spine and keep the rest of your body straight, your shoulders being the only joints allowed to move.",
+   "Pause during the peak contraction, and then return to the starting position."
+  ]
+ },
+ {
+  "id": "Suspended_Reverse_Crunch",
+  "ko": "TRX 리버스 크런치",
+  "inst": [
+   "Secure a set of suspension straps with the handles hanging about a foot off of the ground. Move yourself into a pushup plank position facing away from the rack.",
+   "Place your feet into the handles. You should maintain a straight posture, not allowing the hips to sag. This will be your starting position.",
+   "Begin the movement by flexing the knees and hips, drawing the knees to your torso. As you do so, anteriorly tilt your pelvis, allowing your spine to flex.",
+   "At the top of the controlled motion, return to the starting position."
+  ]
+ },
+ {
+  "id": "Tuck_Crunch",
+  "ko": "턱 크런치",
+  "inst": [
+   "To begin, lie down on the floor or an exercise mat with your back pressed against the floor. Your arms should be lying across your sides with the palms facing down.",
+   "Your legs should be crossed by wrapping one ankle around the other. Slowly elevate your legs up in the air until your thighs are perpendicular to the floor with a slight bend at the knees. Note: Your knees and toes should be parallel to the floor as opposed to the thighs.",
+   "Move your arms from the floor and cross them so they are resting on your chest. This is the starting position.",
+   "While keeping your lower back pressed against the floor, slowly lift your torso. Remember to exhale while perform this part of the exercise.",
+   "Slowly begin to lower your torso back down to the starting position while inhaling.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Weighted_Ball_Side_Bend",
+  "ko": "짐볼 사이드 벤드 (중량)",
+  "inst": [
+   "To begin, lie down on an exercise ball with your left side of the torso (waist, hips and shoulder) pressed against the ball.",
+   "Your feet should be on the floor while your legs are crossed and hanging from the ball. Hold a weighted plate with your right hand directly to the right side of your head. Tip: Make sure the smooth side of the plate is resting against your head.",
+   "Place your left arm across your torso so that your palm is on your obliques. There should be a right angle between your left forearm and upper arm. This is the starting position.",
+   "Raise the side of your torso up by laterally flexing at the waist while exhaling.",
+   "Hold the contraction for a second and slowly lower yourself back down to the starting position while inhaling.",
+   "Repeat for the recommended amount of repetitions.",
+   "Switch sides and repeat the exercise."
+  ]
+ },
+ {
+  "id": "Weighted_Crunches",
+  "ko": "웨이티드 크런치",
+  "inst": [
+   "Lie flat on your back with your feet flat on the ground or resting on a bench with your knees bent at a 90 degree angle.",
+   "Hold a weight to your chest, or you may hold it extended above your torso. This will be your starting position.",
+   "Now, exhale and slowly begin to roll your shoulders off the floor. Your shoulders should come up off the floor about 4 inches while your lower back remains on the floor.",
+   "At the top of the movement, flex your abdominals and hold for a brief pause.",
+   "Then inhale and slowly lower yourself back down to the starting position."
+  ]
+ },
+ {
+  "id": "Weighted_Sit-Ups_-_With_Bands",
+  "ko": "웨이티드 싯업 (밴드)",
+  "inst": [
+   "Start out by strapping the bands around the base of the decline bench. Place the handles towards the inside of the decline bench so that when lying down, you can reach for both of them.",
+   "Position your legs through the decline machine until they are secured. Now reach for the exercise bands with both hands. Use a pronated (palms forward) grip to grasp the handles. Position them near your collar bone and rotate your wrist to a neutral grip (palms facing the torso). Note: Your arms should remain stationary throughout the exercise. This is the starting position.",
+   "Move your torso upward until your upper body is perpendicular to the floor while exhaling. Hold the contraction for a second and lower your upper body back down to the starting position while inhaling.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Wind_Sprints",
+  "ko": "윈드 스프린트",
+  "inst": [
+   "Hang from a pull-up bar using a pronated grip. Your arms and legs should be extended. This will be your starting position.",
+   "Begin by quickly raising one knee as high as you can. Do not swing your body or your legs. 3",
+   "Immediately reverse the motion, returning that leg to the starting position. Simultaneously raise the opposite knee as high as possible.",
+   "Continue alternating between legs until the set is complete."
+  ]
+ },
+ {
+  "id": "Monster_Walk",
+  "ko": "몬스터 워크",
+  "inst": [
+   "Place a band around both ankles and another around both knees. There should be enough tension that they are tight when your feet are shoulder width apart.",
+   "To begin, take short steps forward alternating your left and right foot.",
+   "After several steps, do just the opposite and walk backward to where you started."
+  ]
+ },
+ {
+  "id": "Thigh_Abductor",
+  "ko": "힙 어브덕션 머신 (아웃타이)",
+  "inst": [
+   "To begin, sit down on the abductor machine and select a weight you are comfortable with. When your legs are positioned properly, grip the handles on each side. Your entire upper body (from the waist up) should be stationary. This is the starting position.",
+   "Slowly press against the machine with your legs to move them away from each other while exhaling.",
+   "Feel the contraction for a second and begin to move your legs back to the starting position while breathing in. Note: Remember to keep your upper body stationary to prevent any injuries from occurring.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Band_Hip_Adductions",
+  "ko": "밴드 힙 어덕션",
+  "inst": [
+   "Anchor a band around a solid post or other object.",
+   "Stand with your left side to the post, and put your right foot through the band, getting it around the ankle.",
+   "Stand up straight and hold onto the post if needed. This will be your starting position.",
+   "Keeping the knee straight, raise your right legs out to the side as far as you can.",
+   "Return to the starting position and repeat for the desired rep count.",
+   "Switch sides."
+  ]
+ },
+ {
+  "id": "Carioca_Quick_Step",
+  "ko": "카리오카 퀵스텝",
+  "inst": [
+   "Begin with your feet a few inches apart and your left arm up in a relaxed, athletic position.",
+   "With your right foot, quick step behind and pull the knee up.",
+   "Fire your arms back up when you pull the right knee, being sure that your knee goes straight up and down. Avoid turning your feet as you move and continue to look forward as you move to the side."
+  ]
+ },
+ {
+  "id": "Lateral_Bound",
+  "ko": "래터럴 바운드",
+  "inst": [
+   "Assume a half squat position facing 90 degrees from your direction of travel. This will be your starting position.",
+   "Allow your lead leg to do a countermovement inward as you shift your weight to the outside leg.",
+   "Immediately push off and extend, attempting to bound to the side as far as possible.",
+   "Upon landing, immediately push off in the opposite direction, returning to your original start position.",
+   "Continue back and forth for several repetitions."
+  ]
+ },
+ {
+  "id": "Lateral_Box_Jump",
+  "ko": "래터럴 박스 점프",
+  "inst": [
+   "Assume a comfortable standing position, with a short box positioned next to you. This will be your starting position.",
+   "Quickly dip into a quarter squat to initiate the stretch reflex, and immediately reverse direction to jump up and to the side.",
+   "Bring your knees high enough to ensure your feet have good clearance over the box.",
+   "Land on the center of the box, using your legs to absorb the impact.",
+   "Carefully jump down to the other side of the box, and continue going back and forth for several repetitions."
+  ]
+ },
+ {
+  "id": "Lateral_Cone_Hops",
+  "ko": "래터럴 콘 홉",
+  "inst": [
+   "Position a number of cones in a row several feet apart.",
+   "Stand next to the end of the cones, facing 90 degrees to the direction of travel. This will be your starting position.",
+   "Begin the jump by dipping with the knees to initiate a stretch reflex, and immediately reverse direction to push off the ground, jumping up and sideways over the cone.",
+   "Use your legs to absorb impact upon landing, and rebound into the next jump, continuing down the row of cones."
+  ]
+ },
+ {
+  "id": "Thigh_Adductor",
+  "ko": "힙 어덕션 머신 (이너타이)",
+  "inst": [
+   "To begin, sit down on the adductor machine and select a weight you are comfortable with. When your legs are positioned properly on the leg pads of the machine, grip the handles on each side. Your entire upper body (from the waist up) should be stationary. This is the starting position.",
+   "Slowly press against the machine with your legs to move them towards each other while exhaling.",
+   "Feel the contraction for a second and begin to move your legs back to the starting position while breathing in. Note: Remember to keep your upper body stationary and avoid fast jerking motions in order to prevent any injuries from occurring.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Alternate_Hammer_Curl",
+  "ko": "얼터네이트 해머컬",
+  "inst": [
+   "Stand up with your torso upright and a dumbbell in each hand being held at arms length. The elbows should be close to the torso.",
+   "The palms of the hands should be facing your torso. This will be your starting position.",
+   "While holding the upper arm stationary, curl the right weight forward while contracting the biceps as you breathe out. Continue the movement until your biceps is fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a second as you squeeze the biceps. Tip: Only the forearms should move.",
+   "Slowly begin to bring the dumbbells back to starting position as your breathe in.",
+   "Repeat the movement with the left hand. This equals one repetition.",
+   "Continue alternating in this manner for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Alternate_Incline_Dumbbell_Curl",
+  "ko": "인클라인 덤벨 컬 (얼터네이트)",
+  "inst": [
+   "Sit down on an incline bench with a dumbbell in each hand being held at arms length. Tip: Keep the elbows close to the torso.This will be your starting position.",
+   "While holding the upper arm stationary, curl the right weight forward while contracting the biceps as you breathe out. As you do so, rotate the hand so that the palm is facing up. Continue the movement until your biceps is fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a second as you squeeze the biceps. Tip: Only the forearms should move.",
+   "Slowly begin to bring the dumbbell back to starting position as your breathe in.",
+   "Repeat the movement with the left hand. This equals one repetition.",
+   "Continue alternating in this manner for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Barbell_Curl",
+  "ko": "바벨 컬",
+  "inst": [
+   "Stand up with your torso upright while holding a barbell at a shoulder-width grip. The palm of your hands should be facing forward and the elbows should be close to the torso. This will be your starting position.",
+   "While holding the upper arms stationary, curl the weights forward while contracting the biceps as you breathe out. Tip: Only the forearms should move.",
+   "Continue the movement until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for a second and squeeze the biceps hard.",
+   "Slowly begin to bring the bar back to starting position as your breathe in.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Barbell_Curls_Lying_Against_An_Incline",
+  "ko": "인클라인 바벨 컬 (프론)",
+  "inst": [
+   "Lie against an incline bench, with your arms holding a barbell and hanging down in a horizontal line. This will be your starting position.",
+   "While keeping the upper arms stationary, curl the weight up as high as you can while squeezing the biceps. Breathe out as you perform this portion of the movement. Tip: Only the forearms should move. Do not swing the arms.",
+   "After a second contraction, slowly go back to the starting position as you inhale. Tip: Make sure that you go all of the way down.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Cable_Hammer_Curls_-_Rope_Attachment",
+  "ko": "케이블 해머컬 (로프)",
+  "inst": [
+   "Attach a rope attachment to a low pulley and stand facing the machine about 12 inches away from it.",
+   "Grasp the rope with a neutral (palms-in) grip and stand straight up keeping the natural arch of the back and your torso stationary.",
+   "Put your elbows in by your side and keep them there stationary during the entire movement. Tip: Only the forearms should move; not your upper arms. This will be your starting position.",
+   "Using your biceps, pull your arms up as you exhale until your biceps touch your forearms. Tip: Remember to keep the elbows in and your upper arms stationary.",
+   "After a 1 second contraction where you squeeze your biceps, slowly start to bring the weight back to the original position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Cable_Preacher_Curl",
+  "ko": "케이블 프리처 컬",
+  "inst": [
+   "Place a preacher bench about 2 feet in front of a pulley machine.",
+   "Attach a straight bar to the low pulley.",
+   "Sit at the preacher bench with your elbow and upper arms firmly on top of the bench pad and have someone hand you the bar from the low pulley.",
+   "Grab the bar and fully extend your arms on top of the preacher bench pad. This will be your starting position.",
+   "Now start pilling the weight up towards your shoulders and squeeze the biceps hard at the top of the movement. Exhale as you perform this motion. Also, hold for a second at the top.",
+   "Now slowly lower the weight to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Close-Grip_EZ_Bar_Curl",
+  "ko": "이지바 컬 (클로즈그립)",
+  "inst": [
+   "Stand up with your torso upright while holding an E-Z Curl Bar at the closer inner handle. The palm of your hands should be facing forward and they should be slightly tilted inwards due to the shape of the bar. The elbows should be close to the torso. This will be your starting position.",
+   "While holding the upper arms stationary, curl the weights forward while contracting the biceps as you breathe out. Tip: Only the forearms should move.",
+   "Continue the movement until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for a second and squeeze the biceps hard.",
+   "Slowly begin to bring the bar back to starting position as your breathe in.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Close-Grip_EZ-Bar_Curl_with_Band",
+  "ko": "밴드 이지바 컬 (클로즈그립)",
+  "inst": [
+   "Attach a band to each end of the bar. Take the bar, placing a foot on the middle of the band. Stand upright with a narrow, supinated grip on the EZ bar. The elbows should be close to the torso. This will be your starting position.",
+   "While keeping the upper arms in place, flex the elbows to execute the curl. Exhale as the weight is lifted.",
+   "Continue the movement until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for a second and squeeze the biceps hard.",
+   "Slowly begin to bring the bar back to starting position as your breathe in.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Close-Grip_Standing_Barbell_Curl",
+  "ko": "바벨 컬 (클로즈그립)",
+  "inst": [
+   "Hold a barbell with both hands, palms up and a few inches apart.",
+   "Stand with your torso straight and your head up. Your feet should be about shoulder width and your elbows close to your torso. This will be your starting position. Tip: You will keep your upper arms and elbows stationary throughout the movement.",
+   "Curl the bar up in a semicircular motion until the forearms touch your biceps. Exhale as you perform this portion of the movement and contract your biceps hard for a second at the top. Tip: Avoid bending the back or using swinging motions as you lift the weight. Only the forearms should move.",
+   "Slowly go back down to the starting position as you inhale.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Concentration_Curls",
+  "ko": "컨센트레이션 컬",
+  "inst": [
+   "Sit down on a flat bench with one dumbbell in front of you between your legs. Your legs should be spread with your knees bent and feet on the floor.",
+   "Use your right arm to pick the dumbbell up. Place the back of your right upper arm on the top of your inner right thigh. Rotate the palm of your hand until it is facing forward away from your thigh. Tip: Your arm should be extended and the dumbbell should be above the floor. This will be your starting position.",
+   "While holding the upper arm stationary, curl the weights forward while contracting the biceps as you breathe out. Only the forearms should move. Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level. Tip: At the top of the movement make sure that the little finger of your arm is higher than your thumb. This guarantees a good contraction. Hold the contracted position for a second as you squeeze the biceps.",
+   "Slowly begin to bring the dumbbells back to starting position as your breathe in. Caution: Avoid swinging motions at any time.",
+   "Repeat for the recommended amount of repetitions. Then repeat the movement with the left arm."
+  ]
+ },
+ {
+  "id": "Cross_Body_Hammer_Curl",
+  "ko": "크로스 바디 해머컬",
+  "inst": [
+   "Stand up straight with a dumbbell in each hand. Your hands should be down at your side with your palms facing in.",
+   "While keeping your palms facing in and without twisting your arm, curl the dumbbell of the right arm up towards your left shoulder as you exhale. Touch the top of the dumbbell to your shoulder and hold the contraction for a second.",
+   "Slowly lower the dumbbell along the same path as you inhale and then repeat the same movement for the left arm.",
+   "Continue alternating in this fashion until the recommended amount of repetitions is performed for each arm."
+  ]
+ },
+ {
+  "id": "Drag_Curl",
+  "ko": "드래그 컬",
+  "inst": [
+   "Grab a barbell with a supinated grip (palms facing forward) and get your elbows close to your torso and back. This will be your starting position.",
+   "As you exhale, curl the bar up while keeping the elbows to the back as you \"Drag\" the bar up by keeping it in contact with your torso. Tip: As you can see, you will not be keeping the elbows pinned to your sides, but instead you will be bringing them back. Also, do not lift your shoulders.",
+   "Slowly go back to the starting position as you keep the bar in contact with the torso at all times.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Dumbbell_Alternate_Bicep_Curl",
+  "ko": "덤벨 컬 (얼터네이트)",
+  "inst": [
+   "Stand (torso upright) with a dumbbell in each hand held at arms length. The elbows should be close to the torso and the palms of your hand should be facing your thighs.",
+   "While holding the upper arm stationary, curl the right weight as you rotate the palm of the hands until they are facing forward. At this point continue contracting the biceps as you breathe out until your biceps is fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a second as you squeeze the biceps. Tip: Only the forearms should move.",
+   "Slowly begin to bring the dumbbell back to the starting position as your breathe in. Tip: Remember to twist the palms back to the starting position (facing your thighs) as you come down.",
+   "Repeat the movement with the left hand. This equals one repetition.",
+   "Continue alternating in this manner for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Dumbbell_Bicep_Curl",
+  "ko": "덤벨 컬",
+  "inst": [
+   "Stand up straight with a dumbbell in each hand at arm's length. Keep your elbows close to your torso and rotate the palms of your hands until they are facing forward. This will be your starting position.",
+   "Now, keeping the upper arms stationary, exhale and curl the weights while contracting your biceps. Continue to raise the weights until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a brief pause as you squeeze your biceps.",
+   "Then, inhale and slowly begin to lower the dumbbells back to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Dumbbell_Prone_Incline_Curl",
+  "ko": "프론 인클라인 덤벨 컬",
+  "inst": [
+   "Grab a dumbbell on each hand and lie face down on an incline bench with your shoulders near top of the incline. Your knees can rest on the seat or your legs can be straddled to the sides (my preferred way).",
+   "Let your arms extend and hang naturally in front of you so that they are perpendicular to the floor.",
+   "Now keep your elbows in by your side and face the palms forward. This will be your starting position.",
+   "Raise the dumbbells by contracting the biceps until your arms are fully flexed. Exhale as you perform this portion of the movement and ensure that only the forearms move. The upper arms should remain stationary at all times.",
+   "Lower the dumbbells until your arms are fully extended.",
+   "Repeat for the recommended amount of times."
+  ]
+ },
+ {
+  "id": "EZ-Bar_Curl",
+  "ko": "이지바 컬",
+  "inst": [
+   "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar. Keep your elbows close to your torso. This will be your starting position.",
+   "Now, while keeping your upper arms stationary, exhale and curl the weights forward while contracting the biceps. Focus on only moving your forearms.",
+   "Continue to raise the weight until your biceps are fully contracted and the bar is at shoulder level. Hold the top contracted position for a moment and squeeze the biceps.",
+   "Then inhale and slowly lower the bar back to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Flexor_Incline_Dumbbell_Curls",
+  "ko": "인클라인 덤벨 컬 (플렉서)",
+  "inst": [
+   "Hold the dumbbell towards the side farther from you so that you have more weight on the side closest to you. (This can be done for a good effect on all bicep dumbbell exercises). Now do a normal incline dumbbell curl, but keep your wrists as far back as possible so as to neutralize any stress that is placed on them.",
+   "Sit on an incline bench that is angled at 45-degrees while holding a dumbbell on each hand.",
+   "Let your arms hang down on your sides, with the elbows in, and turn the palms of your hands forward with the thumbs pointing away from the body. Tip: You will keep this hand position throughout the movement as there should not be any twisting of the hands as they come up. This will be your starting position.",
+   "Curl up the two dumbbells at the same time until your biceps are fully contracted and exhale. Tip: Do not swing the arms or use momentum. Keep a controlled motion at all times. Hold the contracted position for a second at the top.",
+   "As you inhale, slowly go back to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Hammer_Curls",
+  "ko": "해머컬",
+  "inst": [
+   "Stand up with your torso upright and a dumbbell on each hand being held at arms length. The elbows should be close to the torso.",
+   "The palms of the hands should be facing your torso. This will be your starting position.",
+   "Now, while holding your upper arm stationary, exhale and curl the weight forward while contracting the biceps. Continue to raise the weight until the biceps are fully contracted and the dumbbell is at shoulder level. Hold the contracted position for a brief moment as you squeeze the biceps. Tip: Focus on keeping the elbow stationary and only moving your forearm.",
+   "After the brief pause, inhale and slowly begin the lower the dumbbells back down to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "High_Cable_Curls",
+  "ko": "하이 케이블 컬",
+  "inst": [
+   "Stand between a couple of high pulleys and grab a handle in each arm. Position your upper arms in a way that they are parallel to the floor with the palms of your hands facing you. This will be your starting position.",
+   "Curl the handles towards you until they are next to your ears. Make sure that as you do so you flex your biceps and exhale. The upper arms should remain stationary and only the forearms should move. Hold for a second in the contracted position as you squeeze the biceps.",
+   "Slowly bring back the arms to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Incline_Dumbbell_Curl",
+  "ko": "인클라인 덤벨 컬",
+  "inst": [
+   "Sit back on an incline bench with a dumbbell in each hand held at arms length. Keep your elbows close to your torso and rotate the palms of your hands until they are facing forward. This will be your starting position.",
+   "While holding the upper arm stationary, curl the weights forward while contracting the biceps as you breathe out. Only the forearms should move. Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a second.",
+   "Slowly begin to bring the dumbbells back to starting position as your breathe in.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Incline_Hammer_Curls",
+  "ko": "인클라인 해머컬",
+  "inst": [
+   "Seat yourself on an incline bench with a dumbbell in each hand. You should pressed firmly against he back with your feet together. Allow the dumbbells to hang straight down at your side, holding them with a neutral grip. This will be your starting position.",
+   "Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary.",
+   "Continue to the top of the movement and pause, then slowly return to the start position."
+  ]
+ },
+ {
+  "id": "Incline_Inner_Biceps_Curl",
+  "ko": "인클라인 이너 바이셉 컬",
+  "inst": [
+   "Hold a dumbbell in each hand and lie back on an incline bench.",
+   "The dumbbells should be at arm's length hanging at your sides and your palms should be facing out. This will be your starting position.",
+   "Now as you exhale curl the weight outward and up while keeping your forearms in line with your side deltoids. Continue the curl until the dumbbells are at shoulder height and to the sides of your deltoids. Tip: The end of the movement should look similar to a double biceps pose.",
+   "After a second contraction at the top of the movement, start to inhale and slowly lower the weights back to the starting position using the same path used to bring them up.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Lying_Cable_Curl",
+  "ko": "라잉 케이블 컬",
+  "inst": [
+   "Grab a straight bar or E-Z bar attachment that is attached to the low pulley with both hands, using an underhand (palms facing up) shoulder-width grip.",
+   "Lie flat on your back on top of an exercise mat in front of the weight stack with your feet flat against the frame of the pulley machine and your legs straight.",
+   "With your arms extended and your elbows close to your body slightly bend your arms. This will be your starting position.",
+   "While keeping your upper arms stationary and the elbows close to your body, curl the bar up slowly toward your chest as you breathe out and you squeeze the biceps.",
+   "After a second squeeze at the top of the movement, slowly return to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Lying_Close-Grip_Bar_Curl_On_High_Pulley",
+  "ko": "라잉 케이블 바 컬 (클로즈그립)",
+  "inst": [
+   "Place a flat bench in front of a high pulley or lat pulldown machine.",
+   "Hold the straight bar attachment using an underhand grip (palms up) that is about shoulder width.",
+   "Lie on your back with your head over the end of the bench.",
+   "Now extend your arms straight above your shoulders. Your torso and your arms should make a 90-degree angle and the elbows should be in. This will be your starting position.",
+   "As you breathe out, curl the bar down in a semicircular motion until it touches your chin. Squeeze the biceps for a second at the top contracted position. Tip: As you execute this motion only the forearms should move. At no time should the upper arms be moving at all. They are to remain perpendicular throughout the movement.",
+   "Return to starting position slowly.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Lying_High_Bench_Barbell_Curl",
+  "ko": "라잉 벤치 바벨 컬",
+  "inst": [
+   "Lie face forward on a tall flat bench while holding a barbell with a supinated grip (palms facing up). Tip: If you are holding a barbell grab it using a shoulder-width grip and if you are using an E-Z Bar grab it on the inner handles. Your upper body should be positioned in a way that the upper chest is over the end of the bench and the barbell is hanging in front of you with the arms extended and perpendicular to the floor. This will be your starting position.",
+   "While keeping the elbows in and the upper arms stationary, curl the weight up in a semi-circular motion as you contract the biceps and exhale. Hold at the top of the movement for a second.",
+   "As you inhale, slowly go back to the starting position. Tip: Maintain full control of the weight at all times and avoid any swinging. Remember, only the forearms should move throughout the movement.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Lying_Supine_Dumbbell_Curl",
+  "ko": "라잉 덤벨 컬",
+  "inst": [
+   "Lie down on a flat bench face up while holding a dumbbell in each arm on top of your thighs.",
+   "Bring the dumbbells to the sides with the arms extended and the palms of the hands facing your thighs (neutral grip).",
+   "While keeping the arms close to your torso and elbows in, slowly lower your arms (as you keep them extended with a slight bend at the elbows) as far down towards the floor as you can go. Once you cannot go down any further, lock your upper arms in that position and that will be your starting position.",
+   "As you breathe out, slowly begin to curl the weights up as you simultaneously rotate your wrists so that the palms of the hands face up. Continue curling the weight until your biceps are fully contracted and squeeze hard at the top position for a second. Tip: Only the forearms should move. Upper arms should remain stationary and elbows should stay in throughout the movement.",
+   "Return back to the starting position very slowly."
+  ]
+ },
+ {
+  "id": "Machine_Bicep_Curl",
+  "ko": "머신 컬",
+  "inst": [
+   "Adjust the seat to the appropriate height and make your weight selection. Place your upper arms against the pads and grasp the handles. This will be your starting position.",
+   "Perform the movement by flexing the elbow, pulling your lower arm towards your upper arm.",
+   "Pause at the top of the movement, and then slowly return the weight to the starting position.",
+   "Avoid returning the weight all the way to the stops until the set is complete to keep tension on the muscles being worked."
+  ]
+ },
+ {
+  "id": "Machine_Preacher_Curls",
+  "ko": "머신 프리처 컬",
+  "inst": [
+   "Sit down on the Preacher Curl Machine and select the weight.",
+   "Place the back of your upper arms (your triceps) on the preacher pad provided and grab the handles using an underhand grip (palms facing up). Tip: Make sure that when you place the arms on the pad you keep the elbows in. This will be your starting position.",
+   "Now lift the handles as you exhale and you contract the biceps. At the top of the position make sure that you hold the contraction for a second. Tip: Only the forearms should move. The upper arms should remain stationary and on the pad at all times.",
+   "Lower the handles slowly back to the starting position as you inhale.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "One_Arm_Dumbbell_Preacher_Curl",
+  "ko": "원암 덤벨 프리처 컬",
+  "inst": [
+   "Grab a dumbbell with the right arm and place the upper arm on top of the preacher bench or the incline bench. The dumbbell should be held at shoulder length. This will be your starting position.",
+   "As you breathe in, slowly lower the dumbbell until your upper arm is extended and the biceps is fully stretched.",
+   "As you exhale, use the biceps to curl the weight up until your biceps is fully contracted and the dumbbell is at shoulder height. Again, remember that to ensure full contraction you need to bring that small finger higher than the thumb.",
+   "Squeeze the biceps hard for a second at the contracted position and repeat for the recommended amount of repetitions.",
+   "Switch arms and repeat the movement."
+  ]
+ },
+ {
+  "id": "Overhead_Cable_Curl",
+  "ko": "오버헤드 케이블 컬",
+  "inst": [
+   "To begin, set a weight that is comfortable on each side of the pulley machine. Note: Make sure that the amount of weight selected is the same on each side.",
+   "Now adjust the height of the pulleys on each side and make sure that they are positioned at a height higher than that of your shoulders.",
+   "Stand in the middle of both sides and use an underhand grip (palms facing towards the ceiling) to grab each handle. Your arms should be fully extended and parallel to the floor with your feet positioned shoulder width apart from each other. Your body should be evenly aligned the handles. This is the starting position.",
+   "While exhaling, slowly squeeze the biceps on each side until your forearms and biceps touch.",
+   "While inhaling, move your forearms back to the starting position. Note: Your entire body is stationary during this exercise except for the forearms.",
+   "Repeat for the recommended amount of repetitions prescribed in your program."
+  ]
+ },
+ {
+  "id": "Preacher_Curl",
+  "ko": "프리처 컬",
+  "inst": [
+   "To perform this movement you will need a preacher bench and an E-Z bar. Grab the E-Z curl bar at the close inner handle (either have someone hand you the bar which is preferable or grab the bar from the front bar rest provided by most preacher benches). The palm of your hands should be facing forward and they should be slightly tilted inwards due to the shape of the bar.",
+   "With the upper arms positioned against the preacher bench pad and the chest against it, hold the E-Z Curl Bar at shoulder length. This will be your starting position.",
+   "As you breathe in, slowly lower the bar until your upper arm is extended and the biceps is fully stretched.",
+   "As you exhale, use the biceps to curl the weight up until your biceps is fully contracted and the bar is at shoulder height. Squeeze the biceps hard and hold this position for a second.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Preacher_Hammer_Dumbbell_Curl",
+  "ko": "프리처 해머컬",
+  "inst": [
+   "Place the upper part of both arms on top of the preacher bench as you hold a dumbbell in each hand with the palms facing each other (neutral grip).",
+   "As you breathe in, slowly lower the dumbbells until your upper arm is extended and the biceps is fully stretched.",
+   "As you exhale, use the biceps to curl the weight up until your biceps is fully contracted and the dumbbells are at shoulder height.",
+   "Squeeze the biceps hard for a second at the contracted position and repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Reverse_Barbell_Curl",
+  "ko": "리버스 바벨 컬",
+  "inst": [
+   "Stand up with your torso upright while holding a barbell at shoulder width with the elbows close to the torso. The palm of your hands should be facing down (pronated grip). This will be your starting position.",
+   "While holding the upper arms stationary, curl the weights while contracting the biceps as you breathe out. Only the forearms should move. Continue the movement until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for a second as you squeeze the muscle.",
+   "Slowly begin to bring the bar back to starting position as your breathe in.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Reverse_Barbell_Preacher_Curls",
+  "ko": "리버스 프리처 컬",
+  "inst": [
+   "Grab an EZ-bar using a shoulder width and palms down (pronated) grip.",
+   "Now place the upper part of both arms on top of the preacher bench and have your arms extended. This will be your starting position.",
+   "As you exhale, use the biceps to curl the weight up until your biceps are fully contracted and the barbell is at shoulder height. Squeeze the biceps hard for a second at the contracted position.",
+   "As you breathe in, slowly lower the barbell until your upper arms are extended and the biceps is fully stretched.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "id": "Reverse_Cable_Curl",
+  "ko": "리버스 케이블 컬",
+  "inst": [
+   "Stand up with your torso upright while holding a bar attachment that is attached to a low pulley using a pronated (palms down) and shoulder width grip. Make sure also that you keep the elbows close to the torso. This will be your starting position.",
+   "While holding the upper arms stationary, curl the weights while contracting the biceps as you breathe out. Only the forearms should move. Continue the movement until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for a second as you squeeze the muscle.",
+   "Slowly begin to bring the bar back to starting position as your breathe in.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ }
+]

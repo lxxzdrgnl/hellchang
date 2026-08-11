@@ -1,0 +1,1757 @@
+[
+  {
+    "id": "Clean",
+    "nameEn": "Clean",
+    "nameKo": "클린",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "전완근",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Clean_Deadlift",
+    "nameEn": "Clean Deadlift",
+    "nameKo": "클린 데드리프트",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "전완근",
+      "둔근",
+      "기립근",
+      "등 중앙",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Double_Kettlebell_Alternating_Hang_Clean",
+    "nameEn": "Double Kettlebell Alternating Hang Clean",
+    "nameKo": "더블 케틀벨 얼터네이트 행 클린",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "종아리",
+      "전완근",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "케틀벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Dumbbell_Clean",
+    "nameEn": "Dumbbell Clean",
+    "nameKo": "덤벨 클린",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "전완근",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근",
+      "승모근"
+    ],
+    "equipment": "덤벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Floor_Glute-Ham_Raise",
+    "nameEn": "Floor Glute-Ham Raise",
+    "nameKo": "플로어 글루트햄 레이즈",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근"
+    ],
+    "equipment": null,
+    "mechanic": "고립",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Front_Box_Jump",
+    "nameEn": "Front Box Jump",
+    "nameKo": "박스 점프",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "외전근",
+      "내전근",
+      "종아리",
+      "둔근",
+      "대퇴사두근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "밀기",
+    "level": "초급"
+  },
+  {
+    "id": "Glute_Ham_Raise",
+    "nameEn": "Glute Ham Raise",
+    "nameKo": "글루트햄 레이즈",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근"
+    ],
+    "equipment": "머신",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Good_Morning",
+    "nameEn": "Good Morning",
+    "nameKo": "굿모닝",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "복근",
+      "둔근",
+      "기립근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "밀기",
+    "level": "중급"
+  },
+  {
+    "id": "Good_Morning_off_Pins",
+    "nameEn": "Good Morning off Pins",
+    "nameKo": "굿모닝 (핀 스타트)",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "복근",
+      "둔근",
+      "기립근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "밀기",
+    "level": "중급"
+  },
+  {
+    "id": "Hang_Snatch",
+    "nameEn": "Hang Snatch",
+    "nameKo": "행 스내치",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "복근",
+      "종아리",
+      "전완근",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "상급"
+  },
+  {
+    "id": "Hang_Snatch_-_Below_Knees",
+    "nameEn": "Hang Snatch - Below Knees",
+    "nameKo": "행 스내치 (무릎 아래)",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "복근",
+      "종아리",
+      "전완근",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "상급"
+  },
+  {
+    "id": "Hanging_Bar_Good_Morning",
+    "nameEn": "Hanging Bar Good Morning",
+    "nameKo": "행잉 바 굿모닝",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "복근",
+      "둔근",
+      "기립근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "밀기",
+    "level": "중급"
+  },
+  {
+    "id": "Hurdle_Hops",
+    "nameEn": "Hurdle Hops",
+    "nameKo": "허들 홉",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "외전근",
+      "내전근",
+      "종아리",
+      "둔근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "밀기",
+    "level": "초급"
+  },
+  {
+    "id": "Kettlebell_Dead_Clean",
+    "nameEn": "Kettlebell Dead Clean",
+    "nameKo": "케틀벨 데드 클린",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "케틀벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Kettlebell_Hang_Clean",
+    "nameEn": "Kettlebell Hang Clean",
+    "nameKo": "케틀벨 행 클린",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근",
+      "기립근",
+      "전면삼각근",
+      "승모근"
+    ],
+    "equipment": "케틀벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Kettlebell_One-Legged_Deadlift",
+    "nameEn": "Kettlebell One-Legged Deadlift",
+    "nameKo": "케틀벨 원레그 데드리프트",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "기립근"
+    ],
+    "equipment": "케틀벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Knee_Tuck_Jump",
+    "nameEn": "Knee Tuck Jump",
+    "nameKo": "니 턱 점프",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "외전근",
+      "내전근",
+      "종아리",
+      "둔근",
+      "대퇴사두근"
+    ],
+    "equipment": "맨몸",
+    "mechanic": "복합",
+    "force": "밀기",
+    "level": "초급"
+  },
+  {
+    "id": "Linear_3-Part_Start_Technique",
+    "nameEn": "Linear 3-Part Start Technique",
+    "nameKo": "리니어 3파트 스타트 드릴",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "대퇴사두근"
+    ],
+    "equipment": null,
+    "mechanic": "복합",
+    "force": "밀기",
+    "level": "초급"
+  },
+  {
+    "id": "Linear_Acceleration_Wall_Drill",
+    "nameEn": "Linear Acceleration Wall Drill",
+    "nameKo": "리니어 가속 월 드릴",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근",
+      "대퇴사두근"
+    ],
+    "equipment": null,
+    "mechanic": "복합",
+    "force": null,
+    "level": "초급"
+  },
+  {
+    "id": "Lunge_Pass_Through",
+    "nameEn": "Lunge Pass Through",
+    "nameKo": "케틀벨 런지 패스 스루",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근",
+      "대퇴사두근"
+    ],
+    "equipment": "케틀벨",
+    "mechanic": "복합",
+    "force": "밀기",
+    "level": "중급"
+  },
+  {
+    "id": "Lying_Leg_Curls",
+    "nameEn": "Lying Leg Curls",
+    "nameKo": "라잉 레그컬",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "머신",
+    "mechanic": "고립",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Moving_Claw_Series",
+    "nameEn": "Moving Claw Series",
+    "nameKo": "무빙 클로 드릴",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "대퇴사두근"
+    ],
+    "equipment": null,
+    "mechanic": "복합",
+    "force": null,
+    "level": "초급"
+  },
+  {
+    "id": "Muscle_Snatch",
+    "nameEn": "Muscle Snatch",
+    "nameKo": "머슬 스내치",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근",
+      "삼두근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Natural_Glute_Ham_Raise",
+    "nameEn": "Natural Glute Ham Raise",
+    "nameKo": "내추럴 글루트햄 레이즈",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근",
+      "기립근"
+    ],
+    "equipment": "맨몸",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "One-Arm_Kettlebell_Clean",
+    "nameEn": "One-Arm Kettlebell Clean",
+    "nameKo": "원암 케틀벨 클린",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "기립근",
+      "전면삼각근",
+      "승모근"
+    ],
+    "equipment": "케틀벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "One-Arm_Kettlebell_Swings",
+    "nameEn": "One-Arm Kettlebell Swings",
+    "nameKo": "원암 케틀벨 스윙",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근",
+      "기립근",
+      "전면삼각근"
+    ],
+    "equipment": "케틀벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "One-Arm_Open_Palm_Kettlebell_Clean",
+    "nameEn": "One-Arm Open Palm Kettlebell Clean",
+    "nameKo": "원암 케틀벨 클린 (오픈 팜)",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "전완근",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근"
+    ],
+    "equipment": "케틀벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Open_Palm_Kettlebell_Clean",
+    "nameEn": "Open Palm Kettlebell Clean",
+    "nameKo": "케틀벨 클린 (오픈 팜)",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근"
+    ],
+    "equipment": "케틀벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "상급"
+  },
+  {
+    "id": "Platform_Hamstring_Slides",
+    "nameEn": "Platform Hamstring Slides",
+    "nameKo": "햄스트링 슬라이드",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "둔근"
+    ],
+    "equipment": "기타",
+    "mechanic": "고립",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Power_Clean",
+    "nameEn": "Power Clean",
+    "nameKo": "파워 클린",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "전완근",
+      "둔근",
+      "기립근",
+      "등 중앙",
+      "대퇴사두근",
+      "전면삼각근",
+      "승모근",
+      "삼두근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Power_Clean_from_Blocks",
+    "nameEn": "Power Clean from Blocks",
+    "nameKo": "파워 클린 (블록)",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "대퇴사두근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Power_Snatch",
+    "nameEn": "Power Snatch",
+    "nameKo": "파워 스내치",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근",
+      "승모근",
+      "삼두근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "상급"
+  },
+  {
+    "id": "Power_Stairs",
+    "nameEn": "Power Stairs",
+    "nameKo": "파워 스테어즈",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "내전근",
+      "종아리",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근",
+      "승모근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Prone_Manual_Hamstring",
+    "nameEn": "Prone Manual Hamstring",
+    "nameKo": "프론 매뉴얼 햄스트링 컬",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [],
+    "equipment": null,
+    "mechanic": "고립",
+    "force": "정적",
+    "level": "초급"
+  },
+  {
+    "id": "Prowler_Sprint",
+    "nameEn": "Prowler Sprint",
+    "nameKo": "프라울러 스프린트",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "가슴",
+      "둔근",
+      "대퇴사두근",
+      "전면삼각근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "밀기",
+    "level": "초급"
+  },
+  {
+    "id": "Reverse_Band_Sumo_Deadlift",
+    "nameEn": "Reverse Band Sumo Deadlift",
+    "nameKo": "스모 데드리프트 (리버스 밴드)",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "외전근",
+      "내전근",
+      "종아리",
+      "전완근",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "상급"
+  },
+  {
+    "id": "Reverse_Hyperextension",
+    "nameEn": "Reverse Hyperextension",
+    "nameKo": "리버스 하이퍼익스텐션",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근"
+    ],
+    "equipment": "머신",
+    "mechanic": null,
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Romanian_Deadlift",
+    "nameEn": "Romanian Deadlift",
+    "nameKo": "루마니안 데드리프트",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근",
+      "기립근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Romanian_Deadlift_from_Deficit",
+    "nameEn": "Romanian Deadlift from Deficit",
+    "nameKo": "루마니안 데드리프트 (데피싯)",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "전완근",
+      "둔근",
+      "기립근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Seated_Band_Hamstring_Curl",
+    "nameEn": "Seated Band Hamstring Curl",
+    "nameKo": "시티드 밴드 레그컬",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "기타",
+    "mechanic": "고립",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Seated_Leg_Curl",
+    "nameEn": "Seated Leg Curl",
+    "nameKo": "시티드 레그컬",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "머신",
+    "mechanic": "고립",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Smith_Machine_Hang_Power_Clean",
+    "nameEn": "Smith Machine Hang Power Clean",
+    "nameKo": "스미스머신 행 파워 클린",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근",
+      "승모근"
+    ],
+    "equipment": "머신",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Smith_Machine_Stiff-Legged_Deadlift",
+    "nameEn": "Smith Machine Stiff-Legged Deadlift",
+    "nameKo": "스미스머신 스티프 레그 데드리프트",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "기립근"
+    ],
+    "equipment": "머신",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Snatch_Deadlift",
+    "nameEn": "Snatch Deadlift",
+    "nameKo": "스내치 데드리프트",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "전완근",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Snatch_Pull",
+    "nameEn": "Snatch Pull",
+    "nameKo": "스내치 풀",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Split_Snatch",
+    "nameEn": "Split Snatch",
+    "nameKo": "스플릿 스내치",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "전완근",
+      "둔근",
+      "기립근",
+      "대퇴사두근",
+      "전면삼각근",
+      "승모근",
+      "삼두근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "상급"
+  },
+  {
+    "id": "Standing_Leg_Curl",
+    "nameEn": "Standing Leg Curl",
+    "nameKo": "스탠딩 레그컬",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "머신",
+    "mechanic": "고립",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Stiff-Legged_Barbell_Deadlift",
+    "nameEn": "Stiff-Legged Barbell Deadlift",
+    "nameKo": "바벨 스티프 레그 데드리프트",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "기립근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Stiff-Legged_Dumbbell_Deadlift",
+    "nameEn": "Stiff-Legged Dumbbell Deadlift",
+    "nameKo": "덤벨 스티프 레그 데드리프트",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "기립근"
+    ],
+    "equipment": "덤벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Sumo_Deadlift",
+    "nameEn": "Sumo Deadlift",
+    "nameKo": "스모 데드리프트",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "내전근",
+      "전완근",
+      "둔근",
+      "기립근",
+      "등 중앙",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Sumo_Deadlift_with_Bands",
+    "nameEn": "Sumo Deadlift with Bands",
+    "nameKo": "스모 데드리프트 (밴드)",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "내전근",
+      "전완근",
+      "둔근",
+      "기립근",
+      "등 중앙",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Sumo_Deadlift_with_Chains",
+    "nameEn": "Sumo Deadlift with Chains",
+    "nameKo": "스모 데드리프트 (체인)",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "외전근",
+      "내전근",
+      "전완근",
+      "둔근",
+      "기립근",
+      "등 중앙",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Vertical_Swing",
+    "nameEn": "Vertical Swing",
+    "nameKo": "덤벨 버티컬 스윙",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "대퇴사두근",
+      "전면삼각근"
+    ],
+    "equipment": "덤벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Wide_Stance_Stiff_Legs",
+    "nameEn": "Wide Stance Stiff Legs",
+    "nameKo": "스티프 레그 데드리프트 (와이드 스탠스)",
+    "bodyPart": "하체",
+    "targetMuscles": [
+      "햄스트링"
+    ],
+    "secondaryMuscles": [
+      "내전근",
+      "둔근",
+      "기립근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Band_Assisted_Pull-Up",
+    "nameEn": "Band Assisted Pull-Up",
+    "nameKo": "밴드 어시스트 풀업",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "복근",
+      "전완근",
+      "등 중앙"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": null,
+    "level": "초급"
+  },
+  {
+    "id": "Bent-Arm_Barbell_Pullover",
+    "nameEn": "Bent-Arm Barbell Pullover",
+    "nameKo": "바벨 풀오버 (벤트암)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "가슴",
+      "후면삼각근",
+      "삼두근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Cable_Incline_Pushdown",
+    "nameEn": "Cable Incline Pushdown",
+    "nameKo": "케이블 인클라인 푸시다운",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "케이블",
+    "mechanic": "고립",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Catch_and_Overhead_Throw",
+    "nameEn": "Catch and Overhead Throw",
+    "nameKo": "메디신볼 오버헤드 스로우",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "복근",
+      "가슴",
+      "전면삼각근"
+    ],
+    "equipment": "메디신볼",
+    "mechanic": "복합",
+    "force": "밀기",
+    "level": "초급"
+  },
+  {
+    "id": "Chin-Up",
+    "nameEn": "Chin-Up",
+    "nameKo": "친업",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "전완근",
+      "등 중앙"
+    ],
+    "equipment": "맨몸",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Close-Grip_Front_Lat_Pulldown",
+    "nameEn": "Close-Grip Front Lat Pulldown",
+    "nameKo": "렛풀다운 (클로즈그립)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Elevated_Cable_Rows",
+    "nameEn": "Elevated Cable Rows",
+    "nameKo": "케이블 로우 (하이 포지션)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "등 중앙",
+      "승모근"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Full_Range-Of-Motion_Lat_Pulldown",
+    "nameEn": "Full Range-Of-Motion Lat Pulldown",
+    "nameKo": "렛풀다운 (풀 가동범위)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Gironda_Sternum_Chins",
+    "nameEn": "Gironda Sternum Chins",
+    "nameKo": "지론다 스터넘 친업",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Kipping_Muscle_Up",
+    "nameEn": "Kipping Muscle Up",
+    "nameKo": "키핑 머슬업",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "복근",
+      "이두근",
+      "전완근",
+      "등 중앙",
+      "후면삼각근",
+      "승모근",
+      "삼두근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Kneeling_High_Pulley_Row",
+    "nameEn": "Kneeling High Pulley Row",
+    "nameKo": "닐링 하이 풀리 로우",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Kneeling_Single-Arm_High_Pulley_Row",
+    "nameEn": "Kneeling Single-Arm High Pulley Row",
+    "nameKo": "닐링 원암 하이 풀리 로우",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Leverage_Iso_Row",
+    "nameEn": "Leverage Iso Row",
+    "nameKo": "아이소 레터럴 로우 (머신)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙"
+    ],
+    "equipment": "머신",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "London_Bridges",
+    "nameEn": "London Bridges",
+    "nameKo": "런던 브릿지 풀업",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "전완근",
+      "등 중앙"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Muscle_Up",
+    "nameEn": "Muscle Up",
+    "nameKo": "머슬업",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "복근",
+      "이두근",
+      "전완근",
+      "등 중앙",
+      "후면삼각근",
+      "승모근",
+      "삼두근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "One_Arm_Lat_Pulldown",
+    "nameEn": "One Arm Lat Pulldown",
+    "nameKo": "원암 렛풀다운",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Overhead_Slam",
+    "nameEn": "Overhead Slam",
+    "nameKo": "메디신볼 슬램",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "메디신볼",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Pullups",
+    "nameEn": "Pullups",
+    "nameKo": "풀업",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙"
+    ],
+    "equipment": "맨몸",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Rocky_Pull-Ups_Pulldowns",
+    "nameEn": "Rocky Pull-Ups/Pulldowns",
+    "nameKo": "로키 풀업",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Rope_Climb",
+    "nameEn": "Rope Climb",
+    "nameKo": "로프 클라이밍",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "전완근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Rope_Straight-Arm_Pulldown",
+    "nameEn": "Rope Straight-Arm Pulldown",
+    "nameKo": "스트레이트암 풀다운 (로프)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "케이블",
+    "mechanic": "고립",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Shotgun_Row",
+    "nameEn": "Shotgun Row",
+    "nameKo": "샷건 로우",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Side_To_Side_Chins",
+    "nameEn": "Side To Side Chins",
+    "nameKo": "사이드 투 사이드 친업",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "전완근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Straight-Arm_Pulldown",
+    "nameEn": "Straight-Arm Pulldown",
+    "nameKo": "스트레이트암 풀다운",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [],
+    "equipment": "케이블",
+    "mechanic": "고립",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Underhand_Cable_Pulldowns",
+    "nameEn": "Underhand Cable Pulldowns",
+    "nameKo": "렛풀다운 (언더그립)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "V-Bar_Pulldown",
+    "nameEn": "V-Bar Pulldown",
+    "nameKo": "렛풀다운 (V바)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "V-Bar_Pullup",
+    "nameEn": "V-Bar Pullup",
+    "nameKo": "풀업 (V바)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "맨몸",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Weighted_Pull_Ups",
+    "nameEn": "Weighted Pull Ups",
+    "nameKo": "웨이티드 풀업",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Wide-Grip_Lat_Pulldown",
+    "nameEn": "Wide-Grip Lat Pulldown",
+    "nameKo": "렛풀다운 (와이드그립)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Wide-Grip_Pulldown_Behind_The_Neck",
+    "nameEn": "Wide-Grip Pulldown Behind The Neck",
+    "nameKo": "비하인드넥 풀다운 (와이드그립)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "케이블",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Wide-Grip_Rear_Pull-Up",
+    "nameEn": "Wide-Grip Rear Pull-Up",
+    "nameKo": "비하인드넥 풀업 (와이드그립)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "광배근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "등 중앙",
+      "후면삼각근"
+    ],
+    "equipment": "맨몸",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Atlas_Stone_Trainer",
+    "nameEn": "Atlas Stone Trainer",
+    "nameKo": "아틀라스 스톤 트레이너",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "기립근"
+    ],
+    "secondaryMuscles": [
+      "이두근",
+      "전완근",
+      "둔근",
+      "햄스트링",
+      "대퇴사두근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Atlas_Stones",
+    "nameEn": "Atlas Stones",
+    "nameKo": "아틀라스 스톤",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "기립근"
+    ],
+    "secondaryMuscles": [
+      "복근",
+      "내전근",
+      "이두근",
+      "종아리",
+      "전완근",
+      "둔근",
+      "햄스트링",
+      "등 중앙",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "상급"
+  },
+  {
+    "id": "Axle_Deadlift",
+    "nameEn": "Axle Deadlift",
+    "nameKo": "액슬바 데드리프트",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "기립근"
+    ],
+    "secondaryMuscles": [
+      "전완근",
+      "둔근",
+      "햄스트링",
+      "등 중앙",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "기타",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Barbell_Deadlift",
+    "nameEn": "Barbell Deadlift",
+    "nameKo": "데드리프트",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "기립근"
+    ],
+    "secondaryMuscles": [
+      "종아리",
+      "전완근",
+      "둔근",
+      "햄스트링",
+      "광배근",
+      "등 중앙",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Deadlift_with_Bands",
+    "nameEn": "Deadlift with Bands",
+    "nameKo": "데드리프트 (밴드)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "기립근"
+    ],
+    "secondaryMuscles": [
+      "전완근",
+      "둔근",
+      "햄스트링",
+      "등 중앙",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "상급"
+  },
+  {
+    "id": "Deadlift_with_Chains",
+    "nameEn": "Deadlift with Chains",
+    "nameKo": "데드리프트 (체인)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "기립근"
+    ],
+    "secondaryMuscles": [
+      "전완근",
+      "둔근",
+      "햄스트링",
+      "등 중앙",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "상급"
+  },
+  {
+    "id": "Deficit_Deadlift",
+    "nameEn": "Deficit Deadlift",
+    "nameKo": "데피싯 데드리프트",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "기립근"
+    ],
+    "secondaryMuscles": [
+      "전완근",
+      "둔근",
+      "햄스트링",
+      "등 중앙",
+      "대퇴사두근",
+      "승모근"
+    ],
+    "equipment": "바벨",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  },
+  {
+    "id": "Hyperextensions_Back_Extensions",
+    "nameEn": "Hyperextensions (Back Extensions)",
+    "nameKo": "백 익스텐션",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "기립근"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "햄스트링"
+    ],
+    "equipment": "기타",
+    "mechanic": "고립",
+    "force": "당기기",
+    "level": "초급"
+  },
+  {
+    "id": "Hyperextensions_With_No_Hyperextension_Bench",
+    "nameEn": "Hyperextensions With No Hyperextension Bench",
+    "nameKo": "백 익스텐션 (벤치 없이)",
+    "bodyPart": "등",
+    "targetMuscles": [
+      "기립근"
+    ],
+    "secondaryMuscles": [
+      "둔근",
+      "햄스트링"
+    ],
+    "equipment": "맨몸",
+    "mechanic": "복합",
+    "force": "당기기",
+    "level": "중급"
+  }
+]
