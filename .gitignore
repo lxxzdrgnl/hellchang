@@ -43,3 +43,6 @@ next-env.d.ts
 
 # prisma generated client
 /lib/generated
+
+# 서브에이전트에 나눠준 중간 산출물. data/ko 가 원천이다.
+/data/chunks
