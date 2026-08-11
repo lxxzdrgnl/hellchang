@@ -1,0 +1,39 @@
+# 미니 PC 의 ~/servers/docker-compose.yml 에 이 두 서비스를 추가한다.
+# 21개 서비스가 한 compose 파일을 공유하므로 여기 있는 것을 통째로 옮기지 말고
+# services: 아래에 이 블록만 붙여넣는다.
+#
+# 볼륨도 파일 맨 아래 volumes: 에 hellchang_pgdata: 한 줄을 추가해야 한다.
+#
+# 도메인은 Nginx Proxy Manager 에서 붙인다 (README 배포 절 참고):
+#   hellchang.rheon.kr  →  hellchang-web : 3000
+
+  hellchang-db:
+    image: postgres:17-alpine
+    container_name: hellchang-db
+    environment:
+      POSTGRES_DB: hellchang
+      POSTGRES_USER: hellchang
+      POSTGRES_PASSWORD: ${HELLCHANG_POSTGRES_PASSWORD}
+    volumes:
+      - hellchang_pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hellchang -d hellchang"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  hellchang-web:
+    build:
+      context: ./hellchang/repo
+    container_name: hellchang-web
+    env_file:
+      - ./hellchang/hellchang-web.env
+    depends_on:
+      hellchang-db:
+        condition: service_healthy
+    restart: unless-stopped
+    # 포트를 호스트에 노출하지 않는다. NPM 이 같은 docker 네트워크에서
+    # 컨테이너 이름으로 붙으므로 외부에 열 이유가 없다.
+    expose:
+      - "3000"

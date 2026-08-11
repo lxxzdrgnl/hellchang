@@ -1,0 +1,220 @@
+// 설계서: docs/superpowers/specs/2026-08-11-루틴-기록-design.md
+//
+// 핵심은 프리셋 · 세션 · 실제값의 3계층이다. 프리셋을 오늘로 불러오면 깊은 복사가
+// 일어나고 그 뒤로 둘은 남남이다. 오늘 중량을 올려도 프리셋은 그대로고, 프리셋을
+// 고쳐도 지난 기록은 안 변한다. 진척 그래프가 계획 수정에 오염되지 않는 이유다.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+// Prisma 7 부터 연결 URL 은 스키마가 아니라 prisma.config.ts 와
+// PrismaClient 의 driver adapter 로 간다.
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  MAIN // 주운동
+  ACCESSORY // 보조
+}
+
+enum SessionStatus {
+  IN_PROGRESS
+  DONE
+}
+
+model User {
+  id         String   @id @default(cuid())
+  provider   String // kakao | google
+  providerId String
+  email      String?
+  nickname   String?
+  imageUrl   String?
+  // 2단계(식단 AI)에서 권장 단백질 계산에 쓴다. 지금은 비어 있다.
+  weightKg   Float?
+  createdAt  DateTime @default(now())
+
+  exercises Exercise[]
+  presets   RoutinePreset[]
+  planned   PlannedDay[]
+  sessions  Session[]
+
+  @@unique([provider, providerId])
+}
+
+/// 종목 마스터. 그립 변형까지 별개 행이다 — 그립마다 올라가는 중량이 달라서
+/// 섞으면 진척 그래프가 탕탕 뛰는 것처럼 보인다.
+model Exercise {
+  id     String  @id @default(cuid())
+  nameKo String
+  nameEn String?
+
+  /// 칩 필터용 대분류: 등 · 하체 · 가슴 · 어깨 · 팔 · 복근
+  bodyPart String
+  /// 주 타겟. 윗가슴/아랫가슴 같은 세부까지. 데이터셋에 없어서 손으로 채운다.
+  targetMuscles    String[]
+  secondaryMuscles String[]
+
+  equipment String? // 덤벨 · 바벨 · 머신 · 케이블 · 맨몸 · 밴드 · 케틀벨
+  mechanic  String? // 복합 · 고립
+  force     String? // 밀기 · 당기기 · 정적
+  level     String? // 초급 · 중급 · 상급
+  category  String? // 근력 · 유산소 · 스트레칭 · 플라이오
+
+  instructions String[]
+
+  /// 데이터셋 원본 URL 을 참조한다. 파일을 커밋하지 않는다.
+  imageUrl String?
+  videoUrl String?
+
+  /// 세트 완료 시 시작할 휴식 시간. 주운동 180 · 보조 90 이 기본.
+  defaultRestSec Int @default(90)
+
+  /// 데이터셋에서 온 종목은 모두가 공유한다(userId = null).
+  /// 직접 추가한 종목만 주인이 있다.
+  isCustom Boolean @default(false)
+  userId   String?
+  user     User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  /// free-exercise-db 의 id. 재임포트 시 중복을 막는다.
+  sourceId String? @unique
+
+  presetItems  PresetExercise[]
+  sessionItems SessionExercise[]
+
+  @@index([bodyPart])
+  @@index([userId])
+}
+
+/// 재사용 템플릿. "등하는날"
+model RoutinePreset {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name      String
+  memo      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  exercises PresetExercise[]
+  planned   PlannedDay[]
+  sessions  Session[]
+
+  @@index([userId])
+}
+
+model PresetExercise {
+  id         String        @id @default(cuid())
+  presetId   String
+  preset     RoutinePreset @relation(fields: [presetId], references: [id], onDelete: Cascade)
+  exerciseId String
+  exercise   Exercise      @relation(fields: [exerciseId], references: [id])
+
+  order Int
+  role  Role @default(ACCESSORY)
+  // 보조1·보조2 의 번호는 저장하지 않는다. 같은 역할 안에서 order 순으로
+  // 화면에서 매긴다 — 저장하면 순서를 바꿀 때 둘이 어긋난다.
+
+  restSec Int?
+
+  sets PresetSet[]
+
+  @@index([presetId, order])
+}
+
+model PresetSet {
+  id               String         @id @default(cuid())
+  presetExerciseId String
+  presetExercise   PresetExercise @relation(fields: [presetExerciseId], references: [id], onDelete: Cascade)
+
+  order  Int
+  weight Float
+  reps   Int
+
+  @@index([presetExerciseId, order])
+}
+
+/// "이 날짜에 이 프리셋을 한다". 요일 고정 스케줄을 두지 않는 이유는 주마다
+/// 계획이 달라져서 고정 요일이 매주 예외 처리 대상이 되기 때문이다.
+/// 반복은 "지난주 그대로 가져오기" 버튼이 대신한다.
+model PlannedDay {
+  id       String        @id @default(cuid())
+  userId   String
+  user     User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  date     DateTime      @db.Date
+  presetId String
+  preset   RoutinePreset @relation(fields: [presetId], references: [id], onDelete: Cascade)
+  memo     String?
+
+  /// 미룬 경우 원래 날짜. 자동으로 밀리지 않는다 — 한 번 빠졌을 때 주간 계획
+  /// 전체가 연쇄로 어긋나는 것을 막기 위해서다.
+  deferredFrom DateTime? @db.Date
+
+  createdAt DateTime @default(now())
+
+  @@index([userId, date])
+}
+
+/// 특정 날짜의 실제 운동. 프리셋의 스냅샷이다.
+/// "운동 시작"을 눌러야 생긴다 — 미리 만들어두면 안 간 날마다 빈 세션이 쌓인다.
+model Session {
+  id     String @id @default(cuid())
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  date  DateTime @db.Date
+  title String
+
+  /// 어느 프리셋에서 왔는지 기록용. 프리셋이 지워져도 세션은 남는다.
+  presetId String?
+  preset   RoutinePreset? @relation(fields: [presetId], references: [id], onDelete: SetNull)
+
+  status       SessionStatus @default(IN_PROGRESS)
+  deferredFrom DateTime?     @db.Date
+
+  startedAt  DateTime  @default(now())
+  finishedAt DateTime?
+
+  exercises SessionExercise[]
+
+  @@index([userId, date])
+}
+
+model SessionExercise {
+  id         String   @id @default(cuid())
+  sessionId  String
+  session    Session  @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  exerciseId String
+  exercise   Exercise @relation(fields: [exerciseId], references: [id])
+
+  order   Int
+  role    Role @default(ACCESSORY)
+  restSec Int?
+
+  sets SessionSet[]
+
+  @@index([sessionId, order])
+}
+
+model SessionSet {
+  id                String          @id @default(cuid())
+  sessionExerciseId String
+  sessionExercise   SessionExercise @relation(fields: [sessionExerciseId], references: [id], onDelete: Cascade)
+
+  order Int
+
+  /// 프리셋에서 복사된 계획
+  plannedWeight Float
+  plannedReps   Int
+
+  /// 실제로 든 것. completedAt 이 null 이면 안 한 세트다.
+  /// 부분 완료를 그대로 기록한다 — 6세트 중 4세트만 했으면 4세트가 남고
+  /// 세션은 완료로 닫힌다. "미완료 세션"이라는 상태를 만들지 않는다.
+  actualWeight Float?
+  actualReps   Int?
+  completedAt  DateTime?
+
+  @@index([sessionExerciseId, order])
+}

@@ -1,0 +1,24 @@
+# 로컬 개발용. 운영(미니 PC)은 ~/servers/docker-compose.yml 에서 관리하고
+# GitHub Actions 가 ssh 로 배포한다. 운영에 넣을 조각은 infra/compose-service.yml 참고.
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: hellchang-db
+    environment:
+      POSTGRES_DB: hellchang
+      POSTGRES_USER: hellchang
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-hellchang}
+    ports:
+      # 미니 PC 에서 5432(SajuGuri)·5433(Atti)이 이미 쓰이므로 5434 를 쓴다.
+      - "127.0.0.1:5434:5432"
+    volumes:
+      - hellchang_pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hellchang -d hellchang"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  hellchang_pgdata:

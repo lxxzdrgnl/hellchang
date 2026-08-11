@@ -1,0 +1,11 @@
+{
+  "name": "헬창",
+  "short_name": "헬창",
+  "description": "루틴을 기록하고 중량이 늘는 것을 본다",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d0c",
+  "theme_color": "#0b0d0c",
+  "orientation": "portrait",
+  "icons": []
+}
