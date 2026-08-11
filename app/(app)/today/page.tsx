@@ -125,6 +125,8 @@ export default function TodayPage() {
               key={plan.id}
               preset={preset}
               deferredFrom={plan.deferredFrom}
+              /* 운동은 오늘만 합니다. 다른 날은 계획을 보기만 합니다. */
+              startable={isToday}
               onStart={() => start(preset.id, plan.deferredFrom)}
               onDefer={() => setPicking(true)}
             />
@@ -137,20 +139,24 @@ export default function TodayPage() {
               {isToday ? "오늘은 계획이 없습니다" : "이 날은 계획이 없습니다"}
             </h2>
             <p className="text-meta leading-relaxed text-ink-2">
-              쉬는 날이면 그대로 두면 됩니다. 갑자기 가기로 했다면 아래에서 골라 바로 시작합니다.
+              {isToday
+                ? "쉬는 날이면 그대로 두면 됩니다. 갑자기 가기로 했다면 아래에서 골라 바로 시작합니다."
+                : "루틴 탭의 주간 계획에서 이 날에 넣을 수 있습니다."}
             </p>
-            <div className="flex flex-col gap-2 pt-1">
-              {state.presets.map((p) => (
-                <button
-                  key={p.id}
-                  type="button"
-                  onClick={() => start(p.id)}
-                  className="h-13 rounded-btn border border-line text-body font-medium text-ink active:bg-surface-2"
-                >
-                  {p.name} 시작
-                </button>
-              ))}
-            </div>
+            {isToday && (
+              <div className="flex flex-col gap-2 pt-1">
+                {state.presets.map((p) => (
+                  <button
+                    key={p.id}
+                    type="button"
+                    onClick={() => start(p.id)}
+                    className="h-13 rounded-btn border border-line text-body font-medium text-ink active:bg-surface-2"
+                  >
+                    {p.name} 시작
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         )}
       </div>

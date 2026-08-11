@@ -15,11 +15,13 @@ import type { RoutinePreset } from "@/lib/types";
 interface Props {
   preset: RoutinePreset;
   deferredFrom: string | null;
+  /** 오늘이 아니면 시작할 수 없습니다 — 지난 날짜에 운동을 새로 만들 일은 없습니다. */
+  startable?: boolean;
   onStart: () => void;
   onDefer: () => void;
 }
 
-export function PlanCard({ preset, deferredFrom, onStart, onDefer }: Props) {
+export function PlanCard({ preset, deferredFrom, startable = true, onStart, onDefer }: Props) {
   const totalSets = preset.exercises.reduce((a, e) => a + e.sets.length, 0);
   const minutes = estimateMinutes(preset);
   const parts = [...new Set(preset.exercises.map((e) => getExercise(e.exerciseId)?.bodyPart).filter(Boolean))];
@@ -36,16 +38,17 @@ export function PlanCard({ preset, deferredFrom, onStart, onDefer }: Props) {
           button 의 내용 모델에 어긋나 브라우저마다 다르게 파싱된다. iOS 가
           핸들러만 달린 요소의 탭을 무시하는 것은 cursor-pointer 로 풀린다. */}
       <div
-        role="button"
-        tabIndex={0}
-        onClick={onStart}
+        role={startable ? "button" : undefined}
+        tabIndex={startable ? 0 : undefined}
+        onClick={startable ? onStart : undefined}
         onKeyDown={(e) => {
+          if (!startable) return;
           if (e.key === "Enter" || e.key === " ") {
             e.preventDefault();
             onStart();
           }
         }}
-        className="flex cursor-pointer flex-col active:bg-surface-2"
+        className={`flex flex-col ${startable ? "cursor-pointer active:bg-surface-2" : ""}`}
       >
       <header className="flex items-start justify-between gap-3 px-4 pb-3 pt-4">
         <div className="flex min-w-0 flex-col gap-1">
@@ -102,22 +105,26 @@ export function PlanCard({ preset, deferredFrom, onStart, onDefer }: Props) {
       </ul>
       </div>
 
-      <div className="flex gap-2 p-4 pt-3">
-        <button
-          type="button"
-          onClick={onStart}
-          className="h-14 flex-1 rounded-btn bg-accent text-action font-bold text-bg transition-colors active:bg-accent-press"
-        >
-          운동 시작하기
-        </button>
-        <button
-          type="button"
-          onClick={onDefer}
-          className="h-14 shrink-0 rounded-btn border border-line px-5 text-meta font-semibold text-ink-2 active:bg-surface-2"
-        >
-          내일로
-        </button>
-      </div>
+      {startable ? (
+        <div className="flex gap-2 p-4 pt-3">
+          <button
+            type="button"
+            onClick={onStart}
+            className="h-14 flex-1 rounded-btn bg-accent text-action font-bold text-bg transition-colors active:bg-accent-press"
+          >
+            운동 시작하기
+          </button>
+          <button
+            type="button"
+            onClick={onDefer}
+            className="h-14 shrink-0 rounded-btn border border-line px-5 text-meta font-semibold text-ink-2 active:bg-surface-2"
+          >
+            내일로
+          </button>
+        </div>
+      ) : (
+        <p className="px-4 pb-4 pt-3 text-meta text-sub">운동은 오늘만 시작할 수 있습니다</p>
+      )}
     </article>
   );
 }

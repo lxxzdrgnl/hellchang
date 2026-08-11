@@ -547,6 +547,24 @@ export function finishSession(state: AppState, sessionId: string): AppState {
   return mapSession(state, sessionId, (s) => ({ ...s, status: "완료" }));
 }
 
+/**
+ * 지난 날짜에 열린 채로 남은 세션을 닫습니다.
+ *
+ * 운동은 오늘만 할 수 있습니다. 어제 시작해 놓고 끝내기를 안 누른 세션이
+ * "진행중"으로 남아 있으면 주간 계획에 진행중이 여러 개로 보이고, 어느 것이
+ * 지금 하는 것인지 알 수 없습니다. 한 것은 이미 기록돼 있으므로 그냥 닫습니다.
+ */
+export function closeStaleSessions(state: AppState, today: string = todayISO()): AppState {
+  const stale = state.sessions.filter((s) => s.status === "진행중" && s.date !== today);
+  if (stale.length === 0) return state;
+  return {
+    ...state,
+    sessions: state.sessions.map((s) =>
+      s.status === "진행중" && s.date !== today ? { ...s, status: "완료" } : s,
+    ),
+  };
+}
+
 export function deleteSession(state: AppState, sessionId: string): AppState {
   return { ...state, sessions: state.sessions.filter((s) => s.id !== sessionId) };
 }

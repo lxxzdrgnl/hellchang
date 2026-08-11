@@ -24,7 +24,7 @@ export function TabBar() {
               <Link
                 href={tab.href}
                 aria-current={active ? "page" : undefined}
-                className={`flex h-[54px] flex-col items-center justify-center gap-0.5 text-micro font-medium transition-colors ${
+                className={`flex h-12 flex-col items-center justify-center gap-[3px] text-nano font-medium transition-colors ${
                   active ? "text-accent" : "text-sub"
                 }`}
               >
@@ -45,17 +45,17 @@ export function TabBar() {
  */
 function TabIcon({ name, active }: { name: string; active: boolean }) {
   const stroke = active ? 2.2 : 1.8;
-  if (name === "오늘") return <ArmMark size={19} />;
+  if (name === "오늘") return <ArmMark size={18} />;
   if (name === "루틴")
     return (
-      <svg viewBox="0 0 24 24" width={19} height={19} fill="none" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width={18} height={18} fill="none" aria-hidden="true">
         <rect x="3.5" y="5" width="17" height="15" rx="2.5" stroke="currentColor" strokeWidth={stroke} />
         <path d="M3.5 10h17M9 3.5v3M15 3.5v3" stroke="currentColor" strokeWidth={stroke} strokeLinecap="round" />
       </svg>
     );
   if (name === "기록")
     return (
-      <svg viewBox="0 0 24 24" width={19} height={19} fill="none" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width={18} height={18} fill="none" aria-hidden="true">
         <path
           d="M4 16.5l4.5-5 3.5 3 7.5-8"
           stroke="currentColor"
@@ -67,7 +67,7 @@ function TabIcon({ name, active }: { name: string; active: boolean }) {
       </svg>
     );
   return (
-    <svg viewBox="0 0 24 24" width={19} height={19} fill="none" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" aria-hidden="true">
       <circle cx="12" cy="8.5" r="3.8" stroke="currentColor" strokeWidth={stroke} />
       <path d="M4.5 20c1.2-3.6 4-5.4 7.5-5.4s6.3 1.8 7.5 5.4" stroke="currentColor" strokeWidth={stroke} strokeLinecap="round" />
     </svg>

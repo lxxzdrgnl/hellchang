@@ -7,7 +7,7 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState } from "react";
 import { buildSeedState } from "@/lib/mock/seed";
 import { registerCustomExercises } from "@/lib/exercises";
-import { defaultSettings, emptyState, type AppState } from "@/lib/store";
+import { closeStaleSessions, defaultSettings, emptyState, type AppState } from "@/lib/store";
 
 const KEY = "hellchang.state.v1";
 
@@ -37,7 +37,9 @@ export function AppStoreProvider({ children }: { children: React.ReactNode }) {
       next.customExercises ??= [];
       next.settings ??= defaultSettings;
       registerCustomExercises(next.customExercises);
-      setState(next);
+      // 어제 열어둔 세션이 오늘도 "진행중" 으로 남아 있으면 어느 것이 지금
+      // 하는 것인지 알 수 없습니다. 불러올 때 닫습니다.
+      setState(closeStaleSessions(next));
     } catch {
       // 저장된 것이 깨졌으면 시드로 되돌립니다. 목업에서 복구를 고민할 이유가 없다.
       setState(buildSeedState());

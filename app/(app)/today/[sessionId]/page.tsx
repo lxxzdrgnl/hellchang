@@ -18,6 +18,7 @@ import { SetEditor } from "@/components/set-editor";
 import { Sheet } from "@/components/sheet";
 import { formatWeight } from "@/components/set-ladder";
 import { getExercise } from "@/lib/exercises";
+import { formatKo, todayISO } from "@/lib/date";
 import { completedSets, sessionProgress, sessionVolume } from "@/lib/progress";
 import { fetchExerciseGuide } from "@/lib/api/exercise-guide";
 import {
@@ -85,6 +86,9 @@ export default function SessionPlayerPage() {
   }
 
   const meta = getExercise(current.exerciseId);
+  // 운동은 오늘만 합니다. 지난 날짜는 기록을 보기만 합니다 — 어제 세트를
+  // 지금 체크하면 그 시각이 오늘로 찍혀 기록이 어긋납니다.
+  const readOnly = session.date !== todayISO() || session.status === "완료";
   const done = completedSets(current.sets);
   const nextSet = current.sets.find((s) => s.completedAt === null);
   const progress = sessionProgress(session);
@@ -128,13 +132,15 @@ export default function SessionPlayerPage() {
             />
           </div>
         </div>
-        <button
-          type="button"
-          onClick={() => setFinishing(true)}
-          className="shrink-0 px-2 py-2 text-meta font-semibold text-accent"
-        >
-          끝내기
-        </button>
+        {!readOnly && (
+          <button
+            type="button"
+            onClick={() => setFinishing(true)}
+            className="shrink-0 px-2 py-2 text-meta font-semibold text-accent"
+          >
+            끝내기
+          </button>
+        )}
       </header>
 
       <div className="flex min-h-0 flex-1 flex-col overflow-y-auto px-4 pb-4">
@@ -146,13 +152,15 @@ export default function SessionPlayerPage() {
               {meta?.equipment ? ` · ${meta.equipment}` : ""}
             </p>
           </div>
-          <button
-            type="button"
-            onClick={() => setDeferring(true)}
-            className="shrink-0 rounded-pill border border-line px-3 py-1.5 text-micro font-medium text-ink-2 active:bg-surface"
-          >
-            미루기
-          </button>
+          {!readOnly && (
+            <button
+              type="button"
+              onClick={() => setDeferring(true)}
+              className="shrink-0 rounded-pill border border-line px-3 py-1.5 text-micro font-medium text-ink-2 active:bg-surface"
+            >
+              미루기
+            </button>
+          )}
         </div>
 
         {/* 어디를 쓰는지는 그림이, 기구가 어떻게 생겼는지는 사진이 답한다. */}
@@ -211,15 +219,17 @@ export default function SessionPlayerPage() {
           </div>
         ) : (
         <>
-        <div className="flex items-center justify-end py-1.5">
-          <button
-            type="button"
-            onClick={() => setEditing(true)}
-            className="rounded-pill border border-line px-3 py-1.5 text-micro font-medium text-ink-2 active:bg-surface"
-          >
-            세트 수정
-          </button>
-        </div>
+        {!readOnly && (
+          <div className="flex items-center justify-end py-1.5">
+            <button
+              type="button"
+              onClick={() => setEditing(true)}
+              className="rounded-pill border border-line px-3 py-1.5 text-micro font-medium text-ink-2 active:bg-surface"
+            >
+              세트 수정
+            </button>
+          </div>
+        )}
 
         <ul className="flex flex-col gap-1.5">
           {current.sets.map((s, i) => {
@@ -254,6 +264,7 @@ export default function SessionPlayerPage() {
                 {isDone && (
                   <button
                     type="button"
+                    disabled={readOnly}
                     onClick={() => update((st) => uncompleteSet(st, session.id, current.id, s.id))}
                     aria-label={`${i + 1}세트 되돌리기`}
                     className="ml-auto flex size-8 shrink-0 items-center justify-center rounded-full bg-accent text-bg"
@@ -275,13 +286,15 @@ export default function SessionPlayerPage() {
           >
             이전 운동
           </button>
-          <button
-            type="button"
-            onClick={() => setSwapping(true)}
-            className="h-11 rounded-btn border border-line px-4 text-meta font-medium text-ink-2 active:bg-surface"
-          >
-            종목 교체
-          </button>
+          {!readOnly && (
+            <button
+              type="button"
+              onClick={() => setSwapping(true)}
+              className="h-11 rounded-btn border border-line px-4 text-meta font-medium text-ink-2 active:bg-surface"
+            >
+              종목 교체
+            </button>
+          )}
           <button
             type="button"
             disabled={index >= exercises.length - 1}
@@ -292,8 +305,7 @@ export default function SessionPlayerPage() {
           </button>
         </nav>
 
-        {/* 기구가 차 있으면 순서를 바꿔야 한다. 헬스장에서 제일 잦은 변수다. */}
-        <div className="flex gap-2 pt-2">
+        <div className={`flex gap-2 pt-2 ${readOnly ? "hidden" : ""}`}>
           <button
             type="button"
             disabled={index === 0}
@@ -323,7 +335,18 @@ export default function SessionPlayerPage() {
 
       {/* 손이 닿는 자리. 쉬는 중에는 남은 시간이 그 자리를 차지한다. */}
       <div className="shrink-0 border-t border-line bg-surface p-4 pb-[max(16px,env(safe-area-inset-bottom))]">
-        {resting ? (
+        {readOnly ? (
+          <div className="flex items-center justify-between">
+            <span className="text-meta text-sub">{formatKo(session.date)} 기록</span>
+            <button
+              type="button"
+              onClick={() => router.push("/today")}
+              className="h-11 rounded-btn border border-line px-4 text-meta font-semibold text-ink-2 active:bg-surface-2"
+            >
+              오늘로
+            </button>
+          </div>
+        ) : resting ? (
           <div className="flex flex-col gap-2">
             <div className="flex items-baseline justify-between">
               <span className="text-hero font-bold leading-none text-ink">
