@@ -7,6 +7,7 @@
  * 자기 위치를 찾는 대신, 한 종목을 크게 띄우고 세트를 하나씩 지운다.
  * 헬스장에서 폰을 내려놨다 다시 집었을 때 어디였는지 찾을 필요가 없어야 한다.
  */
+import Image from "next/image";
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { BodyMap } from "@/components/body-map";
@@ -17,6 +18,7 @@ import { Sheet } from "@/components/sheet";
 import { formatWeight } from "@/components/set-ladder";
 import { getExercise } from "@/lib/exercises";
 import { completedSets, sessionProgress, sessionVolume } from "@/lib/progress";
+import { fetchExerciseGuide } from "@/lib/api/exercise-guide";
 import {
   applyNotation,
   completeSet,
@@ -41,6 +43,8 @@ export default function SessionPlayerPage() {
   const [swapping, setSwapping] = useState(false);
   const [finishing, setFinishing] = useState(false);
   const [deferring, setDeferring] = useState(false);
+  const [tab, setTab] = useState<"세트" | "가이드">("세트");
+  const [guide, setGuide] = useState<string[] | null>(null);
 
   const session = state.sessions.find((s) => s.id === sessionId);
   const exercises = useMemo(() => session?.exercises ?? [], [session]);
@@ -51,6 +55,18 @@ export default function SessionPlayerPage() {
     const id = setInterval(() => setNow(Date.now()), 250);
     return () => clearInterval(id);
   }, [restEndsAt]);
+
+  // 종목이 바뀌면 가이드를 다시 받는다.
+  const currentExerciseId = current?.exerciseId;
+  useEffect(() => {
+    setGuide(null);
+    if (!currentExerciseId) return;
+    let alive = true;
+    fetchExerciseGuide(currentExerciseId).then((steps) => alive && setGuide(steps));
+    return () => {
+      alive = false;
+    };
+  }, [currentExerciseId]);
 
   // 쉬는 시간이 끝나면 알린다. 헬스장에서는 소리보다 진동이 먼저 닿는다.
   useEffect(() => {
@@ -138,22 +154,60 @@ export default function SessionPlayerPage() {
           </button>
         </div>
 
-        {/* 어디를 쓰는 운동인지. 사진 대신 이걸 두는 이유는 종목마다 조명·각도가
-            달라 시끄럽고, 정작 알고 싶은 것은 이 그림이 답하기 때문이다. */}
-        <div className="flex items-center justify-center gap-6 py-4">
+        {/* 어디를 쓰는지는 그림이, 기구가 어떻게 생겼는지는 사진이 답한다. */}
+        <div className="flex shrink-0 items-center justify-center gap-3 py-3">
           <BodyMap
             primary={meta?.targetMuscles ?? []}
             secondary={meta?.secondaryMuscles ?? []}
             bodyPart={meta?.bodyPart}
-            size={96}
+            size={74}
             both
           />
+          {meta?.imageUrl && (
+            <Image
+              src={meta.imageUrl}
+              alt={`${meta.nameKo} 자세`}
+              width={150}
+              height={150}
+              unoptimized
+              className="size-[150px] shrink-0 rounded-card bg-white object-cover"
+            />
+          )}
         </div>
 
-        <div className="flex items-center justify-between pb-1.5">
-          <span className="text-meta font-semibold text-ink-2">
-            세트 {done.length}/{current.sets.length}
-          </span>
+        <div className="flex shrink-0 gap-1 rounded-btn bg-surface p-1">
+          {(["세트", "가이드"] as const).map((t) => (
+            <button
+              key={t}
+              type="button"
+              onClick={() => setTab(t)}
+              className={`h-10 flex-1 rounded-[9px] text-meta font-semibold transition-colors ${
+                tab === t ? "bg-accent-tint text-accent" : "text-sub"
+              }`}
+            >
+              {t === "세트" ? `세트 ${done.length}/${current.sets.length}` : "동작 설명"}
+            </button>
+          ))}
+        </div>
+
+        {tab === "가이드" ? (
+          <div className="flex flex-col gap-3 pt-3">
+            {guide === null && <p className="py-6 text-center text-meta text-sub">불러오는 중</p>}
+            {guide?.length === 0 && (
+              <p className="py-6 text-center text-meta text-sub">이 종목은 설명이 없다</p>
+            )}
+            {guide?.map((step, i) => (
+              <div key={i} className="flex gap-3">
+                <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-accent-tint text-micro font-bold text-accent">
+                  {i + 1}
+                </span>
+                <p className="flex-1 text-body leading-relaxed text-ink-2">{step}</p>
+              </div>
+            ))}
+          </div>
+        ) : (
+        <>
+        <div className="flex items-center justify-end py-1.5">
           <button
             type="button"
             onClick={() => setEditing(true)}
@@ -259,6 +313,8 @@ export default function SessionPlayerPage() {
             ↓ 이 운동을 뒤로
           </button>
         </div>
+        </>
+        )}
       </div>
 
       {/* 손이 닿는 자리. 쉬는 중에는 남은 시간이 그 자리를 차지한다. */}
